@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=480451000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow para alteração</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>alterao_de_benefcios</internal_name>
+        <label_cache>[{"name":"51d01016-e27b-40f0-8639-8d662b2df5ca.motivo","label":"1 - Get Catalog Variables➛motivo","reference":"","reference_display":"motivo","type":"multi_small","base_type":"multi_small","usedInstances":{"de5f0cd4-4ef3-4ddc-98f7-ff03b503db87":["description"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_alteracao","label":"1 - Get Catalog Variables➛tipo_alteracao","reference":"","reference_display":"tipo_alteracao","type":"choice","base_type":"choice","choices":[{"label":"Inclusão","value":"inclusao","order":100.0},{"label":"Troca","value":"troca","order":100.0},{"label":"Cancelamento","value":"cancelamento","order":100.0}],"usedInstances":{"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":[null],"2b193b8b-67bd-4331-a1b5-57055275c5c0":[null]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_beneficio","label":"1 - Get Catalog Variables➛tipo_beneficio","reference":"","reference_display":"tipo_beneficio","type":"choice","base_type":"choice","choices":[{"label":"Plano de saúde","value":"saude","order":100.0},{"label":"Vale-refeição","value":"vr","order":100.0},{"label":"Vale-transporte","value":"vt","order":100.0}],"usedInstances":{"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":[null],"2b193b8b-67bd-4331-a1b5-57055275c5c0":[null]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"9f493499-799a-4c41-84e3-41a4e8c28a42.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"56cca95f-ebad-4616-bce8-9dfc17c31490":["condition"],"f5020285-1979-4cde-9844-c2e694988896":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"51d01016-e27b-40f0-8639-8d662b2df5ca":["requested_item"],"9f493499-799a-4c41-84e3-41a4e8c28a42":["record"],"de5f0cd4-4ef3-4ddc-98f7-ff03b503db87":["ah_requested_item"],"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":["record"],"2b193b8b-67bd-4331-a1b5-57055275c5c0":["record"],"31634708-b433-44cc-9831-7d5fa1bfa2bb":["requested_item"],"44da2d67-6006-4cd8-8a39-d0c7f2550ead":["record"],"be5705a4-d32b-4e91-8076-effc8e19b936":["record"]},"attributes":{"default_search_field":"number"}},{"name":"{{static.58126c353b885310c0cdb10f23e45a9e}}","label":"RH - Benefícios","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9f493499-799a-4c41-84e3-41a4e8c28a42":["approval_conditions"]}},{"name":"51d01016-e27b-40f0-8639-8d662b2df5ca.solicitante","label":"1 - Get Catalog Variables➛solicitante","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":["ah_to"],"2b193b8b-67bd-4331-a1b5-57055275c5c0":["ah_to"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"flow_variable.resumo_beneficio","label":"Flow Variables➛Resumo do benefício","type":"string","base_type":"string","usedInstances":{"de5f0cd4-4ef3-4ddc-98f7-ff03b503db87":["ah_short_description"],"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":[null]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"851d6d97-d536-4dde-9aa7-d0bf79bb164a"}}]</label_cache>
+        <master_snapshot>e64096a03b649390c0cdb10f23e45a8a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Alteração de Benefícios</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>fe40d6a03b649390c0cdb10f23e45a21</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 04:29:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f69f71203be09390c0cdb10f23e45ab7</sys_id>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_name>Alteração de Benefícios</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name>sys_hub_flow_f69f71203be09390c0cdb10f23e45ab7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:56</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>826866da3b6413d0c0cdb10f23e45ac5</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f69f71203be09390c0cdb10f23e45ab7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f69f71203be09390c0cdb10f23e45ab7"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <published_version/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fe40d6a03b649390c0cdb10f23e45a21</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:14:06</sys_updated_on>
+        <trigger_definition/>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f69f71203be09390c0cdb10f23e45ab7"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f69f71203be09390c0cdb10f23e45ab7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f69f71203be09390c0cdb10f23e45ab7^sys_idNOT IN3e9f71203be09390c0cdb10f23e45ab8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f69f71203be09390c0cdb10f23e45ab7</id>
+        <name>Alteração de Benefícios</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 04:29:19</sys_created_on>
+        <sys_id>3e9f71203be09390c0cdb10f23e45ab8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 04:29:19</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3e9f71203be09390c0cdb10f23e45ab8"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f69f71203be09390c0cdb10f23e45ab7^sys_idNOT IN53ef3d203be09390c0cdb10f23e45ae5,d7ef7d203be09390c0cdb10f23e45a18"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</model>
+        <model_id>f69f71203be09390c0cdb10f23e45ab7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f69f71203be09390c0cdb10f23e45ab7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 04:30:43</sys_created_on>
+        <sys_id>53ef3d203be09390c0cdb10f23e45ae5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 04:32:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=53ef3d203be09390c0cdb10f23e45ae5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</model>
+        <model_id>f69f71203be09390c0cdb10f23e45ab7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f69f71203be09390c0cdb10f23e45ab7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 04:30:43</sys_created_on>
+        <sys_id>d7ef7d203be09390c0cdb10f23e45a18</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d7ef7d203be09390c0cdb10f23e45a18"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f69f71203be09390c0cdb10f23e45ab7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f69f71203be09390c0cdb10f23e45ab7"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f69f71203be09390c0cdb10f23e45ab7^sys_idNOT IN0bef3d203be09390c0cdb10f23e45ac2"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 04:30:42</sys_created_on>
+        <sys_id>0bef3d203be09390c0cdb10f23e45ac2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:14:05</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61T32vbMBD+V4KeNvDATtZm8dsYFALdCk3Xl1KMIp0SMVlyJdmtF/q/7y62k7TzxqB70/38vrv7dLdjhq/BsJxd13ZyYdzjZGlZwrSN4C03N20FGBRbpwWgv3tc6hBZfrdjagUPNVgM5R+yhKlbbmrKX3PxY+NdbSXWqMsTCEUQ2k6OGZN3EhSvTXxPucuSb6gDvVdgQESQLFfcBEDP93BqfdUhaLvpHc/Jn/ko5+HvfF5mvIHFfcJKbiWPzrfHJO/KGygrwyMcnM5L8CzP0jRhDRFdtWEpO1TLS8L3tS2IYaHpKE0/DT6lDtisvT16xFYb6cHiXZBCxT12iNR/9yqkCeI8XaRiPl3M59N0NktTdbZWQgkx/5Sl59nZAhuOC2OUWHylktPJ4CmClScL+307Hri8subo2KL8uqlK/hT0T2z+MaU8Bb67LsUOZtFvY1gEsQh7fZp/V14zJt1+kJS0NdbrhWqaMbENqyBd9Ghf/j/B7M0Ep0SwW91VFbVDsbAZnZavDdWENnQH9yCwpIhebzZYiEXO1KX9NqaLnv2JSuuA14KKFEEnHr7Hauser4dzXmi7p9QHjRPcHCweEXldR9rfjnHZcKwgRUePGM97VRQPNVXs/8mAVewnooQgvK7iZxF1A4dP+wt8tA/9CQUAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f69f71203be09390c0cdb10f23e45ab7^sys_idNOT IN14f4ae923b6413d0c0cdb10f23e45a9f,26ffb1203be09390c0cdb10f23e45a4c,6ee846e03b249390c0cdb10f23e45a62,8d6dc62c3b249390c0cdb10f23e45a9e,aaebc6683b249390c0cdb10f23e45aa0,bd9a0ea43b249390c0cdb10f23e45ae0,df94aa523b6413d0c0cdb10f23e45a61"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>f5020285-1979-4cde-9844-c2e694988896</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 17:41:48</sys_created_on>
+        <sys_id>14f4ae923b6413d0c0cdb10f23e45a9f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:58:32</sys_updated_on>
+        <ui_id>be5705a4-d32b-4e91-8076-effc8e19b936</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXW/aMBT9K8jPDCVAu5Y9TaBKlbpWKlNfui4y9g215Dip7dAylP++648AgopRqS9oPHG/7HNOziU8rojgZESGwJP0Mj1ng3Qw6CdJ/2KYzs4Hs7TPBxQgJV2iaAHYqYGVmmO8oLJ2idVqCnohGHTG1FJZzrO0p+GlBmMzYaFoGmzmwlSSLh/iDGbYs5BcgyKjx6cuqajG4y1oMlrtlI7FJ+kMJLbetwB3Adtl5WJesroAheDa5E2cnMRK53qCFRxycNKkS+DNguKAQHIqDXRJQRWnttRLMrK6xoQGyu+UXK47noWygWhB34z4gzcPE9eXAzJjUYR1mEWBQjqfoJJTPJnZWq/1KlFjEzThkNNa2vF2LjTcVVaUKoxYOpPtdCnrQt0GRcj6gK3nURsEAZXj6ZAHWvn0uXy9b0FeCeUliRRlyahcR9RaLWa1dXBWBCR4jQtaVULNs0qXC+GHEUrRm0sMerksX/FOI+aqR5nD3UNVae8K8xOffqBaOBI/8BgcbrrELM1YUmM2VFDD7KV2SAKxSCHzKngJMu8EN8y0qOx3vGoBEXjTjRswOzvkMHa5MdTWmZstMCxD03vD79v9PqwD8M51qH/M/EdAa83/0z/y96FG/+/lbrZnO7ehEN1/9mnuvzgl90caJ2//f5k+6R/8Wd1ykve52Ta8pRZ+1Uky4MPfGMxjkPMv4Ubg+4tw3NDHtuMIDu12XAmQ3LxDql0NKBCthSyQ3FmPWOw8xOL6BfFpO5KeJ/5zQpvyH7wnAsWQc5i9b/2XA214HT4T1XH+7n+NLwD8h4TySAk8pL8hEEMXwFt9WVsnTdM8/QUw8M5gnQkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=14f4ae923b6413d0c0cdb10f23e45a9f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 04:30:56</sys_created_on>
+        <sys_id>26ffb1203be09390c0cdb10f23e45a4c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:58:31</sys_updated_on>
+        <ui_id>51d01016-e27b-40f0-8639-8d662b2df5ca</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/91Vy27bOhD9FYFrwdDDjh3v2hQBCvQB1EU2RUFQ5CgmSj1KUnZdI1/TRVf9ivzYHUqUrdipkwA3BdqlhzOac2bmHH/aEinInGR5lLGUZTyNoziNomQ2jrOzNIsTkTIARkJSsgIwU8PXBowFQaWFAuMrphr3sN0uQK8kh+CCWaaqaxqPfHKbenODyUKaWrHNla/BCF9KJTSUZP7pc0hqprGNBU3m24Onx+JULAOFqYsmK6RFoMGHDsUJDnZTd/EcsB8HH3rjP/VhEK+0cOiikMA3C6UAhJUzZSAkBSsFs5XekLnVDQY0MPG+VJtdxlKWtqNdsG9GfsemaRIO+s6J4RTh9cB2L9RPrkXj0Qevu6T8FQ58gS25bfRurBWuwnSjE5CzRtmLYaxLeF9bWZVdiWWZ6qsr1RTlu25aZPeBwdoag5CgdgNwlDy/fLGs1rtpXcqynZV/VBVnapAKTPPlpQTlFls2RYa5IWHWapk11uHcElBQYANasLqW5TWtdbWS7UcRYzG6VvhjlKtqjWCMvC5HjDtCI9wDG11i/FUbvmJaOnZv8TNtlwq3QoWu6tqTdgsjNyExG3OhmDF77rgC+rVxyLtJeM60G5sr4VrW9gU2XoGndxP2uspO3Wse728SV4n7tUC5V8+BvOJxLuCcJ2k2i+JpHPGIiyyO8iSF8YTl7FhcLxTqiN3+vP1RBQKCl1BCfvuLy8o8XXYP0+hl99Hz6F2gPVIToDSCfgvBAqx5mPnTRRk/mygtxcO4A9BQ/DBdeUrUdJTu0+vDg/gnBOx6/Sn5SoMmWVR4My1nOtxVq2RUJRLBrTiI++AS+1HdlFYWQFtlUVnSqjYrCevnc4HpaflM91roL6y/KzNwgCQTOUz42f0OAGdzd5ZIxk2QlrAOk2gaTUX0m4JJclQwE5MkPR+z+wtSflQwmYxnnJ3FaSZm59mRKY0PC45N6t8g9TQ3fcQ59G7ae8fV4B5OnIq3TKMas8wa/gXsgWku3Evwsn/yvpmc9k0feYxxxkkURXe98zeu+Lfa3l2DQyPK8b8LZ7ffA94EtJMkbQk2fS4bfJSd4dGVXDWYWeAopMYuO6ju72eX5kYzAAGarnXXaZdSa6zRK/d3p4DblmTvt1WjufdjjB5q5P8z1c//AZ92fiu0DAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=26ffb1203be09390c0cdb10f23e45a4c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:09:59</sys_created_on>
+        <sys_id>6ee846e03b249390c0cdb10f23e45a62</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:58:31</sys_updated_on>
+        <ui_id>9f493499-799a-4c41-84e3-41a4e8c28a42</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YXW/iOBT9K8jPlHUISQNvVVFXXe3OSNCdl1JFxrkBj0zCxE5nWMR/35vY+RhoGVgxD93OSyVf3+ucezjHH33cEhGREbkO4j4Mh306dyh1KQ08TgMX5u61f+0yTkmXJGwFmJkBT7MIx89M5kVgu51C9iw4dG6ZZjJdhE4vgy85KB0KDavdDpMjodaSbT7ZGozwpZBRBgkZPT51yZpluLyGjIy2e1On4pNsDhJTJxXAfcB6sy7GUcrzFSQIrgr+aSvHdqZzP8YZLCrg0C6BbxqSCBBHzKSCLlmxJGI6zTZkpLMcAxmw6GMiN3XGUiTa9Lli35T4Bz/s9ou8GLAxbjmoh6Hlx4TjMRI5xZW5zrOarhQpVoaSCGKWS33bjpmEj2st0sSUaDaXVXUq81XywRBC6gVaP0euEASsiz4L5KateLpMv04qkHciKRmxLcqUM1mPmNaZmOe6gLMlIKGkeMXWa5EswnWWPouyGKGseguJg14s06/4TSUWSY/xAncPWWW9O4yPy/Anlomiib9wGSzedYnaqFvJlGpaQQ7DL3mBxDRmWwhLFgwFRR3PxFrf4FeewWLeda325/yotngjJbNcI33FQ1R6qfJDjU+MByDq3Jv58xR/AqpK8Q8W1h5Kq/dyGJZz38u9LOt8MBNW7c5xtdtII3ejkxfUHtA3pHbb1puX+4+UDgPf9fDPdexSp+/QAPwg4EPKeOD73sBtNIQIsAcmUd9M4dqN5i+wmZ8Ao5L2jcXRmVQ4XgVo5a7wh0kWe1KfVkEr8/6ZMn99V3f89yT0XDzssWwiBzz/HEcUn/s7Ebiv3hc68vtzf0iD6CqK6fxqELjeFeNAr8B3PPAin3uO+xNcRJ1jO3MUvCDSWIBs35mqiUMztWbOM9UJqA5MdWdhvQbXWqocvnSClPV7J8jlrBVQ+pa89Z6uTPyo2KB1kHxO8yw54oBwKVSpjFed0Mo4zxEngKwc8YdBuW+IffD/xQ/uLz/8//0w8I5KrXU5r1XN0yQSBWLVcoXZmUFN4DNwrW6Sze+P263STAve8wKn73PXc+dB4LkO5ZRH+L2478LAY0PY7Z4OXXSBFc9z3QlU1C/1XIL6ETXWc819zxa1fdfcEu2k9d7gUm/3N2a99/Ke4Ue1Fg8bbUU5EsR0+/G+nREDe0ZGM5KkCcxId0aKrLAQVxnGDARXT5Sx7c6M84zZcqc1bGojtlFlpuJLiFCZZfS7SFhawcYv8X+yExip3DfOoTM2lBySVD2mKpyGFXFw4k1tQrnSbw+iffJ5Fzv5Br/Md4mnU1g/LvBYw73vgo58+hf+XA3CSRYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6ee846e03b249390c0cdb10f23e45a62"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>f5020285-1979-4cde-9844-c2e694988896</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:29:33</sys_created_on>
+        <sys_id>8d6dc62c3b249390c0cdb10f23e45a9e</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:58:31</sys_updated_on>
+        <ui_id>2b193b8b-67bd-4331-a1b5-57055275c5c0</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8d6dc62c3b249390c0cdb10f23e45a9e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>56cca95f-ebad-4616-bce8-9dfc17c31490</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:23:06</sys_created_on>
+        <sys_id>aaebc6683b249390c0cdb10f23e45aa0</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:58:31</sys_updated_on>
+        <ui_id>df867c94-5d2a-4f03-ab4a-cd4798f8cf93</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y3W7bNhR+FVZXG2C78p9sJ1dtgqAF2mZIgu6iKQSKomKulKiKVBIvMLD7PcKAAcMudtWnyJvsSXYo6seKHUdOvC1Fc2WYPIf8zuH3nUPqw5XFfGvHGvhj2/GCAR7Z/V7ftse9ycTrTwJ7PJrYXeJbLSvCIQXLhBKR6P/nmKd64OrqmCbnjFC0hxXm4sztdhL6OaVSuUzRcD4HY5/JmOPZ+9wHRsiUcT+hkbXz4WPLinECyyuaWDtXN6aa4uPYoxxMT3ByRhU6KnDexK1msf7vC5KGNAKMxeCbfIH9fAa93ocZcNKo7JZFLxWNfApwAswlbVkhjnysRDIrRxKK/cOIVwNTFilY8oWUgjCsqERqShENMePogqkpwsgA61h6vUvJfgZw/Z5eKqCQA6KxsogwHxBZC8NunlKYfl1NB/twBscqSYlKkzLTAk5Hmmz6NMApV3uLY8bgMFZMRMZFYY8X3oKnYfTOJNEqF1g4yVQCGBrr3OhgYXMIPDieioujAuwBi7Is5lnhgmBe/guOKU7I9IBRro86SkMPbFsWViphXqo0TCAFB6tqHzeDqvcCS8ppdpQhjmMWnblxIs5ZtiHADztnHP50Ai4uwF+ys6iDiY61A6eHOwcwvp8Nv8cJ04G/hWXAed6y5EzucSxlFT7k3/2cavQmGXU42tvNCKedScJi9QK2Oqd5sPNWrrfuZB2f/UHF24U1K81J4oLEMnkti+vIiI/66LWZ30xqDaBVUtM0WQ01l9nS2JtFX/TOTOQi624oMkO1XGMnICxltG8khVQOr9TV2K7r6hY9PQ4dlepoLKS6YP4dUQBJpGuYnceWbX4PsdwlEdtxPM/xhqN+xcMJCfyRFzh4RPoV7y6gsCYhTj65WWFd0El3WR15ydhMEw2wFJqAYsxTn6IfC1DrcOYi8YSA6hbdVAggfX6QZbdUSO9BbchQEymB4DD5DJpPCUkPVq1JTbFCTCIJp9VBJwKxPKoFjxaaiRSFqVRgpmCmJr5aPxs8Xt3ldMhH91dy5asQ5vYFOFzfCHBFbDx1lahdCYdd3+7aXadNeyOvPbADuz12+pP22HecntfzgyHBHSk4I0zhSNH5HC1L9b7LbKbtBmGW/U4sx5xLWMIJR2c3FHxcDObq7a9Xr2lnS+JdaF/24xXS16ITDZyzkGWEMArfvnT8tZyido1GhCxIZwtvpQabF4Te21tGsgmhB/drR0+M/uoY3V37AKdOjUfetindYPeC0i9vcNrbmNTDJ1J/I6QerqcVqRFJpt5PlKgFYh+nGGEOCPH1X9d/CgT3Y49GNLj+QphAgWCICH1vvv7i42fLKtjUfcNrzd2xFZI5LiNbFe0m0nGeLjj/u3K2LxO8lkpBr15vhT9b0Mhpatt9EiONua1YNAsJTYRQHiTmUzbpn1qnxowecv3bczAmkKPdZ0hLpLjemylCqM/4bm6ngPZ0N5OOUdIdRpm+zDAze2ipfYcMShnjCBGduAKYRu2C0nSqYsb5qYWkmnFazhtG7sD7mLOI7sI8aBYEoABARq3CMssoTGd50EtlCSpmr64C31UJjmQgknBnTEf9ITxu2t3hxGkPxhi3J2Nst72J4w2pPabjQXc+L7K2HjxshRCGjMRKVlu4QRplZJKACYBq0l4WjvZ/HEZODioV84ultLp/gPVf+03CzKC0c8zZL4bjSO5y1V6yiRGAu1QlUCG4YnG7Apu9BbPBExHfNMtRFbZat6iQrESGjGdqFx1RmYbAUrGapY1gSoUTVVjWdzJ+z7Vjg4VwkoiL5pnPOkmbgFDUpk61nf7+/bdbcN49cEskUOiK1e/K8H13hoKuRIQqPizLzA0wwT51m0hCq28xjFtXQ5FYULT+pMco2CN95Ca7xRKHUO9RaYqKdVDMyCeawF0jQXW2wEE8kI+mIrZNX2kzUMEKj9XFNBJZKc0p8cuvjQ/GHMRmh7cwgL7Pbl1Y92HsY0TzC1gtdBiPKYfJzymLqW4qR69QG71clSPZyfeIzQbLd8C8PRbt7/qPes8rL4a33xO32by2008eTbl+KpjbLZgZ4Z6q5LoqaVL07ZRG/Ta9vR5m2VhRBDd7yTZ4fpQff8zjY+k1kr9hpyrkN16wr07evqner6MHfvpxhsO+8/SCffC3n/jC7/mJiOM8ti1///n4D/E3jNz3JAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aaebc6683b249390c0cdb10f23e45aa0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>56cca95f-ebad-4616-bce8-9dfc17c31490</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:17:18</sys_created_on>
+        <sys_id>bd9a0ea43b249390c0cdb10f23e45ae0</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:58:31</sys_updated_on>
+        <ui_id>de5f0cd4-4ef3-4ddc-98f7-ff03b503db87</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YzY7bNhB+FUGnFvC6+rFkr2/JLhYt0CbAOtge4lSgSMomQv1ElNbZGH6aHnrqU+yLdSiRtmzJXrtxgk1a3zwcUt8Mv2/I4dulyYg5NlHk2RGx6NC1B7ZrWb7tYGfoRvDz0XA0MntmgmIqPedBgUJOg+p/z7xHvJR2gcEu3oOFMJFx9HDXGsBzxklOE3P89l3PzFAOKxQ0N8fLnaFjIXEUUg6ubyQg41UNaA/O4iGT5pbt16410pxIXFbPpB8LmhAKgCLEBe2ZMUoIKtL8YW3JKSKvEw6GIi/h/5wlBSxoSt+Pgn2Cz44s6RZRiBDTemz9N1D5qs3RNSrQBBbCRZkrVzxPGaaizg2hESp5cdW01Q6vs4KlST2lClPNTnkZJ6/qrJjrBdrbowau921fKQArzWQ6ZIAq+mgyTxe3OpgbllSZU4M8xYiv/6GiyFlYFhL20qScxrBQEKMsY8ksyPL0nlWTAXLcn3H40494uoCPCjZL+gjL+PqQfdS/Aft1Zb5DOZPB/gbLwGT4CpdzKthgFnLPYVtggAmw5izTualQmaueKR7EFUdCbHIEmxN8KCX0OmMq6KBOr5xSLfQCEN1TFd+qp7Q0dA8RF1lbHM3ph5KKgpKAFTRu6Gm5nND8HrbVuIKAeToL7L5yrlxXq7bUTtbYEVC1xm41UOOXGuiBGJTWNozfltptw66UZh9WWi2sjdCUR4fSXGdbacADgKeBdYmuFdhXl+A5tBVNKMrx/IZRLjc2KeOwVsNX0VwKuxKQPM0yFXQlubNJSxtlCG2+gbFLjqu1IN3hQZb7W2QW8zQvZPjVknI3N5p8wUFK6PGvxz9Tg1AjpAmNHv/GLB0by2WVtnuVGZCqKOM0qFwYeHTJ9XOXO03rR2RBa30ic2Bcb+XgcIaU4gWQLZntyH2ijUrrzomn6n6x245lPd+T9Vs5Mr+UTNs8eVKpw8McxVs8jGStEw15QgAQXZWhWZ6W2bS0LJcsp1p3U3M8NW9/Ni6Ml2upianZm9YrVMPeyHZ87HpuOBp5rm1hC5PQtiLHpQMPXdLKHdIVMHKk/+qPRgoUpKVnE8u2bP+COsPwYmBF1sXIdy8vRsT3ndAhkYdRP04hS52V4zuO9MQLzNOE0UXtRtOlg0G6OaAxZK+gQc2onQZBDRp3alCVM/ds5cz3WuVsc/vuqmrqZmi8qV2eQYWrL2rffIFjSVYWor/dQz5x7Y8OUjF0tpi3QKxoVC67LXHVtJwmhyMwaDn8XiNoQVJSCNOUU5TsagBA/XRT9U1r/g/Oxv/B8z3L1W50t8hq8L912B/L+8bT0bq8YtXR7rS89iAi9BI7cMJY9nD3hInQkzfoxmF3bulsPTfpk0DX3+2OeF+Yp3fF3tmk1dEWA7pDbfFObM/gbPn8prh+3Ps6LTHcfheBqL5/9n54c18OD5K28Ryquag7yua92QlJRD3sd+uO+mNJkyCttjFI6KLnWENrSKw9EzynNWFEPMe9HKDuCS5uf2E4cuTNcA+kaHdCuzR8H0GdeBt+mg66hml53zX4cIAqur/npZiHJX5Pi53qNZEjxks9pAqY/3+r/y9PfyaCCA4RyN1mH4ATtMqkerrufbnilZY5JFUnoM1L3eibi2iD74cf5St7gnlJaBBDeljeeMMStGg8xst0NYDRPFjk9dfPXizf/QO92xVU5RoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bd9a0ea43b249390c0cdb10f23e45ae0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>56cca95f-ebad-4616-bce8-9dfc17c31490</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 17:40:23</sys_created_on>
+        <sys_id>df94aa523b6413d0c0cdb10f23e45a61</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:58:31</sys_updated_on>
+        <ui_id>44da2d67-6006-4cd8-8a39-d0c7f2550ead</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTW+jMBT8K5HPCEFIoza3VaJIlbqtlKxy6XaRsR+JJWOobdJmo/z3fYAhKKnaVOqlWm7vy54Z5sHjnghOJmQEPAhvwjGLwigaBsHwehQm4ygJhzyiACHxiKIZYKcGlmuO8ZbKskrs90vQW8FgMKWWynwdh76G5xKMjYWF7HDAZi5MIelu5WYwwzZCcg2KTB6fPFJQjcdb0GSyPyldik/SBCS2LlqAp4DtrqhinrMyA4Xg2uSdm5y5yuB2hhUcquCEgUfg1YLigEBSKg14JKOKU5vrHZlYXWJCA+UPSu66jo1QtiGa0Vcj/uLNo6DqSwGZMSdCF8ZOoCadzlDJJZ7MbKk7vXLU2DSacEhpKe20n2saHgorctWMWJrIdjqXZabuG0VId0DvfZQGQUBR8ayQN7TS5SZ/WbQg50LVkjiKMmdUdhG1VouktBWcPQEJtcYZLQqh1nGh862ohxFK5q8lBn4q8xe804i18imrcPuoKvXnmJ/V6RXVoiLxE4/B4YNHzM5MJTXmSAU1jJ/LCklDzFGIaxVqCeLaCdUw06KwP/CqLTjgB89tQHL1nsPYzdFQvTOPW2BYjKavDX9u90WzDsAHt039c+a/AFpr/l/1K38bqvP/We6uPzu4bwrO/Vdf5v7r7+R+R+Pb2/8j0wfDdz+rPSfVPjd9w1tq4XcZBBGP/mCwdgHyKySa+XwLLpj43F5cgL7di7kAyc0bdNqlAMSA8OKG3sliuOJg5Yrdr+HLtiMcB/XzjXbkv/lDPP0DsACMMiUJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=df94aa523b6413d0c0cdb10f23e45a61"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f69f71203be09390c0cdb10f23e45ab7"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f69f71203be09390c0cdb10f23e45ab7^sys_idNOT IN3f14bdb43b601790c0cdb10f23e45a4f,7b4d4ea83b249390c0cdb10f23e45a8b,c97a46643b249390c0cdb10f23e45ab8"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c505bd383b601790c0cdb10f23e45a6b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <flow_variables_assigned>resumo_beneficio</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 22:17:37</sys_created_on>
+        <sys_id>3f14bdb43b601790c0cdb10f23e45a4f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:50</sys_updated_on>
+        <ui_id>d39caa9e-3b0b-4fc8-9a50-b4849f7caf1b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1W207bQBD9FctPrSCWg52EhCckhIREiwSUl4KssXfsrLreNXsJpCifxFf0xzrrC0EUKlV9TZ68Z3Zmzjm7O8pTqJxtnDXX6tgYXslw8f1uP+TSY/T9FJZCPZyrihdn0liQBV6tzRkLF2FSjtOc5WmST+PxbB4XccHycVweJJhOIC1DKuP3TdJZkrDkg32Y0z4JNdJOjcbVKstRYskLriiyAuF8iD4ZN42A9c0WKZZcMI095wY0lbGow8XTm5BdN5gJyFFQ4pXVXFb/wG5IvGzpBUwFLcNfzx3Fj8n7thQxQ0OlmWc33g/x0aJkSARKEAb3wxokA6v0+gXRCOxCii2w5NJ2umt4NPwnlT6M49jvLJGkFr0rL8usd2wwS/ECLxrLlewQC7kYnFTC1fJrp8R7jSU4YV957QzVw8az9jR6TuXVUj1cDg1PuWwF9kGhChAvK7BkQ+4sGn8+jl+/MadDzt8eEgqsqWNWQ9MQkjVarXjbhUjXUSVoEfk7Suz8/Y2g8AojchOiU8JPWvgGNPdyv1AZSvbtvkl+77C9yoeTMZuy+WzEJsl0lDKGozkALeO8nM3zfDxNIdy01mb3zovqTOrtyDpHaYMpNG/sMVFYkTirHQ6YF/3HFSHsbxlhEAQr0IHmtg5uXRwnLChZ1kojf6oKdaSRRBibcYv10a2kDI3WadkmRatetoksb151jiq0J6/e06fPwV7b4WAWjIaPvbZc/3uvHAh6bVDAO+WOws1mc+ffb5+xmyW7WbKbJbtZ8h+zhGHBDZ3HtU87G/6h+MCa3o0fKlvoQekf/iS32OY3Ur0cNusIAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">98ce82ec3b249390c0cdb10f23e45a75</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:29:11</sys_created_on>
+        <sys_id>7b4d4ea83b249390c0cdb10f23e45a8b</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:50</sys_updated_on>
+        <ui_id>f5020285-1979-4cde-9844-c2e694988896</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K8jPbeUkLjR9Q5vQkNiQAPGyoejGvmnNXDuLHaCr+t93naSAtrJNUx/3Vp/7dc7NPeqGuTbUbfA37tR7vbBs/vluxLSNGP3esMq4xwu30PLc+gBW4vXanys2ZyelUAJhlpWpyLOcSy5VmfAqzVBMYVayEbOwQsqUziodtLNFB4zYA5g2Bq7wHnUA5Y5qNO7o6gPFlPa1gfXtb1LkUhvV4MC1hoa6BmzYfPNTKKxrLAyUaKjTdWi0XVC5juwrDlWSy0Rm6XGWcp7ORFIeZ2WSqgwQMsrbFb7b0T+66JC3dcV5hPvdJNeoSCvhI4ZPAa1CGl2B8ThiK7AKgmvWz0iDoC6teQGW2gZqx2Lyk9ffqXc6ncbECkmjxD74/CyG3fWwXDot8bKOBHskQGmGGulMu7Kfeh1x61hBa8Ju64S0nvphHUlHFgOl6nrpHq92A8+07QQOQeMkmOcXBFpD2Qb08cOgwRU1KlZQ17Scom7cg+6KictqsjD0mMRbo6HxDicgI/EJ7QgmZ4S/7+BbaHRU8ZHaUHFPswSvZdHdLLULDUnYdmspvrWRUC9wkFL026AELxtdh1Oa84AD6+3osAf/6tY3m7yiMpHn45M8h7GQIhnPBGZjkYDAmUxnINIJ6aLNgClodsDt9kvLeUYXfY8y0PX84o9DtT2Ep3KYVtOET/d7Shzv89T+pb1hpPQPRoqf/i99xDn/b6TXRtK+6A0xaOuG/7OP7uLh9xN8fzcKpfZE5CZi57v/lxhY0wFEt71Aj675GiW8YNsfpqnV7KkGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e6bb02683b249390c0cdb10f23e45ac9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:16:42</sys_created_on>
+        <sys_id>c97a46643b249390c0cdb10f23e45ab8</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:50</sys_updated_on>
+        <ui_id>56cca95f-ebad-4616-bce8-9dfc17c31490</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTU/bQBD9K2jPSeSPTYi5oVaoSLRIgHppkTXeHSerbnZd7xpIo/z3ztgOoBbUquLYW/bN13vjecpO+C42XQw3/jQEs3Li5MvtRBjHGP3eidr6+wu/MurchQhO4fU2nGtxIlRxDHKxkHmVySIvEpUoXaVJneUo51AtxUQ42CBneqdNNN6VPTARd2A7Dpw2rb8D7Y8atP7o6gOFtAmNhe3n1zPU2ljd4si0gZZ6RmzFye6XUNw2WFqo0FKj69gat6Jyw9zrBOq0UKnKs0WeJUm2lGm1yKs00zkg5JR3KHx3IH900SOvq+J5hIfDJN9qppUmE4EPEZ1GGl2DDTgRG3Aaom+3j0iLoC+dfQLWxkVqJzj5IZgf1DubzzmxRtKocAg+PstxdQOs1t4ovGyY4IBEqOxYo7ztNu7ToIOXjjV0Nh6WTkgXqB82TJpZjJTq67W/vzoMPDOuFzgGrVdgH18QaQ1VFzHwh0GLG2pUbqBpaDklf1XTFxOXzWxl6THjS6OhfIUzUEx8RjuC2Rnh73v4M7SGVXykNlQ80KwgGFX2F0vtYksS9v1ayu8dExoEjlLKYRuUEFRrmnhKc+5wZL2fvO25P7v03a6oqUwWxfS4KGAqlUynS4n5VKYgcamyJchsRrr43m1JsyPu91+7JMn1gNL1/GaPt2r7Fp4qYF7P02T+sqfk4iVPvby0V4yU/cFI/On/0kdJkvw30nMjmVAOhhi19cP/2Ue3fPjDhDDcjUZlAhG5Yez88O/CgS0dALvtCbr37TeW8ITtfwLfsJ9WpwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f69f71203be09390c0cdb10f23e45ab7^sys_idNOT IN2a9ece6c3b249390c0cdb10f23e45a3d,3b8ccaa83b249390c0cdb10f23e45af1,64f4f5383b601790c0cdb10f23e45af1,7b8ccaa83b249390c0cdb10f23e45af2,ee9ece6c3b249390c0cdb10f23e45a3c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f69f71203be09390c0cdb10f23e45ab7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_beneficio}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:34:50</sys_created_on>
+        <sys_id>2a9ece6c3b249390c0cdb10f23e45a3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:34:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1d8fcd39-8164-4647-94f5-c16da598a089</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f69f71203be09390c0cdb10f23e45ab7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_alteracao}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:25:54</sys_created_on>
+        <sys_id>3b8ccaa83b249390c0cdb10f23e45af1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:25:54</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6ea0c6a7-b360-40d0-acd9-1d075ccafcfc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f69f71203be09390c0cdb10f23e45ab7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.resumo_beneficio}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 22:21:13</sys_created_on>
+        <sys_id>64f4f5383b601790c0cdb10f23e45af1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:21:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8e735df5-1596-48aa-98a0-b96b5e08e841</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f69f71203be09390c0cdb10f23e45ab7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_beneficio}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:25:55</sys_created_on>
+        <sys_id>7b8ccaa83b249390c0cdb10f23e45af2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:25:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>06ad3c1b-dde2-4fce-89b8-821bf06949d4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f69f71203be09390c0cdb10f23e45ab7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_alteracao}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:34:50</sys_created_on>
+        <sys_id>ee9ece6c3b249390c0cdb10f23e45a3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:34:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4d9b64c5-d65a-4b09-b67d-467dcfd0dd00</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f69f71203be09390c0cdb10f23e45ab7^sys_idNOT IN54733d343b601790c0cdb10f23e45aeb"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=851d6d97-d536-4dde-9aa7-d0bf79bb164a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>resumo_beneficio</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Resumo do benefício</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</model>
+        <model_id>f69f71203be09390c0cdb10f23e45ab7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_f69f71203be09390c0cdb10f23e45ab7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 22:14:39</sys_created_on>
+        <sys_id>54733d343b601790c0cdb10f23e45aeb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:21:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f69f71203be09390c0cdb10f23e45ab7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 04:30:43</sys_created_on>
+        <sys_id>97ef7d203be09390c0cdb10f23e45a26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 04:30:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f69f71203be09390c0cdb10f23e45ab7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 04:30:43</sys_created_on>
+        <sys_id>dbef7d203be09390c0cdb10f23e45a06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 04:30:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f69f71203be09390c0cdb10f23e45ab7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f69f71203be09390c0cdb10f23e45ab7"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow para alteração</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>alterao_de_benefcios</internal_name>
+        <label_cache>[{"name":"51d01016-e27b-40f0-8639-8d662b2df5ca.motivo","label":"1 - Get Catalog Variables➛motivo","reference":"","reference_display":"motivo","type":"multi_small","base_type":"multi_small","usedInstances":{"de5f0cd4-4ef3-4ddc-98f7-ff03b503db87":["description"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_alteracao","label":"1 - Get Catalog Variables➛tipo_alteracao","reference":"","reference_display":"tipo_alteracao","type":"choice","base_type":"choice","choices":[{"label":"Inclusão","value":"inclusao","order":100.0},{"label":"Troca","value":"troca","order":100.0},{"label":"Cancelamento","value":"cancelamento","order":100.0}],"usedInstances":{"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":[null],"2b193b8b-67bd-4331-a1b5-57055275c5c0":[null]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_beneficio","label":"1 - Get Catalog Variables➛tipo_beneficio","reference":"","reference_display":"tipo_beneficio","type":"choice","base_type":"choice","choices":[{"label":"Plano de saúde","value":"saude","order":100.0},{"label":"Vale-refeição","value":"vr","order":100.0},{"label":"Vale-transporte","value":"vt","order":100.0}],"usedInstances":{"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":[null],"2b193b8b-67bd-4331-a1b5-57055275c5c0":[null]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"9f493499-799a-4c41-84e3-41a4e8c28a42.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"56cca95f-ebad-4616-bce8-9dfc17c31490":["condition"],"f5020285-1979-4cde-9844-c2e694988896":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"51d01016-e27b-40f0-8639-8d662b2df5ca":["requested_item"],"9f493499-799a-4c41-84e3-41a4e8c28a42":["record"],"de5f0cd4-4ef3-4ddc-98f7-ff03b503db87":["ah_requested_item"],"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":["record"],"2b193b8b-67bd-4331-a1b5-57055275c5c0":["record"],"31634708-b433-44cc-9831-7d5fa1bfa2bb":["requested_item"],"44da2d67-6006-4cd8-8a39-d0c7f2550ead":["record"],"be5705a4-d32b-4e91-8076-effc8e19b936":["record"]},"attributes":{"default_search_field":"number"}},{"name":"{{static.58126c353b885310c0cdb10f23e45a9e}}","label":"RH - Benefícios","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"9f493499-799a-4c41-84e3-41a4e8c28a42":["approval_conditions"]}},{"name":"51d01016-e27b-40f0-8639-8d662b2df5ca.solicitante","label":"1 - Get Catalog Variables➛solicitante","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":["ah_to"],"2b193b8b-67bd-4331-a1b5-57055275c5c0":["ah_to"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"flow_variable.resumo_beneficio","label":"Flow Variables➛Resumo do benefício","type":"string","base_type":"string","usedInstances":{"de5f0cd4-4ef3-4ddc-98f7-ff03b503db87":["ah_short_description"],"df867c94-5d2a-4f03-ab4a-cd4798f8cf93":[null]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"851d6d97-d536-4dde-9aa7-d0bf79bb164a"}}]</label_cache>
+        <master>true</master>
+        <name>Alteração de Benefícios</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Alteração de Benefícios">f69f71203be09390c0cdb10f23e45ab7</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e64096a03b649390c0cdb10f23e45a8a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:53</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e64096a03b649390c0cdb10f23e45a8a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e64096a03b649390c0cdb10f23e45a8a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e64096a03b649390c0cdb10f23e45a8a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e64096a03b649390c0cdb10f23e45a8a^sys_idNOT IN224096a03b649390c0cdb10f23e45a8c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e64096a03b649390c0cdb10f23e45a8a</id>
+        <name>Alteração de Benefícios</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:12</sys_created_on>
+        <sys_id>224096a03b649390c0cdb10f23e45a8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:42:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=224096a03b649390c0cdb10f23e45a8c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e64096a03b649390c0cdb10f23e45a8a^sys_idNOT IN2a4096a03b649390c0cdb10f23e45a8d,ee4096a03b649390c0cdb10f23e45aa9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</model>
+        <model_id>e64096a03b649390c0cdb10f23e45a8a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e64096a03b649390c0cdb10f23e45a8a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:12</sys_created_on>
+        <sys_id>2a4096a03b649390c0cdb10f23e45a8d</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2a4096a03b649390c0cdb10f23e45a8d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</model>
+        <model_id>e64096a03b649390c0cdb10f23e45a8a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e64096a03b649390c0cdb10f23e45a8a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:12</sys_created_on>
+        <sys_id>ee4096a03b649390c0cdb10f23e45aa9</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ee4096a03b649390c0cdb10f23e45aa9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e64096a03b649390c0cdb10f23e45a8a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e64096a03b649390c0cdb10f23e45a8a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=e64096a03b649390c0cdb10f23e45a8a^sys_idNOT INaa4096a03b649390c0cdb10f23e45ae3"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>aa4096a03b649390c0cdb10f23e45ae3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:42:13</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61T32vbMBD+V4KeNvDATtZm8dsYFALdCk3Xl1KMIp0SMVlyJdmtF/q/7y62k7TzxqB70/38vrv7dLdjhq/BsJxd13ZyYdzjZGlZwrSN4C03N20FGBRbpwWgv3tc6hBZfrdjagUPNVgM5R+yhKlbbmrKX3PxY+NdbSXWqMsTCEUQ2k6OGZN3EhSvTXxPucuSb6gDvVdgQESQLFfcBEDP93BqfdUhaLvpHc/Jn/ko5+HvfF5mvIHFfcJKbiWPzrfHJO/KGygrwyMcnM5L8CzP0jRhDRFdtWEpO1TLS8L3tS2IYaHpKE0/DT6lDtisvT16xFYb6cHiXZBCxT12iNR/9yqkCeI8XaRiPl3M59N0NktTdbZWQgkx/5Sl59nZAhuOC2OUWHylktPJ4CmClScL+307Hri8subo2KL8uqlK/hT0T2z+MaU8Bb67LsUOZtFvY1gEsQh7fZp/V14zJt1+kJS0NdbrhWqaMbENqyBd9Ghf/j/B7M0Ep0SwW91VFbVDsbAZnZavDdWENnQH9yCwpIhebzZYiEXO1KX9NqaLnv2JSuuA14KKFEEnHr7Hauser4dzXmi7p9QHjRPcHCweEXldR9rfjnHZcKwgRUePGM97VRQPNVXs/8mAVewnooQgvK7iZxF1A4dP+wt8tA/9CQUAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=e64096a03b649390c0cdb10f23e45a8a^sys_idNOT IN264096a03b649390c0cdb10f23e45ade,264096a03b649390c0cdb10f23e45ae2,2e4096a03b649390c0cdb10f23e45ae0,6d05e2d23b6413d0c0cdb10f23e45a0b,e24096a03b649390c0cdb10f23e45adc,ea4096a03b649390c0cdb10f23e45ac1,ed05e2d23b6413d0c0cdb10f23e45a0a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>56cca95f-ebad-4616-bce8-9dfc17c31490</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>264096a03b649390c0cdb10f23e45ade</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:21:39</sys_updated_on>
+        <ui_id>de5f0cd4-4ef3-4ddc-98f7-ff03b503db87</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YzY7bNhB+FUGnFvC6+rFkr2/JLhYt0CbAOtge4lSgSMomQv1ElNbZGH6aHnrqU+yLdSiRtmzJXrtxgk1a3zwcUt8Mv2/I4dulyYg5NlHk2RGx6NC1B7ZrWb7tYGfoRvDz0XA0MntmgmIqPedBgUJOg+p/z7xHvJR2gcEu3oOFMJFx9HDXGsBzxklOE3P89l3PzFAOKxQ0N8fLnaFjIXEUUg6ubyQg41UNaA/O4iGT5pbt16410pxIXFbPpB8LmhAKgCLEBe2ZMUoIKtL8YW3JKSKvEw6GIi/h/5wlBSxoSt+Pgn2Cz44s6RZRiBDTemz9N1D5qs3RNSrQBBbCRZkrVzxPGaaizg2hESp5cdW01Q6vs4KlST2lClPNTnkZJ6/qrJjrBdrbowau921fKQArzWQ6ZIAq+mgyTxe3OpgbllSZU4M8xYiv/6GiyFlYFhL20qScxrBQEKMsY8ksyPL0nlWTAXLcn3H40494uoCPCjZL+gjL+PqQfdS/Aft1Zb5DOZPB/gbLwGT4CpdzKthgFnLPYVtggAmw5izTualQmaueKR7EFUdCbHIEmxN8KCX0OmMq6KBOr5xSLfQCEN1TFd+qp7Q0dA8RF1lbHM3ph5KKgpKAFTRu6Gm5nND8HrbVuIKAeToL7L5yrlxXq7bUTtbYEVC1xm41UOOXGuiBGJTWNozfltptw66UZh9WWi2sjdCUR4fSXGdbacADgKeBdYmuFdhXl+A5tBVNKMrx/IZRLjc2KeOwVsNX0VwKuxKQPM0yFXQlubNJSxtlCG2+gbFLjqu1IN3hQZb7W2QW8zQvZPjVknI3N5p8wUFK6PGvxz9Tg1AjpAmNHv/GLB0by2WVtnuVGZCqKOM0qFwYeHTJ9XOXO03rR2RBa30ic2Bcb+XgcIaU4gWQLZntyH2ijUrrzomn6n6x245lPd+T9Vs5Mr+UTNs8eVKpw8McxVs8jGStEw15QgAQXZWhWZ6W2bS0LJcsp1p3U3M8NW9/Ni6Ml2upianZm9YrVMPeyHZ87HpuOBp5rm1hC5PQtiLHpQMPXdLKHdIVMHKk/+qPRgoUpKVnE8u2bP+COsPwYmBF1sXIdy8vRsT3ndAhkYdRP04hS52V4zuO9MQLzNOE0UXtRtOlg0G6OaAxZK+gQc2onQZBDRp3alCVM/ds5cz3WuVsc/vuqmrqZmi8qV2eQYWrL2rffIFjSVYWor/dQz5x7Y8OUjF0tpi3QKxoVC67LXHVtJwmhyMwaDn8XiNoQVJSCNOUU5TsagBA/XRT9U1r/g/Oxv/B8z3L1W50t8hq8L912B/L+8bT0bq8YtXR7rS89iAi9BI7cMJY9nD3hInQkzfoxmF3bulsPTfpk0DX3+2OeF+Yp3fF3tmk1dEWA7pDbfFObM/gbPn8prh+3Ps6LTHcfheBqL5/9n54c18OD5K28Ryquag7yua92QlJRD3sd+uO+mNJkyCttjFI6KLnWENrSKw9EzynNWFEPMe9HKDuCS5uf2E4cuTNcA+kaHdCuzR8H0GdeBt+mg66hml53zX4cIAqur/npZiHJX5Pi53qNZEjxks9pAqY/3+r/y9PfyaCCA4RyN1mH4ATtMqkerrufbnilZY5JFUnoM1L3eibi2iD74cf5St7gnlJaBBDeljeeMMStGg8xst0NYDRPFjk9dfPXizf/QO92xVU5RoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=264096a03b649390c0cdb10f23e45ade"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>f5020285-1979-4cde-9844-c2e694988896</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>264096a03b649390c0cdb10f23e45ae2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:42:11</sys_updated_on>
+        <ui_id>2b193b8b-67bd-4331-a1b5-57055275c5c0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Z3W7bNhR+FVZXG2C78p9sJ1dtsqAB2mZIgu6iKQSKomyulKiKVBIvMND7PcJ+gGIXu9oL7DZv0ifZoSjZku04duJt6RagQOBzyMOPh993Dqm+vbKYb+1YHb9vO17QwT273Wrbdr81GHjtQWD3ewO7SXyrZkU4pDAyoUQk+vc55qk2XF2d0OScEYr2sMJcDN1mI6EfUiqVyxQNJxMY7DMZczx+k88BCxkx7ic0snbevqtZMU4gvKKJtXM151oXH8ce5TD0FCdDqtBxgXMetxrH+rcvSBrSCDAWxpd5gP3cgw73wQOTNCq7ZtFLRSOfApwAc0lrVogjHyuRjKeWhGL/KOIzw4hFCkI+k1IQhhWVSI0ooiFmHF0wNUIYGWANS8e7lOwHANdu6VABhRwQjZVFhPmAyCqZ3Tyl4D6cuYN9OIMTlaREpck00wJOR5ps+jTAKVd7ZZsZcBQrJiIzRWGPF7MFT8PotUmiNQ1QOslUAhga69zozcLisPHgZCQujguwByzKsphnhQuC+fRXcEJxQkYHjHJ91FEaejC2ZmGlEualSsMEUnAYNVvHzaDqtWAk5TQ7yhDHMYuGbpyIc5YtCPDDxpDDj0bAxQXMl2wYNTDRe23A6eHGAdj3M/MbnDC98VcQBiZPapYcyz2OpZxtH/Lvfkg1epOMKhw9280IpyeThMXqGSx1TvPNTmq53pqDVXz2OzPelmLONCeJCxLL5LUormMjPuqjQ+PfTGprQJtJTdNkOdRcZgu2l+W56LVx5CJrbigyQ7VcY6cgLGW0bySFVA5vqqu+XdXVDXp6GDqaqmNtIVUF8/eIAkgiXcPsfG/Z4ncQy20SsR3H8xyv22vPeDgggd/zAgf3SHvGuwsorEmIk/duVlhLOmkuqiMvGZtpYg0shSagGPPUp+i7AtQqnLlIPCGgukXzCgGkTw+y7E4V0rpXGzLUREogOEw+huYzhaSNs9akRlghJpGE02qgU4FYvqvSjBoaixSFqVQwTIGnIr5KP+s8XN3ldMit+0u58kUIc/sC7K5uBHhGbDxylahcCbtN327aTadOWz2v3rEDu9532oN633ecltfygy7BDSk4I0zhSNHJBC1K9a5hNtP2Gtuc9juxuOdcwhJOOBrOKfikMObqba9Wr2lnC+IttS/74QrpS9GJBs5ZyDJCGIVvXzr+Sk5Ru0IjQkrS2cJbaY3FC0Lv7S0i2YTQnbu1o0dGf3GMbq58gFOnwiNv25ReY/WC0s/nOO1tTOruI6n/J6TurqYVqRBJpt73lKgSsU9SjIrLx/Xv178JpG/IHCDPfno0osH1H4QJFGlTIBhcviFF2MdPFpWxjZAbXn9uz0EhrZNpBpZlZROJOY8XoX9dYduXE15JpaBVrcvCH5e0dJbadpvESGOuKxaNQ0ITIZQHiXmfOf0z68wMo0dc/205GBPI0e4TVJaNcRFCfcZ383EKaE93S2K6ZVAmMWNmZg2ttq+QQSljHCGiE1cA06hdUJpOVcw4P7OQVGNOp37DyB14R3MW0V3wEwHvFfjns4xaxcgso+DO8qBDZQkqvFdXge+qBEcyEEm406e9dhceQfVmd+DUO32M64M+tuvewPG61O7Tfqc5mRRZWw0elkIIQ0ZiJWdLuEEaZWSSgAmAatJeFhPtf3gbOTmoVMwvQml1fwvxD/11tplBqeeYs78YjiO5baqeJdcZBOAu1RSoEFyxuD4Dm70ZM+OpiOeH5aiKsVq3qJCsRIaMQ7WLjqlMQ2CpWM7StWBKhRNVjKyuZOY91RPXCISTRFysn/msk9QJCEVtOqmy0udff7oB5+2GG3YCha6IfluG77oyFHQlIjTjw6LM3AAT7FN3HUlo9ZW3cWM0FImSovWnP0ZhPNJHbrJbhDiCeo+mQ1ERB8WMvKcJ3DQSVGULHMQ9+WgqYt30lToDFSyZsbyYRiIrpTklPv649sGYg9js8EoG9DWK5npG+Q6GYsoxoh9SFlPdTI5foDp6viw3soG+CRHBMms6vnGnxg0dHssagqsEEkj/R09eArj/IRW7B5jjBIpvCM7jF8aTZB7ICkRUlQbJxVA08m3EZg+LV8+8Axcd9vpTta2ucRvdZn/cTst6MB3hsSZvtyZnhHssxKsKsUnRf7P6zj97by65WRbm6uz1n4vF9fPHn6s19fPHX/JSev1pef3c7J29xuNo+gnLPI0W3kr5C3ukQj73vn5x+url7HXdu+cHLKfbbTuP7+t7f8GKL/yWn4g4zve25a9Y7/4CmwVA9b0lAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=264096a03b649390c0cdb10f23e45ae2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>56cca95f-ebad-4616-bce8-9dfc17c31490</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>2e4096a03b649390c0cdb10f23e45ae0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:21:39</sys_updated_on>
+        <ui_id>df867c94-5d2a-4f03-ab4a-cd4798f8cf93</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2e4096a03b649390c0cdb10f23e45ae0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>f5020285-1979-4cde-9844-c2e694988896</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 17:42:10</sys_created_on>
+        <sys_id>6d05e2d23b6413d0c0cdb10f23e45a0b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:53</sys_updated_on>
+        <ui_id>be5705a4-d32b-4e91-8076-effc8e19b936</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXW/aMBT9K8jPDCVAu5Y9TaBKlbpWKlNfui4y9g215Dip7dAylP++648AgopRqS9oPHG/7HNOziU8rojgZESGwJP0Mj1ng3Qw6CdJ/2KYzs4Hs7TPBxQgJV2iaAHYqYGVmmO8oLJ2idVqCnohGHTG1FJZzrO0p+GlBmMzYaFoGmzmwlSSLh/iDGbYs5BcgyKjx6cuqajG4y1oMlrtlI7FJ+kMJLbetwB3Adtl5WJesroAheDa5E2cnMRK53qCFRxycNKkS+DNguKAQHIqDXRJQRWnttRLMrK6xoQGyu+UXK47noWygWhB34z4gzcPE9eXAzJjUYR1mEWBQjqfoJJTPJnZWq/1KlFjEzThkNNa2vF2LjTcVVaUKoxYOpPtdCnrQt0GRcj6gK3nURsEAZXj6ZAHWvn0uXy9b0FeCeUliRRlyahcR9RaLWa1dXBWBCR4jQtaVULNs0qXC+GHEUrRm0sMerksX/FOI+aqR5nD3UNVae8K8xOffqBaOBI/8BgcbrrELM1YUmM2VFDD7KV2SAKxSCHzKngJMu8EN8y0qOx3vGoBEXjTjRswOzvkMHa5MdTWmZstMCxD03vD79v9PqwD8M51qH/M/EdAa83/0z/y96FG/+/lbrZnO7ehEN1/9mnuvzgl90caJ2//f5k+6R/8Wd1ykve52Ta8pRZ+1Uky4MPfGMxjkPMv4Ubg+4tw3NDHtuMIDu12XAmQ3LxDql0NKBCthSyQ3FmPWOw8xOL6BfFpO5KeJ/5zQpvyH7wnAsWQc5i9b/2XA214HT4T1XH+7n+NLwD8h4TySAk8pL8hEEMXwFt9WVsnTdM8/QUw8M5gnQkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6d05e2d23b6413d0c0cdb10f23e45a0b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>e24096a03b649390c0cdb10f23e45adc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:21:39</sys_updated_on>
+        <ui_id>9f493499-799a-4c41-84e3-41a4e8c28a42</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YXW/iOBT9K8jPlHUISQNvVVFXXe3OSNCdl1JFxrkBj0zCxE5nWMR/35vY+RhoGVgxD93OSyVf3+ucezjHH33cEhGREbkO4j4Mh306dyh1KQ08TgMX5u61f+0yTkmXJGwFmJkBT7MIx89M5kVgu51C9iw4dG6ZZjJdhE4vgy85KB0KDavdDpMjodaSbT7ZGozwpZBRBgkZPT51yZpluLyGjIy2e1On4pNsDhJTJxXAfcB6sy7GUcrzFSQIrgr+aSvHdqZzP8YZLCrg0C6BbxqSCBBHzKSCLlmxJGI6zTZkpLMcAxmw6GMiN3XGUiTa9Lli35T4Bz/s9ou8GLAxbjmoh6Hlx4TjMRI5xZW5zrOarhQpVoaSCGKWS33bjpmEj2st0sSUaDaXVXUq81XywRBC6gVaP0euEASsiz4L5KateLpMv04qkHciKRmxLcqUM1mPmNaZmOe6gLMlIKGkeMXWa5EswnWWPouyGKGseguJg14s06/4TSUWSY/xAncPWWW9O4yPy/Anlomiib9wGSzedYnaqFvJlGpaQQ7DL3mBxDRmWwhLFgwFRR3PxFrf4FeewWLeda325/yotngjJbNcI33FQ1R6qfJDjU+MByDq3Jv58xR/AqpK8Q8W1h5Kq/dyGJZz38u9LOt8MBNW7c5xtdtII3ejkxfUHtA3pHbb1puX+4+UDgPf9fDPdexSp+/QAPwg4EPKeOD73sBtNIQIsAcmUd9M4dqN5i+wmZ8Ao5L2jcXRmVQ4XgVo5a7wh0kWe1KfVkEr8/6ZMn99V3f89yT0XDzssWwiBzz/HEcUn/s7Ebiv3hc68vtzf0iD6CqK6fxqELjeFeNAr8B3PPAin3uO+xNcRJ1jO3MUvCDSWIBs35mqiUMztWbOM9UJqA5MdWdhvQbXWqocvnSClPV7J8jlrBVQ+pa89Z6uTPyo2KB1kHxO8yw54oBwKVSpjFed0Mo4zxEngKwc8YdBuW+IffD/xQ/uLz/8//0w8I5KrXU5r1XN0yQSBWLVcoXZmUFN4DNwrW6Sze+P263STAve8wKn73PXc+dB4LkO5ZRH+L2478LAY0PY7Z4OXXSBFc9z3QlU1C/1XIL6ETXWc819zxa1fdfcEu2k9d7gUm/3N2a99/Ke4Ue1Fg8bbUU5EsR0+/G+nREDe0ZGM5KkCcxId0aKrLAQVxnGDARXT5Sx7c6M84zZcqc1bGojtlFlpuJLiFCZZfS7SFhawcYv8X+yExip3DfOoTM2lBySVD2mKpyGFXFw4k1tQrnSbw+iffJ5Fzv5Br/Md4mnU1g/LvBYw73vgo58+hf+XA3CSRYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e24096a03b649390c0cdb10f23e45adc"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>ea4096a03b649390c0cdb10f23e45ac1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:42:13</sys_updated_on>
+        <ui_id>51d01016-e27b-40f0-8639-8d662b2df5ca</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/91Vy27bOhD9FYFrwdDDjh3v2hQBCvQB1EU2RUFQ5CgmSj1KUnZdI1/TRVf9ivzYHUqUrdipkwA3BdqlhzOac2bmHH/aEinInGR5lLGUZTyNoziNomQ2jrOzNIsTkTIARkJSsgIwU8PXBowFQaWFAuMrphr3sN0uQK8kh+CCWaaqaxqPfHKbenODyUKaWrHNla/BCF9KJTSUZP7pc0hqprGNBU3m24Onx+JULAOFqYsmK6RFoMGHDsUJDnZTd/EcsB8HH3rjP/VhEK+0cOiikMA3C6UAhJUzZSAkBSsFs5XekLnVDQY0MPG+VJtdxlKWtqNdsG9GfsemaRIO+s6J4RTh9cB2L9RPrkXj0Qevu6T8FQ58gS25bfRurBWuwnSjE5CzRtmLYaxLeF9bWZVdiWWZ6qsr1RTlu25aZPeBwdoag5CgdgNwlDy/fLGs1rtpXcqynZV/VBVnapAKTPPlpQTlFls2RYa5IWHWapk11uHcElBQYANasLqW5TWtdbWS7UcRYzG6VvhjlKtqjWCMvC5HjDtCI9wDG11i/FUbvmJaOnZv8TNtlwq3QoWu6tqTdgsjNyExG3OhmDF77rgC+rVxyLtJeM60G5sr4VrW9gU2XoGndxP2uspO3Wse728SV4n7tUC5V8+BvOJxLuCcJ2k2i+JpHPGIiyyO8iSF8YTl7FhcLxTqiN3+vP1RBQKCl1BCfvuLy8o8XXYP0+hl99Hz6F2gPVIToDSCfgvBAqx5mPnTRRk/mygtxcO4A9BQ/DBdeUrUdJTu0+vDg/gnBOx6/Sn5SoMmWVR4My1nOtxVq2RUJRLBrTiI++AS+1HdlFYWQFtlUVnSqjYrCevnc4HpaflM91roL6y/KzNwgCQTOUz42f0OAGdzd5ZIxk2QlrAOk2gaTUX0m4JJclQwE5MkPR+z+wtSflQwmYxnnJ3FaSZm59mRKY0PC45N6t8g9TQ3fcQ59G7ae8fV4B5OnIq3TKMas8wa/gXsgWku3Evwsn/yvpmc9k0feYxxxkkURXe98zeu+Lfa3l2DQyPK8b8LZ7ffA94EtJMkbQk2fS4bfJSd4dGVXDWYWeAopMYuO6ju72eX5kYzAAGarnXXaZdSa6zRK/d3p4DblmTvt1WjufdjjB5q5P8z1c//AZ92fiu0DAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ea4096a03b649390c0cdb10f23e45ac1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>56cca95f-ebad-4616-bce8-9dfc17c31490</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 17:42:10</sys_created_on>
+        <sys_id>ed05e2d23b6413d0c0cdb10f23e45a0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:42:10</sys_updated_on>
+        <ui_id>44da2d67-6006-4cd8-8a39-d0c7f2550ead</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTW+jMBT8K5HPCEFIoza3VaJIlbqtlKxy6XaRsR+JJWOobdJmo/z3fYAhKKnaVOqlWm7vy54Z5sHjnghOJmQEPAhvwjGLwigaBsHwehQm4ygJhzyiACHxiKIZYKcGlmuO8ZbKskrs90vQW8FgMKWWynwdh76G5xKMjYWF7HDAZi5MIelu5WYwwzZCcg2KTB6fPFJQjcdb0GSyPyldik/SBCS2LlqAp4DtrqhinrMyA4Xg2uSdm5y5yuB2hhUcquCEgUfg1YLigEBSKg14JKOKU5vrHZlYXWJCA+UPSu66jo1QtiGa0Vcj/uLNo6DqSwGZMSdCF8ZOoCadzlDJJZ7MbKk7vXLU2DSacEhpKe20n2saHgorctWMWJrIdjqXZabuG0VId0DvfZQGQUBR8ayQN7TS5SZ/WbQg50LVkjiKMmdUdhG1VouktBWcPQEJtcYZLQqh1nGh862ohxFK5q8lBn4q8xe804i18imrcPuoKvXnmJ/V6RXVoiLxE4/B4YNHzM5MJTXmSAU1jJ/LCklDzFGIaxVqCeLaCdUw06KwP/CqLTjgB89tQHL1nsPYzdFQvTOPW2BYjKavDX9u90WzDsAHt039c+a/AFpr/l/1K38bqvP/We6uPzu4bwrO/Vdf5v7r7+R+R+Pb2/8j0wfDdz+rPSfVPjd9w1tq4XcZBBGP/mCwdgHyKySa+XwLLpj43F5cgL7di7kAyc0bdNqlAMSA8OKG3sliuOJg5Yrdr+HLtiMcB/XzjXbkv/lDPP0DsACMMiUJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ed05e2d23b6413d0c0cdb10f23e45a0a"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=e64096a03b649390c0cdb10f23e45a8a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=e64096a03b649390c0cdb10f23e45a8a^sys_idNOT IN360571783b601790c0cdb10f23e45a63,e24096a03b649390c0cdb10f23e45abd,e64096a03b649390c0cdb10f23e45abf"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c505bd383b601790c0cdb10f23e45a6b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <flow_variables_assigned>resumo_beneficio</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 22:21:38</sys_created_on>
+        <sys_id>360571783b601790c0cdb10f23e45a63</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:53</sys_updated_on>
+        <ui_id>d39caa9e-3b0b-4fc8-9a50-b4849f7caf1b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WyW7bMBD9FYGnFrEFOfISJ6cgQYAAaQMkbi5NIIzEkUKUIhWScuIa/qR+RX+sQ0lekKXorRf7RL7Z3ryhBl4yXbuqdnamT60VhWLH3x96TCiP0XnJcqmfr3QhsktlHagMbxf2krNjFueDYcrTYZyOo8FkGmVRxtNBlB/GOBzBMGeUxvuNhpM45vEHfpiSn4ISydOgrUudpKgwF5nQZJmDrL2JjlzYSsLibotkj0Jygx3nCgylcWjY8fKV6V95SEhRkutNQyTgOmi4/P7VkvmYpltU3mKdEaro7lddsts1qA335AY9hi8OFUdilYO02GMlKA5Om8UGMQj8Wskt8CiUa9su4cWKn1TvKIoi75kjdZp1omyuSSdYC+fn4ICo1JmrzUY/LTK0rUYcc6ilO9vFWofrygmt2hAHqVxHa1mX6murCdsk2JlPbYkEVr5Vz71rJL991M83a5YXQjWqdEapM5CbGzjSLq2d57NktZi9krlF3giNEkuqmJRQVYQkldFz0VQh0mVYSLqE/l0TO//mQ8h8hyGNAMILws8b+A6M8O1+oTQU7Mt9U+Kpxub5H40GfMynkz4fxeP+kHPsTwHoGqX5ZJqmg/EQ2KrH7MKeSbB2KxRNKHmqfZutbJ1ASauxD8mMqNwpkZpTCM0M15iX4c3zI+xvESwIgjmYwAhXBvd1FMU8yHnSNEuKFQWa0CC1ZV0iHJYn94oiDNI7UU1QOO+EsKET1U7lsEB3vvNVfvocHDQVDidBf304aNJ1v/fSgaRvFjJ4J90JW61WD34LdBH7jbTfSPuNtN9I/30jccyEpQnNfNjl+t+SNyzom/SraQs9a/PDz3aLrf4AFwIb7HcJAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e6bb02683b249390c0cdb10f23e45ac9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:12</sys_created_on>
+        <sys_id>e24096a03b649390c0cdb10f23e45abd</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:53</sys_updated_on>
+        <ui_id>56cca95f-ebad-4616-bce8-9dfc17c31490</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K8jPaZUPtzR9QyA0JDYkQLwMFN3YTmvNtbPYAbqq/333JmmLNtCGxuPe6nO/zrm5R90w14a6Df7WnXivF5bNvz5ETFvC8PeGVcY9XbqFFhfWB7BC3az9hWRzJvJj4NMpz8qU51kei1jIMomrNFN8AuWMRczCSlGms1IH7WzRARF7BNNS4KRu3CNId1Qr446uP2FIal8bWN+9nSGW2shGDUxraLBnUA2bb34JaWJZxVAluUhElk6zNI7TGU/KaVYmqcxAQYYNDZTKYOrpjubRZYe8zT+sa8J9aLRdDO/LocvNDnSNJFZJHDH1HJSVCvlUYLyK2AqshOCa9R5pFMgraw7AUtuA7RglP3v9AwemkwklVgolCtUH989i2FwPV2cQAKm0IrTNkCqWTgvl++VIVUFrwulLrE+4qklqXxKgNLtqZ9qV/dJvhO0b7D4UIq1HEqompUR90FHdLN3T9Y7lubbdVoagcQLM/gUBd1e2gfhsmDJqhY2KFdQ1brSgS9BdMXJZjRcGH2O6ThxKlzsGQcTHuFgYnyN+1sF30GhS8RnbYHFPswSvRdFdObbDNSm2jZhf+1MD3h9E4naL7y1R7CUP4op+P1QiGl2HE5z8qAYd2+hjTfPCL5tNXmEZz/PRcZ7DiAuejGZcZSOeAFczkc6Ap2NUSq4xBc4Oaru9b+M4kz2KR/ibyT6q7fucmcOkmiTx5HVn8ulrznx9Pe+xY/oHO9It/KUb4zj+b8d/tqP2RW+iQVs3/APd+ED26Wfudy20R2q3hF3s/ukosMbjIs8eoCfXfCNRB2z7EyxbwSgzBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">98ce82ec3b249390c0cdb10f23e45a75</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>e64096a03b649390c0cdb10f23e45abf</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:53</sys_updated_on>
+        <ui_id>f5020285-1979-4cde-9844-c2e694988896</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K8jPaZUPF5q+IRAaEhsSIF4Gim7sm9bMtbPYAbqq/33XSdqijX2g8bi3+vje63NO7lHXzLa+br27scfOqblhs8/3EVMmYPR7zSptny7sXIlz4zwYgdcrdy7ZjB2VXHKEaVamPM/yWMRClklcpRnyCUxLFjEDS6RKYY1UXllTdEDEHkG34eIKH1B5kPagRm0Prj7QnVSu1rC6/U2JWCgtGxy41tDQVI8Nm61/uFKBZxVDleQiEVl6mKVxnE55Uh5mZZLKDBAyGqihRE2lJ1uiBxcd8msFflUH3PlGmflwvhimXG9B28jAKokjhs8ejUTiU4F2GLElGAneNqsd0iDIS6P3wEIZT+NYKH526hs9mE4mobBCkiiwv9wdi8G6Hq5OwQNRaYVvm6FULKwS6HpzJFbQan/yEusLLusgtW/xUOptt9Xt0nzqHWG7AdsvRUjriATWQWmgPuiorhf26WrL8kyZzpXhUlsBencCT96VrQ981gw1LmlQsYS6JkeLurGPqmsmLsvxXNNhHPaTHg27OwYRiI/JWBifEX7awbfQqKDiI42h5p5mCU6JottzGkc2IdtEzK3ciQbn9iLJ3eJrGyj2kgdxRe9PaBGNqv0xvfyIg45N9L6xeZGY9TqvqI3n+egoz2HEBU9GU47ZiCfAcSrSKfB0TErJK9AFve1xs7lr4zijXDyg8LSEP6Xsvca+LZk5TKpJEk9eTyY/fC2Zr9vzljimf4hj2IW/TGMcx//j+M9xVK7oQzRo6x5/xzTeh/j0b+68FsoRtZuAnW//68LFipYrZHYPPdnmSxC1xzbfAdYBFW81BwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e64096a03b649390c0cdb10f23e45a8a^sys_idNOT IN224096a03b649390c0cdb10f23e45ae4,6e4096a03b649390c0cdb10f23e45ae3,a64096a03b649390c0cdb10f23e45ae4,e24096a03b649390c0cdb10f23e45ae4,f20571783b601790c0cdb10f23e45aaf"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e64096a03b649390c0cdb10f23e45a8a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_alteracao}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>224096a03b649390c0cdb10f23e45ae4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:42:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6ea0c6a7-b360-40d0-acd9-1d075ccafcfc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e64096a03b649390c0cdb10f23e45a8a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_alteracao}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>6e4096a03b649390c0cdb10f23e45ae3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:42:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4d9b64c5-d65a-4b09-b67d-467dcfd0dd00</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e64096a03b649390c0cdb10f23e45a8a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_beneficio}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>a64096a03b649390c0cdb10f23e45ae4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:42:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1d8fcd39-8164-4647-94f5-c16da598a089</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e64096a03b649390c0cdb10f23e45a8a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{51d01016-e27b-40f0-8639-8d662b2df5ca.tipo_beneficio}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:13</sys_created_on>
+        <sys_id>e24096a03b649390c0cdb10f23e45ae4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:42:13</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>06ad3c1b-dde2-4fce-89b8-821bf06949d4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e64096a03b649390c0cdb10f23e45a8a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.resumo_beneficio}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 22:21:39</sys_created_on>
+        <sys_id>f20571783b601790c0cdb10f23e45aaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:21:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8e735df5-1596-48aa-98a0-b96b5e08e841</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e64096a03b649390c0cdb10f23e45a8a^sys_idNOT IN6a0571783b601790c0cdb10f23e45a53"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=851d6d97-d536-4dde-9aa7-d0bf79bb164a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>resumo_beneficio</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Resumo do benefício</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Alteração de Benefícios">e64096a03b649390c0cdb10f23e45a8a</model>
+        <model_id>e64096a03b649390c0cdb10f23e45a8a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_e64096a03b649390c0cdb10f23e45a8a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 22:21:38</sys_created_on>
+        <sys_id>6a0571783b601790c0cdb10f23e45a53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 22:21:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e64096a03b649390c0cdb10f23e45a8a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:12</sys_created_on>
+        <sys_id>624096a03b649390c0cdb10f23e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:42:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e64096a03b649390c0cdb10f23e45a8a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:12</sys_created_on>
+        <sys_id>e64096a03b649390c0cdb10f23e45aa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-11 05:42:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e64096a03b649390c0cdb10f23e45a8a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e64096a03b649390c0cdb10f23e45a8a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>f69f71203be09390c0cdb10f23e45ab7</sys_id>
+        <latest_snapshot>e64096a03b649390c0cdb10f23e45a8a</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f69f71203be09390c0cdb10f23e45ab7^sys_idNOT IN7e40d6a03b649390c0cdb10f23e45a22"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"7e40d6a03b649390c0cdb10f23e45a22","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>f69f71203be09390c0cdb10f23e45ab7</plan_id>
+        <snapshot>c5c8a21e3b6413d0c0cdb10f23e45acc</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-11 05:42:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e40d6a03b649390c0cdb10f23e45a22</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:56:54</sys_updated_on>
+        <trigger display_value="">fe40d6a03b649390c0cdb10f23e45a21</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f69f71203be09390c0cdb10f23e45ab7"/>
+</record_update>

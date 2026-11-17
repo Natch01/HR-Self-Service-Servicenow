@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Solicitação de Férias">407974353b4c5310c0cdb10f23e45a74</sc_cat_item>
+        <sc_category display_value="Férias e Ausências">12a8343d3b0c5310c0cdb10f23e45aa6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-21 00:08:57</sys_created_on>
+        <sys_id>48aabcb53b4c5310c0cdb10f23e45a91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Férias e Ausências.Solicitação de Férias</sys_name>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name>sc_cat_item_category_48aabcb53b4c5310c0cdb10f23e45a91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-21 00:08:57</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

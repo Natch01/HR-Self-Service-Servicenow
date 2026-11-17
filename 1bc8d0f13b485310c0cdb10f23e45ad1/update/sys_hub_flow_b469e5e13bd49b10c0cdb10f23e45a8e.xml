@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1290383000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow para declaração.</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>declarao_de_vnculo</internal_name>
+        <label_cache>[{"name":"397182ce-9164-4035-8eb0-3f2f91dec4aa.solicitante","label":"1 - Get Catalog Variables➛solicitante","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"5e12926e-e36f-404c-8ac5-e55c0bd0e36b":["ah_to"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"397182ce-9164-4035-8eb0-3f2f91dec4aa":["requested_item"],"3556c5bf-b502-409e-a6ef-3429bb925f6f":["ah_requested_item"],"f3ab04c4-ee56-4c2f-9b35-17e2ac14d63f":["record"]},"attributes":{"default_search_field":"number"}}]</label_cache>
+        <master_snapshot>bb6175253b189b10c0cdb10f23e45a0f</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Declaração de Vínculo</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>c07175253b189b10c0cdb10f23e45a8a</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:10:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b469e5e13bd49b10c0cdb10f23e45a8e</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Declaração de Vínculo</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name>sys_hub_flow_b469e5e13bd49b10c0cdb10f23e45a8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:36:59</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>3cd3a2123b6413d0c0cdb10f23e45a44</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <published_version/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c07175253b189b10c0cdb10f23e45a8a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:26:46</sys_updated_on>
+        <trigger_definition/>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b469e5e13bd49b10c0cdb10f23e45a8e^sys_idNOT INf869e5e13bd49b10c0cdb10f23e45a8f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b469e5e13bd49b10c0cdb10f23e45a8e</id>
+        <name>Declaração de Vínculo</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:10:28</sys_created_on>
+        <sys_id>f869e5e13bd49b10c0cdb10f23e45a8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:10:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f869e5e13bd49b10c0cdb10f23e45a8f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b469e5e13bd49b10c0cdb10f23e45a8e^sys_idNOT IN987969253bd49b10c0cdb10f23e45a1e,a47969253bd49b10c0cdb10f23e45a70"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Declaração de Vínculo">b469e5e13bd49b10c0cdb10f23e45a8e</model>
+        <model_id>b469e5e13bd49b10c0cdb10f23e45a8e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b469e5e13bd49b10c0cdb10f23e45a8e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:10:42</sys_created_on>
+        <sys_id>987969253bd49b10c0cdb10f23e45a1e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:22:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=987969253bd49b10c0cdb10f23e45a1e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Declaração de Vínculo">b469e5e13bd49b10c0cdb10f23e45a8e</model>
+        <model_id>b469e5e13bd49b10c0cdb10f23e45a8e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b469e5e13bd49b10c0cdb10f23e45a8e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:10:43</sys_created_on>
+        <sys_id>a47969253bd49b10c0cdb10f23e45a70</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:36:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a47969253bd49b10c0cdb10f23e45a70"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=b469e5e13bd49b10c0cdb10f23e45a8e^sys_idNOT INd47969253bd49b10c0cdb10f23e45a15"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">b469e5e13bd49b10c0cdb10f23e45a8e</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:10:42</sys_created_on>
+        <sys_id>d47969253bd49b10c0cdb10f23e45a15</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:35:00</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61T32vbMBD+V4KeNvDATtZm8dsYFALdCk3Xl1KMIp0SMVlyJdmtF/q/7y62k7TzxqB70/38vrv7dLdjhq/BsJxd13ZyYdzjZGlZwrSN4C03N20FGBRbpwWgv3tc6hBZfrdjagUPNVgM5R+yhKlbbmrKX3PxY+NdbSXWqMsTCEUQ2k6OGZN3EhSvTXxPucuSb6gDvVdgQESQLFfcBEDP93BqfdUhaLvpHc/Jn/ko5+HvfF5mvIHFfcJKbiWPzrfHJO/KGygrwyMcnM5L8CzP0jRhDRFdtWEpO1TLS8L3tS2IYaHpKE0/DT6lDtisvT16xFYb6cHiXZBCxT12iNR/9yqkCeI8XaRiPl3M59N0NktTdbZWQgkx/5Sl59nZAhuOC2OUWHylktPJ4CmClScL+307Hri8subo2KL8uqlK/hT0T2z+MaU8Bb67LsUOZtFvY1gEsQh7fZp/V14zJt1+kJS0NdbrhWqaMbENqyBd9Ghf/j/B7M0Ep0SwW91VFbVDsbAZnZavDdWENnQH9yCwpIhebzZYiEXO1KX9NqaLnv2JSuuA14KKFEEnHr7Hauser4dzXmi7p9QHjRPcHCweEXldR9rfjnHZcKwgRUePGM97VRQPNVXs/8mAVewnooQgvK7iZxF1A4dP+wt8tA/9CQUAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b469e5e13bd49b10c0cdb10f23e45a8e^sys_idNOT IN2961ee9e3be013d0c0cdb10f23e45a73,b1bf6d213b189b10c0cdb10f23e45a15,b67ae5653bd49b10c0cdb10f23e45ac6,c5ceadad3bd49b10c0cdb10f23e45a5e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">b469e5e13bd49b10c0cdb10f23e45a8e</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 17:26:19</sys_created_on>
+        <sys_id>2961ee9e3be013d0c0cdb10f23e45a73</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:37:21</sys_updated_on>
+        <ui_id>f3ab04c4-ee56-4c2f-9b35-17e2ac14d63f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTW+jMBT8K5HPCEFIoza3VaJIlbqtlKxy6XaRsR+JJWOobdJmo/z3fYAhKKnaVOqlWm7vy54Z5sHjnghOJmQEPAhvwjGLwigaBsHwehQm4ygJhzyiACHxiKIZYKcGlmuO8ZbKskrs90vQW8FgMKWWynwdh76G5xKMjYWF7HDAZi5MIelu5WYwwzZCcg2KTB6fPFJQjcdb0GSyPyldik/SBCS2LlqAp4DtrqhinrMyA4Xg2uSdm5y5yuB2hhUcquCEgUfg1YLigEBSKg14JKOKU5vrHZlYXWJCA+UPSu66jo1QtiGa0Vcj/uLNo6DqSwGZMSdCF8ZOoCadzlDJJZ7MbKk7vXLU2DSacEhpKe20n2saHgorctWMWJrIdjqXZabuG0VId0DvfZQGQUBR8ayQN7TS5SZ/WbQg50LVkjiKMmdUdhG1VouktBWcPQEJtcYZLQqh1nGh862ohxFK5q8lBn4q8xe804i18imrcPuoKvXnmJ/V6RXVoiLxE4/B4YNHzM5MJTXmSAU1jJ/LCklDzFGIaxVqCeLaCdUw06KwP/CqLTjgB89tQHL1nsPYzdFQvTOPW2BYjKavDX9u90WzDsAHt039c+a/AFpr/l/1K38bqvP/We6uPzu4bwrO/Vdf5v7r7+R+R+Pb2/8j0wfDdz+rPSfVPjd9w1tq4XcZBBGP/mCwdgHyKySa+XwLLpj43F5cgL7di7kAyc0bdNqlAMSA8OKG3sliuOJg5Yrdr+HLtiMcB/XzjXbkv/lDPP0DsACMMiUJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2961ee9e3be013d0c0cdb10f23e45a73"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">b469e5e13bd49b10c0cdb10f23e45a8e</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:38:07</sys_created_on>
+        <sys_id>b1bf6d213b189b10c0cdb10f23e45a15</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:37:21</sys_updated_on>
+        <ui_id>5e12926e-e36f-404c-8ac5-e55c0bd0e36b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YzW7bOBB+FUJnx5UtW7aTUzfeoAHSFoiD7qEpDIqkYm4pURWpuN4gD7PYw572BfaaF9uhSNvyDxx77aAp4JPNIUf8Zvh9MxI/P3iceqdeu9f1wyhu4Y4fNAPf7zZ7vSjoxX630/MbFHs1L8UJg5V4NNQShvdYFGb88BD0Oo1uk7CTXiNsnbT8oH3SZZF/EsTNuNegjLQwrispOOEap5o9PiLwp1xlAk8+7fkYMuKC5iz1Tj9/qXkZzgGlZrl3+rA0tW2YAkdMwNIbuRqznmRmqHTO0zs3vnLrB1OjzKnZP6h57LtmKWWwcYyFYjUvwSnFWuYT71TnBRhyhunHVEwqK74r/gds0vV938zHDCIgZlevMhy67Flz3Mcaw/4F0UXulpKR5IQpGztlMS6EPq/a7IKPmeYytS4aR2LqLUWRpB9s9N7sAdPDAkuhAATLTHypnsGPByM5vp6ivOBpmQo3KSTBYjbCGhIWFdrgefCYYAk8aJjgLIM0DrNc3vPSGbAk9TsBg3os5Bg2VfwurWNigNchnbh+AfZ+af6Ec26ieA+PAWcDXPCEl4TwTMq9x5qnJupcYKXm4UFeh98KA84G68Ia2swYF5LzTL+FPe+Zi+Cx5qTjh2EUhVG7E8w51SMx7URxiDskmNNojAFIgvOvQ5ZgLioiaqwKokS7K7+3wDLl92VKREEZ+m0KahNOR/xISsFwusT8G0D65sLkZM7+5mb2O8sK/UfckMmzrERaIjhHMUEYzSAZox4xVCKDf1gjrpCC06qjG4m4i6riUUMTWaCkUBqWaZjROL+DPzkjALbuVUTXer2Sc3Rw1v5arvwUmjy8ABt0U1Fn4UIdjwip6G5VdjtLbovdp5L75fx8DZZdmkr7/8nq2FV+uq7S2kgrQudEsnXssKTeYvfZe5KtptdTFMuoHL2pJEV5FpwucbzvZtBlf050f6/+8VYpSTg0AFXpFWOuR1D915T9oLmoCWgivCTgem1czqdfgUbsi+QOEokHDOdkdMGZMEedFklUknpROgQafT5cIq3rM6+lMZRpG5aEe0ZNeCOf4+ZiWZZ0UpHTbeH7AcmQQX+ieTpJCMul1BGk9Ws5SW+9W7uMDQqM4FNFgL6MoRkSwigXZ3aANSiNnUlYgu6tiWMCKT9LSSEkiiUHsnLNKUYZA8P1uzr6NUEEq9KHWp/C+kDOsaohSEduOI6ITDXoA34T4Dn7VvCMGS94iI3hTWZBrhYIF+NKDE9/P/1l0T79syXEp3/3wbVbmdriWGe91x7qyim78jTSiViqS+9u3l/NC1Jnz84btttBeGy9e7febEybNJdZ5mJ7ofbb2HxR0JpTqVKEDvte+TyCeQs2uViPyPF7xXZV9UUf7ITjemNHrtsW5HrvDTTchS8spB28ylvoUQh7C4GroSWwi63c/AWU0N78fUMWiqoqot8Z0RUlbGwmTOmnPxFkBBrEqmR2cd3xGvD5mKbaGswiWhflLt9u4fFC8IfL5vDyoBvLNPMXiHPou4ctNp/yeOnqYeebh9bx5uHH0/dFbx6+/AecaamoDBoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b1bf6d213b189b10c0cdb10f23e45a15"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">b469e5e13bd49b10c0cdb10f23e45a8e</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:15:14</sys_created_on>
+        <sys_id>b67ae5653bd49b10c0cdb10f23e45ac6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:37:21</sys_updated_on>
+        <ui_id>397182ce-9164-4035-8eb0-3f2f91dec4aa</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/91V227bOBD9FYHPgqFLncR+200QoEB3C9SLvBQFwcsoJkpdSlJ2vUa+Zh/61K/Ij3UoUbbiNE4CNIu2jxoOOefMzDl6vyVKkjnhRcJZzrjI0yTNkyQ7e5Xyk5ynmcwZACMxqVgJmGngUwvWgaTKQYnxFdOtP9huF2BWSkB0zhzT9TVNJyG5S725wWSpbKPZ5ircwYhYKi0NVGT+/kNMGmawjAND5tuDo6fi1IyDxtRFy0vlEGj0rkdxhIPbNH28AKwnIITehKfejeK1kR5dEhP47KCSgLAKpi3EpGSVZK42GzJ3psWAASbfVnqzy1iqyvW0S/bZqn+xaJ7Fo7pzYgVFeAOw3QkNnevQBPTR6z6puMCGL7CkcK3ZtbXGUdi+dRIK1mp3Po71CW8bp+qqv+IY18PtWrdl9XffLbJ7YDS21iIkaHwDPKXAr1gs6/WuW5eq6noVDnUtmB6lAjNiealA+8FWbckxNybMOaN46zzOLQENJRagJWsaVV3TxtQr1T2KGMvJtcaPSaHrNYKx6rqaMOEJTXAObHKJ8YsufMWM8uz+wme6KjVOhUpTN00g7QdGbmJiN/ZcM2v33HEE9FPrkfedCJxp3zZ/RRjVuD+w8AoCvZt40BU/tq9Fut9JHCXO1wEVQT0H8jrNZ+mJzKc5P0tm+JpIhORpUmQ5vJqyaX5fXBcgNMrp9svtf3UkIbq6/VqJVtfPF93jJAbR/RNYDB7QraiNUBjRMINoAc4+zvv5kkxfTJKO4lrcAWgpPkxXgRK1PaXvqfXxRvwW8vW1/i/xKosWWda4Mx1nOp5Vp2PUJBLBqXiI++AS61HTVk6VQDtdUVXRurErBeuX84DT4/I53Wth2LBhr+xI/0WeZUzyB/Q/k3O/lkjGd5BWsI6xRnbEMPi9CyfpmRTT2Szn0yTlhxfSexfuO85PifF5XveEYQ1eNyj7ajStI4MMhmZ1a5e8FR/BHVjawp9Efw5HwdWy464WIk+xtTRLkuSusz3gWb+qKd21H7SJAv8s2Lv9HHAnoOsk6a5g0ZcyqSeZDS5dJXSLmSW2QhmssoPqfw67NN+aEQgwdG36SruUxuAds/I/Iw3CdSQHN6xbI4JbYvRQIz/O8j58A1Mha7FQDAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b67ae5653bd49b10c0cdb10f23e45ac6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">b469e5e13bd49b10c0cdb10f23e45a8e</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:33:58</sys_created_on>
+        <sys_id>c5ceadad3bd49b10c0cdb10f23e45a5e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:37:21</sys_updated_on>
+        <ui_id>3556c5bf-b502-409e-a6ef-3429bb925f6f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YzY7bNhB+FUGnFnBdyfJf95bu1miBNgHWwfYQpwIlUjYRilRIys7G8NP00FOfYl+sQ4myZcv22q13sUGqm2aG1Dc/35Cjd0uXYvfKRUnPT7BHBoHf9QPP6/uduDMIEnj6aDAcui2Xo5QYy1moUcRIWLy33DliuZGrGOTqA0gwVRlD93cNRTyjDEvC3at371tuhiTsoIl0r5Y7qlMhMRQRBqZvDSDndQnoAE59nxlxQ/brvj2ExAaX13LJJ004JgAoQUyRlpsijpEW8n4tkQThN5yBQMsc3meUa9jQNbafFP0Mnx16xiwh4GFMSt36NbTxKsXJDdJoDBvFOpfWNJ4JGhNVxgaTBOVMX9dlpcGbTFPByyWFm3a1YHnKX5dRcdcbNNNjFTeH0pcrwEoyEw7joPU+Gc/E4rZyZkR5ETmrZCJGbP2GtJY0yrWBvXQJIylsFKYoyyifhpkUc1osBshpe8rgpZ0wsYCPKjrlbRQb/9oQfdQegfymEN8hSY2zv8E2sBi+wsyaAjaIlck5pAUUVIFU0qyKTYHKXbVcda+uGVJqEyNITvgxN9DLiFmnwzK8Zkmx0StANCfWv1XLcmkQHCtc5G3VqCQfc6I0wSHVJK3xabkcEzmHtDrX4DAT09BvW+PCdLVqUu1sjp0AteLYbQXU+aUEesQHy7VNxW9T7bYmt0zzjzOtJNaGaNZiD9OCzjbToA4AXgVsH+kajj07BS/BrWRMkIxnI0qYSSzP06hkw7NwTkBWQixFllmnC8pdnlrB4Gi99rfKUs2E1MaRYkOTlw27fkqpptLBJGZAkYe/Hv4U8OLMH/7mcc5Ek1qPLziPeSd4UjFvbPxwbrb8OO6l5Z+C1PPpDvnGldAyr3PmGXeYen7H817uOfelHGBPcB4dL7V4q5wS00BUjSmAA0AWjk6lyLNJ7nkBXk4qgkzcq4l7+7PznfPKVBE1lmLitiblDoW630nQD8OkF0TdYS/wvdiLceR7SScg3R7qB4U5eB1SfKL96o9axZeQLEPRQY46seCJkClxEsoRZAeBkjgUU5EihxY6hIVyuHAygikW7WYf+NrDceb94vHSq7rcqCq8PbVY3d1JCiHWJCxrc+f+bpXOnVXa/hZcrL/1e43+trkc72tz9uLmvC1NXkDLK+9RX3zHozzLtWpvj3iPdMHkaClGna3KWyCqaz3Qb/YBO1OcR4cTMFR0+L1E0IBkqRAJwQjiuxwAUN+PirFmXf/di9V/9+Ue7jYb+ydYq/xKT/9Haq72Z2fdXmM7cO5MpBeYN08Aw3b7edVFt8fOQ2DPHz17FyPIntkT0B2bPXd8ewEnxH+fPMs/aM8zd8LwswhV8f2nGzoH0dGirf1zrGpxbnGqy7LnBCAVe6rCuqshOQKyGhhZrmZRHn8geoc3Y6NxfqxUljr9/2fHf3l6UBUm0L4gdps8hJyQIpL2z2Tr6WgjcglBrQJgGlQoisgAhoVb0QFUi2SD75tvzU9UHrMckzCF8FAJX16ria79azXhqgEjMlzI8usXp+n7fwAqE8McxBgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c5ceadad3bd49b10c0cdb10f23e45a5e"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b469e5e13bd49b10c0cdb10f23e45a8e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:10:43</sys_created_on>
+        <sys_id>647969253bd49b10c0cdb10f23e45a7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:10:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b469e5e13bd49b10c0cdb10f23e45a8e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:10:43</sys_created_on>
+        <sys_id>987969253bd49b10c0cdb10f23e45a5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:10:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b469e5e13bd49b10c0cdb10f23e45a8e"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow para declaração.</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>declarao_de_vnculo</internal_name>
+        <label_cache>[{"name":"397182ce-9164-4035-8eb0-3f2f91dec4aa.solicitante","label":"1 - Get Catalog Variables➛solicitante","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"5e12926e-e36f-404c-8ac5-e55c0bd0e36b":["ah_to"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"397182ce-9164-4035-8eb0-3f2f91dec4aa":["requested_item"],"3556c5bf-b502-409e-a6ef-3429bb925f6f":["ah_requested_item"],"f3ab04c4-ee56-4c2f-9b35-17e2ac14d63f":["record"]},"attributes":{"default_search_field":"number"}}]</label_cache>
+        <master>true</master>
+        <name>Declaração de Vínculo</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Declaração de Vínculo">b469e5e13bd49b10c0cdb10f23e45a8e</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb6175253b189b10c0cdb10f23e45a0f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:36:53</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=bb6175253b189b10c0cdb10f23e45a0f^sys_idNOT INf36175253b189b10c0cdb10f23e45a11"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>bb6175253b189b10c0cdb10f23e45a0f</id>
+        <name>Declaração de Vínculo</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_id>f36175253b189b10c0cdb10f23e45a11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:45:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f36175253b189b10c0cdb10f23e45a11"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=bb6175253b189b10c0cdb10f23e45a0f^sys_idNOT IN447175253b189b10c0cdb10f23e45a39,fb6175253b189b10c0cdb10f23e45a12"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Declaração de Vínculo">bb6175253b189b10c0cdb10f23e45a0f</model>
+        <model_id>bb6175253b189b10c0cdb10f23e45a0f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_bb6175253b189b10c0cdb10f23e45a0f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_id>447175253b189b10c0cdb10f23e45a39</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:36:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=447175253b189b10c0cdb10f23e45a39"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Declaração de Vínculo">bb6175253b189b10c0cdb10f23e45a0f</model>
+        <model_id>bb6175253b189b10c0cdb10f23e45a0f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_bb6175253b189b10c0cdb10f23e45a0f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_id>fb6175253b189b10c0cdb10f23e45a12</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:36:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fb6175253b189b10c0cdb10f23e45a12"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=bb6175253b189b10c0cdb10f23e45a0f^sys_idNOT IN8c7175253b189b10c0cdb10f23e45a5e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">bb6175253b189b10c0cdb10f23e45a0f</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_id>8c7175253b189b10c0cdb10f23e45a5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:45:38</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61T32vbMBD+V4KeNvDATtZm8dsYFALdCk3Xl1KMIp0SMVlyJdmtF/q/7y62k7TzxqB70/38vrv7dLdjhq/BsJxd13ZyYdzjZGlZwrSN4C03N20FGBRbpwWgv3tc6hBZfrdjagUPNVgM5R+yhKlbbmrKX3PxY+NdbSXWqMsTCEUQ2k6OGZN3EhSvTXxPucuSb6gDvVdgQESQLFfcBEDP93BqfdUhaLvpHc/Jn/ko5+HvfF5mvIHFfcJKbiWPzrfHJO/KGygrwyMcnM5L8CzP0jRhDRFdtWEpO1TLS8L3tS2IYaHpKE0/DT6lDtisvT16xFYb6cHiXZBCxT12iNR/9yqkCeI8XaRiPl3M59N0NktTdbZWQgkx/5Sl59nZAhuOC2OUWHylktPJ4CmClScL+307Hri8subo2KL8uqlK/hT0T2z+MaU8Bb67LsUOZtFvY1gEsQh7fZp/V14zJt1+kJS0NdbrhWqaMbENqyBd9Ghf/j/B7M0Ep0SwW91VFbVDsbAZnZavDdWENnQH9yCwpIhebzZYiEXO1KX9NqaLnv2JSuuA14KKFEEnHr7Hauser4dzXmi7p9QHjRPcHCweEXldR9rfjnHZcKwgRUePGM97VRQPNVXs/8mAVewnooQgvK7iZxF1A4dP+wt8tA/9CQUAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bb6175253b189b10c0cdb10f23e45a0f^sys_idNOT IN087175253b189b10c0cdb10f23e45a5d,0c7175253b189b10c0cdb10f23e45a5b,7b71ae9a3b2413d0c0cdb10f23e45a9d,cc7175253b189b10c0cdb10f23e45a59"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">bb6175253b189b10c0cdb10f23e45a0f</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_id>087175253b189b10c0cdb10f23e45a5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:45:38</sys_updated_on>
+        <ui_id>5e12926e-e36f-404c-8ac5-e55c0bd0e36b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YzW7bOBB+FUJnx5UtW7aTUzfeoAHSFoiD7qEpDIqkYm4pURWpuN4gD7PYw572BfaaF9uhSNvyDxx77aAp4JPNIUf8Zvh9MxI/P3iceqdeu9f1wyhu4Y4fNAPf7zZ7vSjoxX630/MbFHs1L8UJg5V4NNQShvdYFGb88BD0Oo1uk7CTXiNsnbT8oH3SZZF/EsTNuNegjLQwrispOOEap5o9PiLwp1xlAk8+7fkYMuKC5iz1Tj9/qXkZzgGlZrl3+rA0tW2YAkdMwNIbuRqznmRmqHTO0zs3vnLrB1OjzKnZP6h57LtmKWWwcYyFYjUvwSnFWuYT71TnBRhyhunHVEwqK74r/gds0vV938zHDCIgZlevMhy67Flz3Mcaw/4F0UXulpKR5IQpGztlMS6EPq/a7IKPmeYytS4aR2LqLUWRpB9s9N7sAdPDAkuhAATLTHypnsGPByM5vp6ivOBpmQo3KSTBYjbCGhIWFdrgefCYYAk8aJjgLIM0DrNc3vPSGbAk9TsBg3os5Bg2VfwurWNigNchnbh+AfZ+af6Ec26ieA+PAWcDXPCEl4TwTMq9x5qnJupcYKXm4UFeh98KA84G68Ia2swYF5LzTL+FPe+Zi+Cx5qTjh2EUhVG7E8w51SMx7URxiDskmNNojAFIgvOvQ5ZgLioiaqwKokS7K7+3wDLl92VKREEZ+m0KahNOR/xISsFwusT8G0D65sLkZM7+5mb2O8sK/UfckMmzrERaIjhHMUEYzSAZox4xVCKDf1gjrpCC06qjG4m4i6riUUMTWaCkUBqWaZjROL+DPzkjALbuVUTXer2Sc3Rw1v5arvwUmjy8ABt0U1Fn4UIdjwip6G5VdjtLbovdp5L75fx8DZZdmkr7/8nq2FV+uq7S2kgrQudEsnXssKTeYvfZe5KtptdTFMuoHL2pJEV5FpwucbzvZtBlf050f6/+8VYpSTg0AFXpFWOuR1D915T9oLmoCWgivCTgem1czqdfgUbsi+QOEokHDOdkdMGZMEedFklUknpROgQafT5cIq3rM6+lMZRpG5aEe0ZNeCOf4+ZiWZZ0UpHTbeH7AcmQQX+ieTpJCMul1BGk9Ws5SW+9W7uMDQqM4FNFgL6MoRkSwigXZ3aANSiNnUlYgu6tiWMCKT9LSSEkiiUHsnLNKUYZA8P1uzr6NUEEq9KHWp/C+kDOsaohSEduOI6ITDXoA34T4Dn7VvCMGS94iI3hTWZBrhYIF+NKDE9/P/1l0T79syXEp3/3wbVbmdriWGe91x7qyim78jTSiViqS+9u3l/NC1Jnz84btttBeGy9e7febEybNJdZ5mJ7ofbb2HxR0JpTqVKEDvte+TyCeQs2uViPyPF7xXZV9UUf7ITjemNHrtsW5HrvDTTchS8spB28ylvoUQh7C4GroSWwi63c/AWU0N78fUMWiqoqot8Z0RUlbGwmTOmnPxFkBBrEqmR2cd3xGvD5mKbaGswiWhflLt9u4fFC8IfL5vDyoBvLNPMXiHPou4ctNp/yeOnqYeebh9bx5uHH0/dFbx6+/AecaamoDBoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=087175253b189b10c0cdb10f23e45a5d"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">bb6175253b189b10c0cdb10f23e45a0f</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_id>0c7175253b189b10c0cdb10f23e45a5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:45:38</sys_updated_on>
+        <ui_id>3556c5bf-b502-409e-a6ef-3429bb925f6f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YzY7bNhB+FUGnFnBdyfJf95bu1miBNgHWwfYQpwIlUjYRilRIys7G8NP00FOfYl+sQ4myZcv22q13sUGqm2aG1Dc/35Cjd0uXYvfKRUnPT7BHBoHf9QPP6/uduDMIEnj6aDAcui2Xo5QYy1moUcRIWLy33DliuZGrGOTqA0gwVRlD93cNRTyjDEvC3at371tuhiTsoIl0r5Y7qlMhMRQRBqZvDSDndQnoAE59nxlxQ/brvj2ExAaX13LJJ004JgAoQUyRlpsijpEW8n4tkQThN5yBQMsc3meUa9jQNbafFP0Mnx16xiwh4GFMSt36NbTxKsXJDdJoDBvFOpfWNJ4JGhNVxgaTBOVMX9dlpcGbTFPByyWFm3a1YHnKX5dRcdcbNNNjFTeH0pcrwEoyEw7joPU+Gc/E4rZyZkR5ETmrZCJGbP2GtJY0yrWBvXQJIylsFKYoyyifhpkUc1osBshpe8rgpZ0wsYCPKjrlbRQb/9oQfdQegfymEN8hSY2zv8E2sBi+wsyaAjaIlck5pAUUVIFU0qyKTYHKXbVcda+uGVJqEyNITvgxN9DLiFmnwzK8Zkmx0StANCfWv1XLcmkQHCtc5G3VqCQfc6I0wSHVJK3xabkcEzmHtDrX4DAT09BvW+PCdLVqUu1sjp0AteLYbQXU+aUEesQHy7VNxW9T7bYmt0zzjzOtJNaGaNZiD9OCzjbToA4AXgVsH+kajj07BS/BrWRMkIxnI0qYSSzP06hkw7NwTkBWQixFllmnC8pdnlrB4Gi99rfKUs2E1MaRYkOTlw27fkqpptLBJGZAkYe/Hv4U8OLMH/7mcc5Ek1qPLziPeSd4UjFvbPxwbrb8OO6l5Z+C1PPpDvnGldAyr3PmGXeYen7H817uOfelHGBPcB4dL7V4q5wS00BUjSmAA0AWjk6lyLNJ7nkBXk4qgkzcq4l7+7PznfPKVBE1lmLitiblDoW630nQD8OkF0TdYS/wvdiLceR7SScg3R7qB4U5eB1SfKL96o9axZeQLEPRQY46seCJkClxEsoRZAeBkjgUU5EihxY6hIVyuHAygikW7WYf+NrDceb94vHSq7rcqCq8PbVY3d1JCiHWJCxrc+f+bpXOnVXa/hZcrL/1e43+trkc72tz9uLmvC1NXkDLK+9RX3zHozzLtWpvj3iPdMHkaClGna3KWyCqaz3Qb/YBO1OcR4cTMFR0+L1E0IBkqRAJwQjiuxwAUN+PirFmXf/di9V/9+Ue7jYb+ydYq/xKT/9Haq72Z2fdXmM7cO5MpBeYN08Aw3b7edVFt8fOQ2DPHz17FyPIntkT0B2bPXd8ewEnxH+fPMs/aM8zd8LwswhV8f2nGzoH0dGirf1zrGpxbnGqy7LnBCAVe6rCuqshOQKyGhhZrmZRHn8geoc3Y6NxfqxUljr9/2fHf3l6UBUm0L4gdps8hJyQIpL2z2Tr6WgjcglBrQJgGlQoisgAhoVb0QFUi2SD75tvzU9UHrMckzCF8FAJX16ria79azXhqgEjMlzI8usXp+n7fwAqE8McxBgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0c7175253b189b10c0cdb10f23e45a5b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">bb6175253b189b10c0cdb10f23e45a0f</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 17:26:45</sys_created_on>
+        <sys_id>7b71ae9a3b2413d0c0cdb10f23e45a9d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:36:53</sys_updated_on>
+        <ui_id>f3ab04c4-ee56-4c2f-9b35-17e2ac14d63f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTW+jMBT8K5HPCEFIoza3VaJIlbqtlKxy6XaRsR+JJWOobdJmo/z3fYAhKKnaVOqlWm7vy54Z5sHjnghOJmQEPAhvwjGLwigaBsHwehQm4ygJhzyiACHxiKIZYKcGlmuO8ZbKskrs90vQW8FgMKWWynwdh76G5xKMjYWF7HDAZi5MIelu5WYwwzZCcg2KTB6fPFJQjcdb0GSyPyldik/SBCS2LlqAp4DtrqhinrMyA4Xg2uSdm5y5yuB2hhUcquCEgUfg1YLigEBSKg14JKOKU5vrHZlYXWJCA+UPSu66jo1QtiGa0Vcj/uLNo6DqSwGZMSdCF8ZOoCadzlDJJZ7MbKk7vXLU2DSacEhpKe20n2saHgorctWMWJrIdjqXZabuG0VId0DvfZQGQUBR8ayQN7TS5SZ/WbQg50LVkjiKMmdUdhG1VouktBWcPQEJtcYZLQqh1nGh862ohxFK5q8lBn4q8xe804i18imrcPuoKvXnmJ/V6RXVoiLxE4/B4YNHzM5MJTXmSAU1jJ/LCklDzFGIaxVqCeLaCdUw06KwP/CqLTjgB89tQHL1nsPYzdFQvTOPW2BYjKavDX9u90WzDsAHt039c+a/AFpr/l/1K38bqvP/We6uPzu4bwrO/Vdf5v7r7+R+R+Pb2/8j0wfDdz+rPSfVPjd9w1tq4XcZBBGP/mCwdgHyKySa+XwLLpj43F5cgL7di7kAyc0bdNqlAMSA8OKG3sliuOJg5Yrdr+HLtiMcB/XzjXbkv/lDPP0DsACMMiUJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7b71ae9a3b2413d0c0cdb10f23e45a9d"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Declaração de Vínculo">bb6175253b189b10c0cdb10f23e45a0f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_id>cc7175253b189b10c0cdb10f23e45a59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:45:38</sys_updated_on>
+        <ui_id>397182ce-9164-4035-8eb0-3f2f91dec4aa</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/91V227bOBD9FYHPgqFLncR+200QoEB3C9SLvBQFwcsoJkpdSlJ2vUa+Zh/61K/Ij3UoUbbiNE4CNIu2jxoOOefMzDl6vyVKkjnhRcJZzrjI0yTNkyQ7e5Xyk5ynmcwZACMxqVgJmGngUwvWgaTKQYnxFdOtP9huF2BWSkB0zhzT9TVNJyG5S725wWSpbKPZ5ircwYhYKi0NVGT+/kNMGmawjAND5tuDo6fi1IyDxtRFy0vlEGj0rkdxhIPbNH28AKwnIITehKfejeK1kR5dEhP47KCSgLAKpi3EpGSVZK42GzJ3psWAASbfVnqzy1iqyvW0S/bZqn+xaJ7Fo7pzYgVFeAOw3QkNnevQBPTR6z6puMCGL7CkcK3ZtbXGUdi+dRIK1mp3Po71CW8bp+qqv+IY18PtWrdl9XffLbJ7YDS21iIkaHwDPKXAr1gs6/WuW5eq6noVDnUtmB6lAjNiealA+8FWbckxNybMOaN46zzOLQENJRagJWsaVV3TxtQr1T2KGMvJtcaPSaHrNYKx6rqaMOEJTXAObHKJ8YsufMWM8uz+wme6KjVOhUpTN00g7QdGbmJiN/ZcM2v33HEE9FPrkfedCJxp3zZ/RRjVuD+w8AoCvZt40BU/tq9Fut9JHCXO1wEVQT0H8jrNZ+mJzKc5P0tm+JpIhORpUmQ5vJqyaX5fXBcgNMrp9svtf3UkIbq6/VqJVtfPF93jJAbR/RNYDB7QraiNUBjRMINoAc4+zvv5kkxfTJKO4lrcAWgpPkxXgRK1PaXvqfXxRvwW8vW1/i/xKosWWda4Mx1nOp5Vp2PUJBLBqXiI++AS61HTVk6VQDtdUVXRurErBeuX84DT4/I53Wth2LBhr+xI/0WeZUzyB/Q/k3O/lkjGd5BWsI6xRnbEMPi9CyfpmRTT2Szn0yTlhxfSexfuO85PifF5XveEYQ1eNyj7ajStI4MMhmZ1a5e8FR/BHVjawp9Efw5HwdWy464WIk+xtTRLkuSusz3gWb+qKd21H7SJAv8s2Lv9HHAnoOsk6a5g0ZcyqSeZDS5dJXSLmSW2QhmssoPqfw67NN+aEQgwdG36SruUxuAds/I/Iw3CdSQHN6xbI4JbYvRQIz/O8j58A1Mha7FQDAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cc7175253b189b10c0cdb10f23e45a59"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bb6175253b189b10c0cdb10f23e45a0f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_id>4c7175253b189b10c0cdb10f23e45a34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:45:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_bb6175253b189b10c0cdb10f23e45a0f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:38</sys_created_on>
+        <sys_id>8c7175253b189b10c0cdb10f23e45a4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-01 19:45:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_bb6175253b189b10c0cdb10f23e45a0f"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>b469e5e13bd49b10c0cdb10f23e45a8e</sys_id>
+        <latest_snapshot>bb6175253b189b10c0cdb10f23e45a0f</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b469e5e13bd49b10c0cdb10f23e45a8e^sys_idNOT IN407175253b189b10c0cdb10f23e45a8b"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"407175253b189b10c0cdb10f23e45a8b","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>b469e5e13bd49b10c0cdb10f23e45a8e</plan_id>
+        <snapshot>c3e3a6123b6413d0c0cdb10f23e45ad0</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-01 19:45:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>407175253b189b10c0cdb10f23e45a8b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 17:36:54</sys_updated_on>
+        <trigger display_value="">c07175253b189b10c0cdb10f23e45a8a</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b469e5e13bd49b10c0cdb10f23e45a8e"/>
+</record_update>

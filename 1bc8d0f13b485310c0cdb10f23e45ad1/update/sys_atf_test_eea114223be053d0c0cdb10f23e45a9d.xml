@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confere o cálculo do período e o bloqueio do envio quando o abono é inválido</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Férias - cálculo de dias e regra do abono - Sem venda</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-17 01:37:05</sys_created_on>
+        <sys_id>eea114223be053d0c0cdb10f23e45a9d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Férias - cálculo de dias e regra do abono - Sem venda</sys_name>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name>sys_atf_test_eea114223be053d0c0cdb10f23e45a9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-17 01:50:19</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=eea114223be053d0c0cdb10f23e45a9d"/>
+</record_update>

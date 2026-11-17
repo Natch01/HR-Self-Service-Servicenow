@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1642024000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow para aprovar férias.</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>aprovao_de_frias</internal_name>
+        <label_cache>[{"name":"flow_variable.dias_a_descontar","label":"Flow Variables➛Dias a descontar","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null,"conditions"],"1140a604-a94d-4fa4-a2b6-bc16402d1cb1":["dias"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e2c82038-3fb4-4ff5-aa01-f9685723e136"}},{"name":"undefined","label":" - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record","usedInstances":{"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null]},"attributes":{}},{"name":"8bf691be-3f51-479e-87e7-dc4f710a8a6b.Record","label":"7 - Look Up Record➛Saldo de Férias Record","reference":"x_1863045_hr_sel_1_saldo_de_ferias","reference_display":"Saldo de Férias","type":"reference","base_type":"reference","usedInstances":{"f087856c-edfa-4580-9ddc-ac08019396ff":["condition"],"059444b2-316a-4c2b-82c6-6313c64657da":["condition"],"1140a604-a94d-4fa4-a2b6-bc16402d1cb1":["saldo"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"080b4085-3932-4219-b4d8-9a3e449ca6e4.solicitante","label":"1 - Get Catalog Variables➛solicitante","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null,"conditions"],"0755d7e8-1b32-4019-bae4-576196708433":["ah_to"],"1140a604-a94d-4fa4-a2b6-bc16402d1cb1":["colaborador"],"1eafe301-a884-4823-9043-5e5fce613b3c":["ah_to"],"4695ab4a-79ba-4cd2-8c44-81b8811a4478":["ah_to"],"1eaad16f-5ffb-48c7-b36d-39a926fe5cc8":["ah_to"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28":["approval_conditions"]}},{"name":"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28.approval_state","label":"12 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"77d96511-bc72-4185-8fc5-7cc363ad08a2":["condition"],"037971df-2985-40ab-a2b2-72832cd90871":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"589ac7cd-de23-4c7c-ae38-7aff643270eb":["condition"],"080b4085-3932-4219-b4d8-9a3e449ca6e4":["requested_item"],"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null],"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28":["record"],"223d8c02-f921-4a1c-b292-2fa01a8441a8":["ah_requested_item"],"1eaad16f-5ffb-48c7-b36d-39a926fe5cc8":["record"],"0a89ad7f-0af9-4c28-9528-5d5cf4ff472f":["record"],"4bef934f-f46c-4e23-9540-fa74b012759c":["record"],"e7d88edb-6112-42ee-8e60-dc69cd0e41a9":["record"],"c9599a38-e623-4a03-a8bb-37f0646b028f":["record"]},"attributes":{"default_search_field":"number"}},{"name":"{{static.04bedcbd3b485310c0cdb10f23e45abd}}","label":"Carlos Gomes","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28":["approval_conditions"]}},{"name":"080b4085-3932-4219-b4d8-9a3e449ca6e4.dias_solicitados","label":"1 - Get Catalog Variables➛dias_solicitados","reference":"","reference_display":"dias_solicitados","type":"string","base_type":"string","usedInstances":{"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"080b4085-3932-4219-b4d8-9a3e449ca6e4.solicitante.manager","label":"1 - Get Catalog Variables➛solicitante➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28":["approval_conditions"],"5a9c0588-5557-4635-9576-ab147a25038e":["condition"]}}]</label_cache>
+        <master_snapshot>4e6cb6893bdc9710c0cdb10f23e45a04</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Aprovação de Férias</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>be6cb6893bdc9710c0cdb10f23e45ac6</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 19:12:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d7349103b901310c0cdb10f23e45a19</sys_id>
+        <sys_mod_count>157</sys_mod_count>
+        <sys_name>Aprovação de Férias</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name>sys_hub_flow_3d7349103b901310c0cdb10f23e45a19</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:35</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>699d2e963ba413d0c0cdb10f23e45a73</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be6cb6893bdc9710c0cdb10f23e45ac6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 11:56:16</sys_updated_on>
+        <trigger_definition/>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3d7349103b901310c0cdb10f23e45a19^sys_idNOT INf57349903b901310c0cdb10f23e45ab8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3d7349103b901310c0cdb10f23e45a19</id>
+        <name>Aprovação de Férias</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 19:12:23</sys_created_on>
+        <sys_id>f57349903b901310c0cdb10f23e45ab8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 19:12:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f57349903b901310c0cdb10f23e45ab8"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3d7349103b901310c0cdb10f23e45a19^sys_idNOT IN88294d5c3b901310c0cdb10f23e45adb,d0d3c5d03b901310c0cdb10f23e45a19"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</model>
+        <model_id>3d7349103b901310c0cdb10f23e45a19</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3d7349103b901310c0cdb10f23e45a19</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 19:37:06</sys_created_on>
+        <sys_id>88294d5c3b901310c0cdb10f23e45adb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 19:37:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=88294d5c3b901310c0cdb10f23e45adb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</model>
+        <model_id>3d7349103b901310c0cdb10f23e45a19</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3d7349103b901310c0cdb10f23e45a19</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 19:13:55</sys_created_on>
+        <sys_id>d0d3c5d03b901310c0cdb10f23e45a19</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d0d3c5d03b901310c0cdb10f23e45a19"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3d7349103b901310c0cdb10f23e45a19^sys_idNOT IN1af5c9d43b901310c0cdb10f23e45a68"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 19:23:20</sys_created_on>
+        <sys_id>1af5c9d43b901310c0cdb10f23e45a68</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 23:32:26</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61T22obMRD9FaOnFlzQ2k1c+60UDIa0gTjtSyiLLI3WolppI2mdbE3+vTO760vSbSmkb9LczpmZM3d7ZsUGLFuwm9qNltY/jFaOjZlxCYIT9rapAJ1y640EtHePKxMTW9ztmV7DfQ0OXYt32Zjpb8LWFL8R8kcRfO0U5uirMwhNEMaNThGjNwq0qG16S7GrUhRUgd5rsCATKLbQwkZAy9d4/vtsYjSu6A1P4z/z0T7A3/k8j3gFi+9jVgqnRPKhOQUFX95CWVmR4Gj0QUFgi4zzMdsR0XUTV6pDdaIk/FC7nBjmhpayG5qu3BqrAjjcB0JXImBmorr7Fy5DpS/5nMvZZD6bTfh0yrm+2GippZx9yPhldjHHgsOCGCSUXqjjvCN4TODU2aB+n0oAoa6dPRm2KLuu/1I8RvMTi7/nFKchdFsl3/GbKxNxpE1n7ljEVpf23xU3ONS+EU6aGqr1TC27IZEdRkF66NE+/X+C2asJTohgN7rrKhmPYmFTWq3YWMqJTewWHkBiSp6CKQpMxCRv69J9GdJFz/5wfWipI24LKlIErfhwFuutf7g5rHNpXEupd1ovhT3+RELkTZ1ofnsm1E5gBik6BcR4alWR39eUwVoGPVbedkQBvViWBmx/ZFEGU6WPMpkdHM/3F9d3SRcTBQAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3d7349103b901310c0cdb10f23e45a19^sys_idNOT IN1eeaa2523ba413d0c0cdb10f23e45ae9,23ef66203bdc9310c0cdb10f23e45a9a,244ae6de3b6413d0c0cdb10f23e45a4b,403c3e493bdc9710c0cdb10f23e45a0e,474dae563ba413d0c0cdb10f23e45ac0,6a3c2ed23ba413d0c0cdb10f23e45af7,71fa4f813b2c9790c0cdb10f23e45a0e,80e0f5d43bd41310c0cdb10f23e45a79,8248c5d03b901310c0cdb10f23e45a3e,c09e6a6c3b9c9310c0cdb10f23e45a17,c0b97a053bdc9710c0cdb10f23e45a56,cfc83e813bdc9710c0cdb10f23e45a4a,f6cc22a83b9c9310c0cdb10f23e45a1f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>059444b2-316a-4c2b-82c6-6313c64657da</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 18:07:53</sys_created_on>
+        <sys_id>1eeaa2523ba413d0c0cdb10f23e45ae9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>4bef934f-f46c-4e23-9540-fa74b012759c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXW/aMBT9K8jPLEqAspY9TUWVKnWtRKe+dF3kxDfUkuOktkPLUP77rj8SUKkYlfpSjSful33OybmE+w3hjMzIBFicnCXTfJyMx6M4Hp1Okmw6zpIRG1OAhAyJpCVgp4K8UgzjFRWNTWw2t6BWPIfBOTVUVMs0iRQ8NaBNyg2UbYvNjOta0PVdmMFM/sgFUyDJ7P5hSGqq8HgDisw2r0rH4hM0A4Gtiw7ga8BmXduYVXlTgkRwXfIqTM5DZXA5xwoOWThJPCTwYkAyQCAFFRqGpKSSUVOpNZkZ1WBCAWU3Uqz7jkcujSda0hfN/+DNk9j2FYDM8iBCH6ZBIJ8u5qjkLZ6cm0b1elWosfaaMChoI8z5bs433NSGV9KPGJqJbroSTSmvvSKkP2DneTQaQUBteVrknlZx+1g9LzqQF1w6SQJFUeVU9BE1RvGsMRbOhoAAp3FJ65rLZVqrasXdMEIpo6XAICpE9Yx3ar6UEc0t7ghVpdEF5ucufUcVtyR+4DE43A6JXutzQbXeUkEN06fGIvHEAoXUqeAkSJ0T7HCueG2+41UrCMDbYdiA7OSQw/KzraF2ztxugc5TNL0z/L7dF34dgA0uff195j8CWmf+n+6Rvw01+H8vd7U7O7j2heD+kw9z/+lncn+g8ent/y/Tx6ODP6s7TnI+17uGN9TAryaOx2zyG4NlCAr2xd8IbH8Rjht633YcwaHbjgsOguk3SHWrASWiNZB6kq/WIxQHd6HYvyA+bEeSaew+n2hT/oP3hKfocxaz8637cqANr8NnIgfW36Ov4QWA/5BQHiGA+fQ3BKLpClivb9u2D38BlecgEZQJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1eeaa2523ba413d0c0cdb10f23e45ae9"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 21:44:45</sys_created_on>
+        <sys_id>23ef66203bdc9310c0cdb10f23e45a9a</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>223d8c02-f921-4a1c-b292-2fa01a8441a8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y247bNhD9FUFPLeC6kuVb9y3dhdECbQKsg+1DnAqURNlEKFEhKTsbwx/Uh35FfqxDkbRly6u1W+9i01ZvmuHlzOUMOXy3dkniXrkoHfhp4uFR4Pf9wPOGfi/ujYIUviEajcdux81RhtXIRShRRHFY/XfcJaKlkosY5OIDSBIiCoru7xqKeEFownHuXr1733ELxGEFibl7tT5QnQqJoghTGPpWAXJea0AP4JT3hRI3ZL8cW4PxROHyOi7+JHGeYACUIipwx81QniDJ+P1WwjFK3uQUBJKX8L8guYQFXTX2kyCfYduxp4alGCyMsdZtf0PjLy1Ob5BEU1goliU3Q+MFIzEW2jcJTlFJ5XVdpge8KSRhuZ5SmWlmM1pm+WvtFXe7QDM8RnHzUPhKAVhxodyhDDTWp9MFW91aYyYkrzxnlJTFiG7/kJScRKVUsNcupjiDhcIMFQXJ52HB2ZJUkwFy1p1T+OmmlK1gU0HmeRfFyr4ueB91JyC/qcR3iBNl7K+wDEyGXaiaU8EGsVAxh7CAggiQclJY31So3E3HFffimiIhdj6C4IQfSwVde8wYHWr3qinVQq8A0RIb+zYdw6VR0Ja4yNvLUY4/llhInIRE4qzGp/V6ivkSwupcg8GUzUO/awZXQzebJtXO5tgJUC3Hbi1Q52cNtMUGw7Vdxu9T7bYmN0zz25mmibUjmhlxhGlBb59pkAcAzwI7RrqGYc9OwUtwK51ixOPFhGCqApuXWaTZ8CycYxCVMOGsKIzRFeUuT61g1Jqvw720FAvGpTKkWlDFZceuWzwnQnLEnfTLH2CMcHLkpIwukJNgp0BzpPzEmhQ7feJ5TDzBMsvEqbLLudmzq91qw0fADUE/IOPUCg0Te2eeeQ9T0e953ss9976WA+0Jzqf2VIv30ilVBUXUmAM4AGRl6JyzspiVnhck65klysy9mrm3PznfOa9UFpGKDjO3M9MrVOphL0U/jNNBEPXHg8D3Yi9OIt9LewHuD9AwqIaD1SFJThy/+b2W8RrSjqnMAUd++ZMlTHHU8hap+KBEKSlz5nAEMN5tEv5fb++ZN4bHk8fWqYlNnSPZZG/jOAMfShzq7Dq4kRulc2eUpkIFF6tQw0GjQu2uu8cKlbmKOW/1kBdQtPTN6KuvWSQvSim6+03bI3UsbU3FqLeXeStEZK2K+U2imy7hPDqcgMHS4TeNoAHJUCFijGKUH3IAQH0/qRqVbf73L5b//Zd7PJtoHO9JjfI/en4/knO1t5pteY1NC3nQY16ggzwBDD2s57aK7jeSD4E9v5kcXIwgR7pJQNfWTR7Y9gJOiH/eS+o3sefpJKF9WYWi2v/p2shR1Jq0tVdEm4tLg1Nclj0nALHssYl1V0PSAtK2fLQUi6iMP2B5wJup0jg/WpWhzvD/7u9vnh5EhCmUL/DdLg5hjnHlSfPW2Hk62rCSg1OtA1SBClnlGcCwci0dQLVKd/i++VY9i+YxLRMcZuAewmHnrRrL2uupclcNGObhiuvdL07T938BF9iHv5YYAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=23ef66203bdc9310c0cdb10f23e45a9a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>5a9c0588-5557-4635-9576-ab147a25038e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 18:05:02</sys_created_on>
+        <sys_id>244ae6de3b6413d0c0cdb10f23e45a4b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>0a89ad7f-0af9-4c28-9528-5d5cf4ff472f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXW/aMBT9K8jPLEqAspY9TUWVKnWtRKe+dF3kxDfUkuOktkPLUP77rj8SUKkYlfpSjSful33OybmE+w3hjMzIBFicnCXTfJyMx6M4Hp1Okmw6zpIRG1OAhAyJpCVgp4K8UgzjFRWNTWw2t6BWPIfBOTVUVMs0iRQ8NaBNyg2UbYvNjOta0PVdmMFM/sgFUyDJ7P5hSGqq8HgDisw2r0rH4hM0A4Gtiw7ga8BmXduYVXlTgkRwXfIqTM5DZXA5xwoOWThJPCTwYkAyQCAFFRqGpKSSUVOpNZkZ1WBCAWU3Uqz7jkcujSda0hfN/+DNk9j2FYDM8iBCH6ZBIJ8u5qjkLZ6cm0b1elWosfaaMChoI8z5bs433NSGV9KPGJqJbroSTSmvvSKkP2DneTQaQUBteVrknlZx+1g9LzqQF1w6SQJFUeVU9BE1RvGsMRbOhoAAp3FJ65rLZVqrasXdMEIpo6XAICpE9Yx3ar6UEc0t7ghVpdEF5ucufUcVtyR+4DE43A6JXutzQbXeUkEN06fGIvHEAoXUqeAkSJ0T7HCueG2+41UrCMDbYdiA7OSQw/KzraF2ztxugc5TNL0z/L7dF34dgA0uff195j8CWmf+n+6Rvw01+H8vd7U7O7j2heD+kw9z/+lncn+g8ent/y/Tx6ODP6s7TnI+17uGN9TAryaOx2zyG4NlCAr2xd8IbH8Rjht633YcwaHbjgsOguk3SHWrASWiNZB6kq/WIxQHd6HYvyA+bEeSaew+n2hT/oP3hKfocxaz8637cqANr8NnIgfW36Ov4QWA/5BQHiGA+fQ3BKLpClivb9u2D38BlecgEZQJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=244ae6de3b6413d0c0cdb10f23e45a4b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>19</order>
+        <parent_ui_id>037971df-2985-40ab-a2b2-72832cd90871</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:55:16</sys_created_on>
+        <sys_id>403c3e493bdc9710c0cdb10f23e45a0e</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>4695ab4a-79ba-4cd2-8c44-81b8811a4478</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X3W7bNhTHX4XQte3Kli3byVUXL1iBtAXqoLtoCoOiKJsrRWoiFdcN8jS7GPYcebEdStSH7dS1ExdLsFwlOvz6n8P/j6Q/3TgsdE6cfjhy/SDq46Hr9TzXHfXG48AbR+5oOHa7JHRajsAxhZ4pJTI139eYZyYA/4ZMJRyvPtYRsmA8TKlwTj59bjkJTmGwpqlzcrPRtO/qHAeUQ9dLnM6pRh9KFZuq9Cox36EkWUyFnrEyeGEnmNgW9GYCLTDIqHJbDv2qqQgpyIkwV7TlxFiEWMt0VUVSisP3gteBBRMapnytlCQMa6qQXlBEY8w4WjK9QBgVwjqOme+rYt9AnNczU0UUakCMViYIC0GR0wjPbEmh+U3dHE2wxlOdZkRnaVVpyQhVRTVDGuGM67NmrOjwPtFMimKIxgEvR0uexeJdUUSnmqCxk5kCMTQxtTHJwuKQeDRdyOWHUuw5E3kVbVW4JJhXX9GU4pQszhnlZqtFFgfQt+VgrVMWZNrIBFNw6FWvM8ulmrWgJ+U038oYJwkT81mSymuWLwjy486cw0cn4nIJ4xWbiw4mJtcO7B7unEN8koc/4pSZxN/CNDD4tuWolTrjWKk6faj/7M/MqC+KsS7HjJ7lhjODScoS/RqWuqY22duWpak73uXnsF/7tjHnUYnaQ0FNlHHD/YosTVuxi+ZY9K5osCx1D2SpcJRF6RL40QXiBTlIW3kVPiN3HZ/vYPM0cKkg2JuXdS5+jvfBJGpWGNjmli/+ACZ+RILr+0HgB4OhV/twTKJwGEQ+HhKv9t0Szs80xumXWX5+NnDobvNgT4bDmNhDS8kEnLk8Cyn6vRS1S6eFJJASDjGxSQgofXWeV7cipPeo26awJtISwWbyFdwxlSQTrG8gvcAaMYUU7FYHXUrEbFaNES20khmKM6Whm4aWNfjWrq3+0+XO2sFGJ/d65VmAeXwAB7svAlwbGy9mWjawu7lxR27Qd0eDtjf2eu1+rztuB/BUa4+xR/v9McE+7XeU5IwwjYWmt7doG9WHTnMY23ukWd13cjtni7CCHRbzDYKnZdDS6+2mt7jOtuBtXF/u0wXpuXBihHMWs9wQBeHHRyfc6SnqrtmIkOM+4PZYvDT02dm2kkMM3X/YdfTi6Gfn6O7O39nUX/NRcGxL77F6aelfNjwdHGzqwYup/yemHuy2FVkzksqCPyjRDWNP7cPj7u+7vySC13F09w8koZAw39gUAufvhw377z3uwIfMj7MpIZlWudyX3yGw+C9Pmv+cleODgXdaKeqtn7AyXDWouMpc1yMJMprbmolVTGgqpQ6gMF/yxvDKuSq60SnN0JwqMAsSJtLzsQZj01PLAfzCxKh84BcdCKEh46cbvQ1FRYhiAuU+NUB10K9Cp+ZHLSJSaPAk/I0R7AIyMCH4ratgpMZ8QVWnEP4qKZRtY2sT2xZeUbumdpPuR4o57CzYYwOrC7PYvq39tKfAQsd84wz47fLtRX0CDB95XfqDgee/nAGPvi+TZdgLU5kkNrcj35mf/wXvEBzC8BkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=403c3e493bdc9710c0cdb10f23e45a0e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>20</order>
+        <parent_ui_id>037971df-2985-40ab-a2b2-72832cd90871</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 18:18:19</sys_created_on>
+        <sys_id>474dae563ba413d0c0cdb10f23e45ac0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>c9599a38-e623-4a03-a8bb-37f0646b028f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXW/aMBT9K8jPLEqAspY9TUWVKnWtRKe+dF3kxDfUkuOktkPLUP77rj8SUKkYlfpSjSful33OybmE+w3hjMzIBFicnCXTfJyMx6M4Hp1Okmw6zpIRG1OAhAyJpCVgp4K8UgzjFRWNTWw2t6BWPIfBOTVUVMs0iRQ8NaBNyg2UbYvNjOta0PVdmMFM/sgFUyDJ7P5hSGqq8HgDisw2r0rH4hM0A4Gtiw7ga8BmXduYVXlTgkRwXfIqTM5DZXA5xwoOWThJPCTwYkAyQCAFFRqGpKSSUVOpNZkZ1WBCAWU3Uqz7jkcujSda0hfN/+DNk9j2FYDM8iBCH6ZBIJ8u5qjkLZ6cm0b1elWosfaaMChoI8z5bs433NSGV9KPGJqJbroSTSmvvSKkP2DneTQaQUBteVrknlZx+1g9LzqQF1w6SQJFUeVU9BE1RvGsMRbOhoAAp3FJ65rLZVqrasXdMEIpo6XAICpE9Yx3ar6UEc0t7ghVpdEF5ucufUcVtyR+4DE43A6JXutzQbXeUkEN06fGIvHEAoXUqeAkSJ0T7HCueG2+41UrCMDbYdiA7OSQw/KzraF2ztxugc5TNL0z/L7dF34dgA0uff195j8CWmf+n+6Rvw01+H8vd7U7O7j2heD+kw9z/+lncn+g8ent/y/Tx6ODP6s7TnI+17uGN9TAryaOx2zyG4NlCAr2xd8IbH8Rjht633YcwaHbjgsOguk3SHWrASWiNZB6kq/WIxQHd6HYvyA+bEeSaew+n2hT/oP3hKfocxaz8637cqANr8NnIgfW36Ov4QWA/5BQHiGA+fQ3BKLpClivb9u2D38BlecgEZQJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=474dae563ba413d0c0cdb10f23e45ac0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 18:13:38</sys_created_on>
+        <sys_id>6a3c2ed23ba413d0c0cdb10f23e45af7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>e7d88edb-6112-42ee-8e60-dc69cd0e41a9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5WfuyppSoHuaaKqhMRAKhMvwCI3vmktOU6wnUJX5b/v+iNpBYgViZdqfer9ss85OTe53xLOyISMgEXxeTzOkjhJhlE0PBvFi3GyiIcsoQAx6RNJC8BOBVmpGMZrKmqb2G5vQa15Br0Laqgol2k8UPBUgzYpN1A0DTYzritBN3dhBjPZigumQJLJ/WOfVFTh8QYUmWxflQ7FJ+gCBLbOW4CvAZtNZWNWZnUBEsG1yaswOQ2V3uUUKzhk4cRRn8CLAckAgeRUaOiTgkpGTak2ZGJUjQkFlN1Isek6VlwaT7SgL5r/wZtHke3LAZllQYQuTINAPp1PUclbPDkzter0KlFj7TVhkNNamIv9nG+4qQwvpR8xdCHa6VLUhbz2ipDugL3nUWsEAZXlaZF7WvntqnyetyBnXDpJAkVRZlR0ETVG8UVtLJwtAQFO44JWFZfLtFLlmrthhFIMlgKDQS7KZ7xT86Uc0MziHqCqdDDD/NSl76jilsRPPAaHmz7RG30hqNY7Kqhh+lRbJJ5YoJA6FZwEqXOCHc4Ur8wPvGoNAXjTDxuwOPnIYdn5zlB7Z+62QGcpmt4Z/q3d534dgPUuff1z5j8AWmv+X+6Rvw81+P9N7mp/tnftC8H9J1/m/rNjcn+gcfT2/5fpo+GHr9U9Jzmf633DG2rgoY6ihCW/MViGIGff/I3A3i7CYUOf244DOLTbMeMgmH6HVLsaUCBaA6kn+Wo9QrF3F4rdB+LLdiQeR+53RJvyH3wnPEWfs5idb92fD9rwOnwmsmf9PTxFLpUAb/3h6Xe8X9M1sE7Wpmke/wJZlL/fiwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a3c2ed23ba413d0c0cdb10f23e45af7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>5a9c0588-5557-4635-9576-ab147a25038e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:15:31</sys_created_on>
+        <sys_id>71fa4f813b2c9790c0cdb10f23e45a0e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>1eaad16f-5ffb-48c7-b36d-39a926fe5cc8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X3W7bNhTHX4XTtePK33Fy1SUIGiBNgTjrLprCoCjK5kqJCkk5dYMAfZDtIthFsQG72xv4TfokOxQp27JT1048LMFylYiHH/9z+P+R9Ltrj4XentcMd/12EDVxx2/UG76/W+92g0Y38nc7Xb9GQq/iJTim0FNSIqT5HmGemYbr6x6VI0YoOsAaczHo16qSXmZU6T7TNL65gc4hUynH47duDLSQIeOhpIm39+59xUuxhOk1ld7e9UJoXX0cB5RD13MsB1Sjs0Lnom49Ts13KEgW0wQ0Fo0nboJDF0HHhxCBQUaVX/HoR02TkIKcCHNFK16MkxBrIcfTFklx+Cbhs4YhSzRM+VIpQRjWVCE9pIjGmHF0xfQQYWSFVT0z30fFPoG4Rt1MFVGoATFaWUJYCIq8uea+KymEj2fh6BD2oKdlRnQmp5UWsDvKVjOkEc64Pphvsx3epJqJxA7ROODFaMGzODm1RfSmE8ztZKZADE1NbUyysDgkHvWG4uqsEHvEkryKripcEMynX1GPYkmGR4xys9VJFgfQt+JhrSULMm1kgik49Jqt08+lmrWgJ+U038oYpylLBv1UihHLFwT5cXXA4aMacXEF4xUbJFVMTK5V2D1cPYL2w7z5LZbMJP4apoHBNxVPjdUBx0rN0of69y8zo94WoyzHjO7nhjODiWSpfglLjahL9qbieKt1V/k5bM58OzfnjDlF+oBYjtcyXGcWPhqiYxvfDLU1pM1QMza5W6rDbKntZH4sOrUBB1ltQ8is1Rxj5wCWtuxbpJB28qZc7fplrr7B0+PgaErH2iCVgfl3oACTqL51tsstX/wesHwPEb/dDoJ20Oo0Zj7skijsBFEbd0hj5rsrOFhljOWHfn6wznFSW6bDHRmbMbGGloIJOIx5FlL0cyFqlU4HSSAEnG7JIiGg9MVRXt0pIfUHXUPWmkgLBJvJx3D5TCWZxtnVpIdYI6aQgt2qonOBmMtqbkQFjUWG4kxp6KYhUoKvdJ81Hy93zg6u9fBOrzwJMLcPYGv1RYBnxsbDvhalJ6G/6wdNf7e10+g26jvNeq27E8AbbqeLG7TZ7BLcps2qEpwRpnGi6c0NWkb1vtNsxvYaaU7vO7Gcs0NYwQ4ngwWCe0Wjo7exml57nS3BO3d9+Y8XpKfCiRHOWcxyQ1jCt49OuNJT1C/ZiJA5dLbwW2mNxQtDHxwsK9nE0M37XUfPjn5yjq6t/AFO2yUfBdu29BqrF5b+ccHTwcambj2b+n9i6tZqW5GSkVQW/EKJnjP26eR3gSLBUCqUmvw1ohxB7XDMkiGWSGUYFU+TyRfTFd7P0eQPSFMtI/GguTZ88Hw/6wKm3jTnu+qwCVTt56fPf87U9gHCK60U1csnsQjHc/RcZL7fICkymnc0S8YxoVIIHUBhPuTB8MK7sN3oG27+1tsYE6jR/g+oN0eEDRFCQ8b3XT8Ntqf7lhPbRO1QgwxKFnql9lsQJsk+DFFUAn4jhkOMDE7wexl2YOVCqZCXGV2aeVjSjbIYDagCzyMCcwM5OBR2hZEgTmcuoop+UhTBD29NY2QDPLzMxP4R5nAggAsgePbKRmQeQYmAWXVpQS4Gbn5JBxmMZJ9gtChWFwjKU04LQzSF/0BXAikbG9Kq3asXqd2M5dPL7WWxV5Pb8gYtHlkoMd/p5O9vl9oOKYpq/h9ObleXb/JnqWhfP/9artXXz7+5Ek1u16rL5Mt6xdjs+F2DmelbxhKzhJA7eIc65gvH7qvz1yezQ7fzwJdMu9VqtJ+P3Qc/ZdKrsB5KkaYuty0/Z97/AzQzPdXGGwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=71fa4f813b2c9790c0cdb10f23e45a0e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 22:30:46</sys_created_on>
+        <sys_id>80e0f5d43bd41310c0cdb10f23e45a79</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>8bf691be-3f51-479e-87e7-dc4f710a8a6b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VY227jNhD9FUHPtitZ8kV5KxIYWGC7ATbpvmy3xEikYqI0qZCUczH8Qf2O/lhHN9uwldjCOkCCfeRwSJ6ZOWdI6fvK5dS9cGnkRWkUjaYTzwsCzxuPgwT8OA7GSezFELo9V8KCoaeFWDAcLkHkxfiR+NNx4IUjMtfEMEF8YkBQRSgjKdMcDDpTbjIBT9/qNTeFg0OZM/vv39ojmXNBNZPuxfcfPTcDjadZpt2L1d7UqXAFxEyg622Ndw++fco2Q1LOVbbPu8ucL9WE0rSA4vVc9miZpAwxpCAM67kLkBSs0k8bi2ZAr6XYGuZcWtzRLZwfDX/Gc6de4YfpYTJh1dxmSOpkVeb0CizcWJ0nNte1azJXPGGmygdlKeTCXu7aKofrzHIlqyVV2NVqJfKF/FKlw91s0NQGLblBECwrAi2Q12GkN3P18LVBOeOyzEk9KVQCYjMCazWPc1vgWblMsAVuRBaQZVzekUyrJS8XI5bF4E7gYJAK9YCHGn4nB5AUwAeYVxjM0H5Vmr8BUgWj+AO3wcUIiAtkCKlKaFSuy1QuSSJyU05okKbay133XPNkLgUYs40cU07u8wJ3lYc6YlIlrViSaJ7Z33GLJauDW/caxYxepWC0pVyiJOUFCrMjG6wCxEoDVfqvHHegq5U39eLQm476QRQM++HQj/pxSKf9CAIWhlECYxYOjBI84RakZev13xTFU/JFSYTITbkVazYsc7qs0zYofaHIMQKyoNfrQ2G+E1Qdm8HxSjTN4HK3FG3lqdvCge1z2wZ1W/DP1hZCz/tIjQEPf399obvSqxQckbtPXyUZ3fLJKG1JlcsdvSM0rvBWhPucG2TQUh2qr9WnmxZOgNlo4bpgrxM/vYS8lkLKmaBtN+SsmNi7IYe/5g35LoWAgCipqsel4LJ87iDQt1LI6FXqxf4ez0p6bfVR2sAkh6oAxyrnubMSToDTKOEGz3ZuKzwtEJs7oaTM/n3QGGsBBGcTQDA8jwBWmzA3iWzJefPCLarZ+D8X/rDvX9zUO3ffuk1gnc70u545XB8KOOik4F2yVTNXL3DuzE/hFxTZe8sWMMel9Xmk0i954PSO2e3pjRdV9gHEP23zNeNIU6gyvDd4VvuvftnFO89qnpIFVo5n+PrXLEFy4ENS40enyiUl9bt/S6SikinXxtbOh43mK0P9SEehMB07Z07p7Wy8O17Ex+NoUvkpdZpA6tOMg4E4ZSDOJpBuYXdpWuEZH7Dnbloz4KKsBn7SZTvlZFor/ULjOlLIVxhxYlc7EZR/VlA/3/baJNDa/o5g/RD/B87fmhIGcTiE8STwfc/zPTrxppOJPx3H6RgmYbrVKCFGJthNcecUqYLbk4YaTZ39w/5TN9tufeYEUA0Dr5QsvsGHE+sUqLC8ToPqOO66n8RKCQZyr6HcIvLfZuWNsKHr6N01lQ/xsyznt/uZrkytuX6rZ0PO/5T8PmefCopNmTec+jTpTyf+pB+mdNyPKIz6EMWjSUBZEqbnfAn8+B9BrNLmlBYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=80e0f5d43bd41310c0cdb10f23e45a79"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 19:33:25</sys_created_on>
+        <sys_id>8248c5d03b901310c0cdb10f23e45a3e</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>080b4085-3932-4219-b4d8-9a3e449ca6e4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VV227bOBD9FYHPgiFZch37bZsiQIFegHqRl6IgSGoUE6UuJSm7rpGv2YfFfkd+bIcSZSt27SRAU6Dto0cznHNm5hx/3BKZkTnhecRZwrhI4ihOomh8kcb8RcLjcZYwAEZCUrICMFPDlwaMhYxKCwXGV0w17sN2uwC9kgKCS2aZqm5oPPLJbertLSZn0tSKba59DUbEUqpMQ0nmHz+FpGYa21jQZL49+PRYnIpxUJi6aHghLQINPnQoznCwm7qL54D9BPjQG//Uh0G80plDF4UEvlooM0BYOVMGQlKwMmO20hsyt7rBgAaWvS/VZpexlKXtaBfsq5HfsGkyDgd958QIivB6YLsv1E+uRePRB6+7pPwVDnyBLYVt9G6sFa7CdKPLIGeNspfDWJfwvrayKrsSy7jqqyvVFOW7blpk98BgbY1BSFC7AThKnl++WFbr3bSuZNnOyn9UlWBqkApMi+WVBOUWWzYFx9yQMGu15I11OLcEFBTYgBasrmV5Q2tdrWT7KGIsRjcKf4xyVa0RjJE35YgJR2iEe2CjK4y/asPXTEvH7i0+03apcCs001Vde9JuYeQ2JGZjLhUzZs8dV0C/NA55NwnPmXZjcyVCy9r+hY1X4Ondhr2u+Ll7zeP9TeIqcb8WqPDqOZBXGk1n0zSZJDwVE3xNRCLjcZSPE0gnbJoei2tRKSmkZXf/3v1TBRkEV3f/4RjM00X3MIledH97Fr0HtCdqAhRG0O8gWIA1D/N+uiTjZ5OkpXgW9wAaig/TladETUfpe2p9eBC/hXxdr58lXmnQIosKb6blTIe7anWMmkQiuBUHcR9cYj+qm9LKAmirKypLWtVmJWH9fB4wPS+f6V4L/YX1d2UG+mfTMeowmZ3QfzZ3Z4lk3ARpCetQTCaCp/xEwSw+KpiML0RycbIgPS4QSTYV+YkCxo4Lsgkks1ma8MlFfFSQ8MOCY0/7Q6fwNL9+xMH1ft270/Xg4s4cozdloxqz5I34DPbAlhfuS/Cy/+SdeXzemX3kMdYcj6Mouu/OJ3z3VzXW+xaKVpfjvyPObr8HvAloJ0naEmz6XEb7KMPEoyuFajCzwFFIjV12UN0f3C7NjWYAAjRd667TLqXWWKNX7g9VgbAtyd7Rq0YL7/gYPdTIj7PtT/8Dw1MYKhQNAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8248c5d03b901310c0cdb10f23e45a3e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 21:38:47</sys_created_on>
+        <sys_id>c09e6a6c3b9c9310c0cdb10f23e45a17</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>26eecb3f-8c4d-46b5-919a-ae3c50fd4f28</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y3W7aSBh9FeRrYMfYOIa7KChSqt1WImlvQmSNx59hqmFMPeO0LOJperHa58iL7Wd7jB0IFFb0Ik1vkOb7GZ/vcA4z5n5l8cgaWhd+3IPBoEdCmxCHEL/PiO9A6Fx4Fw5lxGpbks4BK1NgSRrh+pGKLA+sVreQPnIGrSuqqUimgd1N4UsGSgdcw3y9xuKIq4Wgy0+mByNsxkWUgrSG9w9ta0FT3F5Dag1XW6lj8QkagsDScQVwG7BeLvJ1lLBsDhLBVcE/TefIZFo3I8xgUw6HtC34pkFGgDhiKhS0rTmVEdVJurSGOs0wkAKNPkix3FTMuNTlnHP6TfG/8cFOL6+LAQdjhoPNMjD8lOF4hETe4s5MZ+mGrgQpViUlEcQ0E/qqGSsLPiw0T2TZomkoqu5EZHP5viTE2mzQ+DoyhSBgkc+ZIy/Him9nyddxBfKay4IRM6JIGBWbFdU65WGmczgrCwQUFM/pYsHlNFikySMvmhHKvDsVuOjGIvmKz1R8KruU5bi7yCrtXmN8VIQ/0ZTnQ/yF22Dzum2ppboSVKl6FOQw+JLlSMrBzAhBwUJJQd7HUr7Ql/iURzCY122j/ZAd1BarpVRuV0tfsQCVXqh8V+Pj0gMQtW7K/GmKPwJVpfg7A2sLpdF7sQyK3HO5F22t92XCqN0+rHYTqeVe6uQFtfvkFandjPXq5f4jpYPrOX38uIgdYvds4oPn+2xAKPM9r+86tYYQAc5ABeqbKty71vxlkXj65+l70oqgFT/9i6DVrvz31p1mgyMgVza4NJhb4wrz3mGMNRR+iXK6ZYvbKmgs0TvREvtPANt7S6bI+N0Wy2Vkh+ef4578cR8lx9/gm1xHXi/0BsSPOlFMwo7rO/0OZUA64Nl96Ece69vOT3AcsQ/9ikf+CyKNOYjm/apK7FqskTnNVEeg2jHVtYG1D66xVLF86bQp+rdOm/NZyyfkNXnrLV2v2EGxQePQ+ZxkqTzggGDGVaGMvU5oVJzmiCNAVo54V6LcNsQ2+P/jB+e3H359P7j9g1JrXOQ3qmaJjHiOWD27iOVZUGP4DEyrS7n8eL9aEZ+ELu7ZcQZOr+P27EEndCO/M6AOuO6AUQ/crkoEZ1xTqaGL+qJTSNfrh5fucOd/xGm+PIKszXt/JkD9iDzjyvpGaJqazqzvkSZp3Ome65+AV2bOt/J2xA5qLR7U2ooyJIjq5l8Bq4lVwp5Yw4klEwkTqz2x8qogF1cRxgoEt0kUsdW6XGcpNe12Y1n3RnSpikrFZhChMovos0hQWMHEz/Gv2xGMVO4bZdAalZTsklS9blU4S1b4zpl4awqKnf64482zsX+2s9H9bb5zvFwFm9cPPPjwt++Mjnz4D252I8eXFgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c09e6a6c3b9c9310c0cdb10f23e45a17"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>16</order>
+        <parent_ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:44:20</sys_created_on>
+        <sys_id>c0b97a053bdc9710c0cdb10f23e45a56</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>1eafe301-a884-4823-9043-5e5fce613b3c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X3W7bNhTHX4XQte3Klizb2VUXw2iBtAXioLtoCoMiKZsrJWoildQN8kB7jr3YDiXqw3bm2omHJVjurMOP8+fh/6cjf7lzOHXOHJ+O3SCMfDxyvYHnuuPBZBJ6k8gdjyZun1Cn4yQ4ZjAzY0Rm5vkGi9wE4CflKhV4/bmJkBUXNGOJc/bla8dJcQaLNcucs7utoUOzCxwyAVOvcLZkGl1WKrZV6XVqnqkkecwSveBV8MJuMLUj6P0URmCRUeV2HPZds4QykBNhoVjHiXFCsZbZuo5kDNNPiWgCK55o2PKtUpJwrJlCesUQizEX6JbrFcKoFNZzzH7fFf8B4ryB2SpiUANitPKEcAqKnFZ4YUsKw++b4WiKNZ7rLCc6z+pKS06YKqtJWYRzoc/bsXLCp1RzmZRLNA5FtVqKPE4+lkV06g1aN5krEMNSUxtzWEgOB4/mK3l7WYmd8aSooq2KkASL+imaM5yR1YwzYa46yeMQ5nYcrHXGw1wbmWAKAbOaPItCqskFM5lgxVXGOE15slykmbzhRUKQH/eWAh56kZC3sF7xZdLDxJy1B7eHezOIT4vwZ5xxc/APsA0svu84aq3OBVaqOT7Uf/FHbtSXxdiUY1YvCsOZxSTjqX4LqW6YPex9x9LUn+zzM/Ub37b2PClRByhoiDJueFiRpWkndtFeiz6WA5al/pEslY6yKF0BP7pEvCQHaSuvxmfsbuLzD9g8D1xqCA7mZZOLf8f7YBK1KA1sz1YkfwQTPyPBDYIwDMLhyGt8OCERHYVRgEfEa3x3C+/PLMbZt0Xx/mzh0N/lwb4ZjmPiAC0VE/DOFTll6LdK1D6dFpJQSniJJduEgNI3s6K6NSGDJ3Wb0ppISwSXKdbQY2pJJth0IL3CGnGFFNxWD11JxO2pWis6aC1zFOdKwzQNIxvwbbQt//lyZ+1go9MHvfIiwDw9gMP9jQA3xsarhZYt7O7u3LEb+u542PUm3qDrD/qTbgifat0J9pjvTwgOmN9TUnDCNU40u79Hu6g+dpvj2D7gmHW/k7tntggruOFkuUXwvApaer399JbtbAfeVvtyny9IL4UTI1zwmBeGKAk/PTp0r6eYu2EjQk77AXdA8srQ5+e7So4xtP+4dvTq6Bfn6P7e/9ks2PBReGpLH5C9svSvW54Ojzb18NXU/xNTD/fbimwYSeXh74zolrFnf/0JmhV8TMORMcVq1+kPTTny8+TnGivrz2uFD6k+BoHg9UPlPyfg9HbHe60UDTbfm5KuW16/zl3XIykymruaJ+uYsExKHUJhvhWD9Nq5LqexeQ6Wj8zvQcAwgTr9UlAQSfB6wwJKmZBoyRS4CjH447jk4M5m5PJdr0z7Ji333eXLymqntcSdINdxoB5Q3bpHlbXdKbZFdKVjsQXou6sPFw2eoyd2qGA49IJXQJ/cotJbOqCZTFN7thO3qa9/A3FieyljGQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c0b97a053bdc9710c0cdb10f23e45a56"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Descontar Saldo de Férias">28a876813bdc9710c0cdb10f23e45a0e</action_type>
+        <action_type_parent display_value="Descontar Saldo de Férias">b8f6fa8d3b9c9710c0cdb10f23e45a9c</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>28a876813bdc9710c0cdb10f23e45a0e</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>15</order>
+        <parent_ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:40:27</sys_created_on>
+        <sys_id>cfc83e813bdc9710c0cdb10f23e45a4a</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>1140a604-a94d-4fa4-a2b6-bc16402d1cb1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/71UwW6bQBD9lWrPBrGADfhWJbJUqW2kuM0litCwO8QrrYHA4sS1/EH9jv5YZ83asd1USqQoxxlmdt57M4/bDVOSTVkYQ5pMUh4VUmQJD0QgZMGDMowwHgNHNmIVLJEqpYKOohXo3oabTanrx3wFrYJCo28/55BL7ERdGWi3WyqWqms0rG/e0iMWSssWKza9vRuxBloab7Bl083Zp9fi11CgptLLgcApHbNubNSZVlX3Lv7qGub7ZN1KCyAcMXwyWEmkySXoDkdsCZUEU7drNjVtT4kWQV5Ven2oWKjK0GPM1j516heNS4MgsJUlEhmBw9dDmDvVhnR5CQYISS9M37pSsaiVwG6QQWIJvTYXx7mh4Koxqq6GFmMFd9217pfV90EGdnhgvyTK9B2BwMYytdgdkXK+qB+v9yhnqtqJ4j7qWoA+RGBIuqI3Fs+G9erHmcpD5h+dUeOSJuZLaBrK5E1br9RuCoFe+veaAn93QnQy6r7yQViGPm0A/BnlL3fpG3df3+gZarbjflbqoccv9mIy4LKUGHk8iMZenGTcK5JCeJMyEnEoikkMBduOWLfuLjR03bNQtKH8obc0B9mcQPmgsW0RrWrMZwK1QqfFduSMVtJpRmGQRUWYZkl2dqhSPF9mB1rWJ05Li3KS8QK9qBxzCxm9NMHEkyIu6eYhhUnhX6OgO33Zdm994G0efAW1vQfnjtsZVefCZ0ecGvH6KO+8yN/Li1F46sSnnKeTKIjH+aLNO9Q5z3co6eRyqhr+Gi95dUftk8RPsz+/Xdk7e/dV0D7A3eUcoRWLmUJt109GyekO/uv6462eGv94rx/ifQ4ppnEqvTSLEi/mIvWADO9FYRLzIhUhx/f0/t1fax4VymYHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cfc83e813bdc9710c0cdb10f23e45a4a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>059444b2-316a-4c2b-82c6-6313c64657da</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 21:31:03</sys_created_on>
+        <sys_id>f6cc22a83b9c9310c0cdb10f23e45a1f</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:00:08</sys_updated_on>
+        <ui_id>0755d7e8-1b32-4019-bae4-576196708433</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Xy27bOBSGX4XQ2nFly5c4WXUSBFMgbYE6yCyawqBIKuaUElWRSuoGeZpZFF30KfxicyjSutge1048mASTnXV4+8/h/5H0xzuPU+/I69FDfxBGPTz0g27g+4fd0SgMRpF/OBz5HUK9lpfgmEHPjBGZme8bLHITgJ+Uq1Tg2WUVIVMuaMYS7+jjp5aX4gwGa5Z5R3dLTduuLnDIBHS9wNk10+jDQsWyKj1LzTeVJI9Zoid8ETx3E5y6FvTmFFpgkFHltzz2VbOEMpATYaFYy4txQrGW2ayMZAzT94moAlOeaJjytVKScKyZQnrKEIsxF+iW6ynCyApre2a+r4p/A3FB10wVMagBMVp5QjgFRV4tPHElheY3VXN0ijUe6ywnOs/KSktOmLLVpCzCudAn9Zjt8D7VXCZ2iMahWIyWIo+Td7aIXjlBbSdzBWJYampjkoXFIfFoPJW3HxZiz3hSVNFVRUiCRfkVjRnOyPSMM2G2OsnjEPq2PKx1xsNcG5lgCgG9qnUmhVSzFvRkghVbGeM05cn1JM3kDS8WBPlx+1rARzsS8hbGK36dtDExubZh93D7DOKnRfgSZ9wk/hamgcH3LU/N1InASlXpQ/0nX3Kj3hajKceMnhSGM4NJxlP9Gpa6YS7Z+5ajqTPa5Gfaq3xbm3OvRG2hoCLKuGG9IkfTSuy8Pha9sw2Opc6OLFlHOZQugB9tEbfkIO3klfgc+k18/gGbp4FLCcHWvDS5+He8DyZRE2tgl1ux+AOY+BUJ/mAQhoOwPwwqH45IRIdhNMBDElS+u4XzM4tx9nlSnJ81HDqrPLiTYTcmttCyYALOXJFThv5YiNqk00ESSgmHWLJMCCh9dVZUtySk+6jbxloTaYlgM8UM7phSkglWN5CeYo24Qgp2q40uJOIuq9qIFprJHMW50tBNQ0sDvsa11Xu63Dk7uOjpWq88CzD3D2B/80WAK2Pj6UTLGnZ3d/6hH/b8w/5BMAq6B71uZ3QQwlPtYIQD1uuNCB6wXltJwQnXONHs/h6tovrQaXZje4s0y/tOrubsEFaww8n1EsHjRdDRG2ym115nK/DWri//6YL0XDgxwgWPeWEIS/j+0aEbPcX8ho0I2e8DbovFF4Y+OVlVsouhew+7jl4c/ewc3dn4P5sNGj4K923pLVZfWPq3JU+HO5u6/2Lq/4mp+5ttRRpGUnn4JyO6Zuyxe3jMv8//kghex9H8ByShUGK+sSkEpvgIKSyoeUKrPIL+oI6tIvGouXZ88Pw66wVM4zLndXXYBarBy9PnP2dq/wDhjVaKus2TWNJZjZ6r3PcDkiKj+UDzZBYTlkmpQyjM56KRXnlXthsbs9xZ36BhYt0BwwTqdWwpsSGswe3sWKJGD1TBggwcSCIoh+3CbRcJMy/+R1DZRpcs4xH/kjP4b5srRM0axmQyaQy7YfAnGQRhGyWEUS6OMcpjjBIgtpyz0d7U2raFeJXaTFePBleodYWonxHzH+vznP/cPrn5zzKj+fc1aRSn06rg3c6fLUxTXubWMisecifPVMdi6dz5/eLteXXqDB95lQ/6/WDwcu48+i5Pb2mXZjJNXW57vs8//Q3S00XcjBoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f6cc22a83b9c9310c0cdb10f23e45a1f"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3d7349103b901310c0cdb10f23e45a19^sys_idNOT IN041e2a2c3b9c9310c0cdb10f23e45a4c,081cf6493bdc9710c0cdb10f23e45ac9,28da3e1c3b105310c0cdb10f23e45a91,52bd4b493b2c9790c0cdb10f23e45a36,5d2bc3c13b2c9790c0cdb10f23e45a5d,8cba03813b2c9790c0cdb10f23e45a9b,8f7f66ec3b9c9310c0cdb10f23e45adb"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a96ee26c3b9c9310c0cdb10f23e45a35</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <parent_ui_id>059444b2-316a-4c2b-82c6-6313c64657da</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 21:36:36</sys_created_on>
+        <sys_id>041e2a2c3b9c9310c0cdb10f23e45a4c</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:26</sys_updated_on>
+        <ui_id>d69f9412-81e1-4cb3-a57f-8f21ef4b429b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c86cf2893bdc9710c0cdb10f23e45a9c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>18</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:54:44</sys_created_on>
+        <sys_id>081cf6493bdc9710c0cdb10f23e45ac9</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:26</sys_updated_on>
+        <ui_id>037971df-2985-40ab-a2b2-72832cd90871</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTU8bMRD9K8jnJPJ+pdncUCskJFokQFxatJq1ZxNTx97aXiCN8t873t0AakFUFcfe1m/GM++N52l3zHah7YK/ssfeq5Vhy683E6ZMxOh7xxpt78/sSolT4wMYgZdbfyrZkvFFIpp5Xma1FOWHhAsuZJ3wJs0wL0CUbMIMbJAyhTVSBWVN1QMTdge6i4ELvEUVQNqjFrU9WqEP1lFcKt9q2F6/kSbWSkuHI+cWHFUP6Nhy91sobFusNNSoqdplcMqs6LqKKhoOTVKKRGTpPEs5Txd5Us+zOkllBggZ5R0ufjzIODrrkdf1xX6E+0Mn62SklfAJw4eARiK1bkB7nLANGAmkZ/uIOAR5bvQTsFYmUDkWkx+8+km106KIiQ2SRoFD8PFYjfMbYLG2SuB5GwkOSIBaj3eE1d3GfBl0xMljA50Oh8kT0nmqh20kHVmMlJrLtb2/ODQ8UaYXOAa1FaAfTxBoDHUX0MeHQY0bKlRtoG1pOFXr7J3qLxOXzWyl6TCLO0dN4z7OQETiM5oRzE4I/9TD1+BUVPGZyqAbadbglaj63aVywZGEfT+W6kcXCQ0CRynVMA1K8MKpNhxTnzscWe8n77v4z3Z+t0vniKLOmulC5HKaz+tiWiYlTAEzUfBG5k26mJEumgzoinoH3O+/dZxntNG3KAJtzx8eea+y7+GpEoqmSHjxsqfy+UueenlorxgpfcNI8en/0kec8/9Gem4k5avBEKO2vvk/++gmLv7QwQ97I1EoT0SuInZ6+M/EwJYWILrtCbq37nuU8ITtfwHnrtt3sQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">69fb32dc3b105310c0cdb10f23e45a35</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 03:53:51</sys_created_on>
+        <sys_id>28da3e1c3b105310c0cdb10f23e45a91</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:26</sys_updated_on>
+        <ui_id>059444b2-316a-4c2b-82c6-6313c64657da</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V227bMAz9lULPSeBLnEvfim0FArTr0BQFiqEwaIlOhCmSZ8ltsyD/PtJ22mJrt6Ho496sQ4o8h+KBd8I1oWqCv3In3uuVFcdfbwdCW8boeydK4+7P3ErLhfUBrMTl1i+UOBbJTEGKsUyLOMrSOJKRVPRZJimOM5jHYiAsbJAypbNKB+1s3gIDcQem4cASjHJH2vqm1FKjDRxU2lcGttd/ypFrbVSNPdsKaqobsBbHu19CYVthbqBAw6VCre2KrmvmX0ZQxnNJApJJmkRRMhvHxYTUJCoFhJTyDhc/HAQcnbXI68q4H+H+0MnVimnF0UDgQ0CrkFqXYDwOxAasguDq7SNSI6gLa56AtbaByglOfvD6B9VOsowTSySNErvg4zHvh9fBcu20xIuKCXZIgML0d6QzzcZ+7nTw2LGExoTD2AlpPNXDikkzi55SuVy7+8tDw1NtW4F90DgJ5vEEgcZQNAE9Pwwa3FChfANVRcPJq9rd6fYycdmMVoYOI942asqbOALJxEc0IxidEv6xha+h1qzinMrQ5Y5mAV7LvN1aKhdqkrBvx5J/b5hQJ7CXknfToAQva12FE+pzhz3r/eB9V/7Ztu92s6KczOMCh2mZxcPxdI7D2RSnQyXH5TSOYAaTYnSJkrZmv18sP51/ubr53RFvrvMerplDRj2j7GXXjCcvueblsbxileQvVuHH/UenRFH03yrPraJ93q18r61t/man3PJqdx18tzcKpfZE5IqxxeEfwoEtLQD76Qm6d/U3lvCE7X8CD2V2tY0GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c79e8fc93b2c9790c0cdb10f23e45a6b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <flow_variables_assigned>dias_a_descontar</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:27:34</sys_created_on>
+        <sys_id>52bd4b493b2c9790c0cdb10f23e45a36</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:26</sys_updated_on>
+        <ui_id>bf1d2cc4-fa08-48ea-9523-c44a682e9c69</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WyW7bMBD9FUGnGLUFeYuXHIqgQQADaQPUaS5NIFDkSCFKkQoXO27if+9Qi+0mSIteC18Mamb45r2n0cDPoXK2dNbcqHNjeC7D+ff7bsilj+H5OcyEWl+pnNOFNJZICsuNWbBwHo4HKRulo9kwHdDZZBbTmLK0H2eDIYzGZHgaIoyvm0ymLH63bsywTpICsJJxYhKSMDBUSUs0ZlZEOJ/CI+OmFGRzu4/QBy6YhoZzSTTCWNDh/PlVym5KSARJQeDFhbSQg/4Heu3NC+QXkOCQ3/vMfU/M8F03pZnn1u+G8GRBMsDuGREGumFBJCNW6c0uooGwayn2gQcEqlUX5Mnwn4g9in1dBiiTNo7sHpPGrdYoxSlcl5YrWUcsSUXrohKukF9qId5nyIgT9sBnZxAPSs/Zk2gYZcsHtf7aNrzkspLXJIWiROyeiLWap86C8e/G8ZvX3tShqzdvCAQU2DMpSFlymSelVite9UHaRZQLfIj8hHrrcXojQr3GCN0k0SXGL6rwLdHcC/6MME2/b5I/OqgGGQZ0OoiH094wS0e9UZaNe4TE/V42O52OJzgHfRzmbWVu8ui8rNqmxpCk9hQLDNW8tOdIYYXyrHbQxrzsNzOCsT/dwNnXgea2CO5cHA9ZkLGk0oVe5mhPpAEVGJtwC8XZnfTlvkdbjt+DAbTyxGNEq8YCE1U8jBKcckuYMt2gH3eCl5cgbkBWXpduYZbYTuavQeqaxGN1Iquu1Br0J2LgpHMI4lqQk98wD3+r0GCyAVMfPJG/FXuf6pPvpsE6LWvpH5pOLviIqoJ5EHfOwu12e+83ScP9uNWOW+241Y5b7b/YagwoNzgbN17Aov3X5hMb/Ij9etuH1kr/8FO1j21/AYmjSIX/CQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">155bcbc13b2c9790c0cdb10f23e45a5e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>5a9c0588-5557-4635-9576-ab147a25038e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:16:18</sys_created_on>
+        <sys_id>5d2bc3c13b2c9790c0cdb10f23e45a5d</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:26</sys_updated_on>
+        <ui_id>f9ab37e0-06f4-4ad6-a584-5efa88680145</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1d5bcbc13b2c9790c0cdb10f23e45a59</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:14:19</sys_created_on>
+        <sys_id>8cba03813b2c9790c0cdb10f23e45a9b</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:26</sys_updated_on>
+        <ui_id>5a9c0588-5557-4635-9576-ab147a25038e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K8XPSZC/sjhvZVsh0K5jKYUxirmWrhMxWfIkuW0W8t93ZTtt2Vo6Rh/3Fp37dc71PWQfmc63nXdX5tQ5udHR8tvNJJI6YPR7H9XK3J2bjeQr7TxojuudW4loGS14BSxdxGmV8OJdwTjjoopZnaSY5VBU0STS0CBlcqOF9NLosgcm0S2oLgTW2Jxs0HljTzgIcN6CMBQX0rUKdtevpPGtVMLiyLkFS9092mi5/y3kdy2WCipUoZu3Um+oXAYVNYM6LnjM02SeJowliyyu5mkVJyIFhJTyjoXvjzJOznvkZX1hHuHuOMlYEWjFbBLhvUctkEbXoBxOoga0AJK2e0AsgrjU6hHYSu2pXRSS7538Sb2TPA+JNZJGjkPw4VmO+xtgvjWS42UbCA6Ih0qNNdyortGfBh1h81hDp/xx84R0jvphG0gHFiOler01d1+OA8+k7gWOQWU4qIcXeFpD1Xl04cOgwoYalQ20LS2nbK25lX0xcWlmG0WPWbg5GhrucQY8EJ/RjmB2RviHHr4GK4OKC2pDxQPNCpzkZX+71M5bknDo11L+6AKhQeAopRy2QQmOW9n6U5pziyPrw+RtD//Jze/3bMGqjC3yaVqkyTRL4mJaZWIxLYAaZAWHOWYzZ5TkkuZ6nNGJwAbt4bBaf7z4fPX1T4e8TdO38FMBeZ3HLH/eT9n8OT89v7AXTJS8YqLw2f/SQ4yx/yZ6aiLpysEMo7Z++D976CYc/TDBDXcjkEtHRK4Ctjr+x4TAjg4gOO0RujP2e5DwiB1+AcOgkIitBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">efbfaeec3b9c9310c0cdb10f23e45abd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 21:42:48</sys_created_on>
+        <sys_id>8f7f66ec3b9c9310c0cdb10f23e45adb</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:26</sys_updated_on>
+        <ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VUU/bMBD+K8jPbeUkTdbyhjYhIbEhDcTLhqKLfW6tuXZmO0BX9b/vnKSAGGzTxOPe4u/Od993vk/ZMdfFtovhyp2EoFeWHX+5mTBtE0bfO6aMuzt3Ky3ObIhgBV5uw5lkx2yh3qmqQlE0S7EsMi64kE3GVV7gvATZsAmzsEHKFM5KHbWzdQ9M2C2YLgVOWu9uQbqjFo07WmGIzlNY6tAa2F7/PkustZEeR8YteKod0bPj3bNQ3LZYG2jQULHL6LVd0XWdNCgOKluKTBR5VeSc54t51lRFk+WyAISC8g4X3x9EHJ33yOvqUj/Cw6GT8zLRyviE4X1EK5FaKzABJ2wDVgLp2T4gHkFeWPMIrLWNVI6l5Pugf1DtvCxTokLSKHAIPhzrcXwDLNZOC7xoE8EBidCY8Y5wptvYT4OONHhU0Jl4GDwhXaB62CbSicVISV2u3d3nQ8NTbXuBY9A4AebhBJHG0HQRQ3oYNLihQvUG2paGU6eX1f1l4rKZrQwdZmnjqGnaxhmIRHxGM4LZKeEfevgavE4qPlIZ9CPNBoIWdb+5VC56krDvx1J/7xKhQeAopR6mQQlBeN3GE+pziyPr/eRt1/7Jxu92eYUomkJNF2Iup/OqKafLbAlTwEKUXMm5yhcz0pV23tTUO+J+/7XjvJADStvzi0XequxbeGoJpSozXr7sqXn1kqdeHtorRsr/YKT09H/pI875fyM9NZIO9WCIUVvf/J99dJMWf+gQhr2RKHQgIlcJOzv8ZVJgSwuQ3PYI3Tn/LUl4xPY/AccsDROvBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3d7349103b901310c0cdb10f23e45a19^sys_idNOT IN778d0b493b2c9790c0cdb10f23e45a5d"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=e2c82038-3fb4-4ff5-aa01-f9685723e136</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dias_a_descontar</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Dias a descontar</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</model>
+        <model_id>3d7349103b901310c0cdb10f23e45a19</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_3d7349103b901310c0cdb10f23e45a19</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:26:52</sys_created_on>
+        <sys_id>778d0b493b2c9790c0cdb10f23e45a5d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-12 23:31:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3d7349103b901310c0cdb10f23e45a19</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 19:13:55</sys_created_on>
+        <sys_id>5cd3c5d03b901310c0cdb10f23e45a2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 19:13:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3d7349103b901310c0cdb10f23e45a19</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 19:37:06</sys_created_on>
+        <sys_id>8c29cd5c3b901310c0cdb10f23e45a93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 19:37:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3d7349103b901310c0cdb10f23e45a19"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow para aprovar férias.</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>aprovao_de_frias</internal_name>
+        <label_cache>[{"name":"flow_variable.dias_a_descontar","label":"Flow Variables➛Dias a descontar","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null,"conditions"],"1140a604-a94d-4fa4-a2b6-bc16402d1cb1":["dias"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e2c82038-3fb4-4ff5-aa01-f9685723e136"}},{"name":"undefined","label":" - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record - Update Record","usedInstances":{"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null]},"attributes":{}},{"name":"8bf691be-3f51-479e-87e7-dc4f710a8a6b.Record","label":"7 - Look Up Record➛Saldo de Férias Record","reference":"x_1863045_hr_sel_1_saldo_de_ferias","reference_display":"Saldo de Férias","type":"reference","base_type":"reference","usedInstances":{"f087856c-edfa-4580-9ddc-ac08019396ff":["condition"],"059444b2-316a-4c2b-82c6-6313c64657da":["condition"],"1140a604-a94d-4fa4-a2b6-bc16402d1cb1":["saldo"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"080b4085-3932-4219-b4d8-9a3e449ca6e4.solicitante","label":"1 - Get Catalog Variables➛solicitante","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null,"conditions"],"0755d7e8-1b32-4019-bae4-576196708433":["ah_to"],"1140a604-a94d-4fa4-a2b6-bc16402d1cb1":["colaborador"],"1eafe301-a884-4823-9043-5e5fce613b3c":["ah_to"],"4695ab4a-79ba-4cd2-8c44-81b8811a4478":["ah_to"],"1eaad16f-5ffb-48c7-b36d-39a926fe5cc8":["ah_to"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28":["approval_conditions"]}},{"name":"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28.approval_state","label":"12 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"77d96511-bc72-4185-8fc5-7cc363ad08a2":["condition"],"037971df-2985-40ab-a2b2-72832cd90871":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"589ac7cd-de23-4c7c-ae38-7aff643270eb":["condition"],"080b4085-3932-4219-b4d8-9a3e449ca6e4":["requested_item"],"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null],"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28":["record"],"223d8c02-f921-4a1c-b292-2fa01a8441a8":["ah_requested_item"],"1eaad16f-5ffb-48c7-b36d-39a926fe5cc8":["record"],"0a89ad7f-0af9-4c28-9528-5d5cf4ff472f":["record"],"4bef934f-f46c-4e23-9540-fa74b012759c":["record"],"e7d88edb-6112-42ee-8e60-dc69cd0e41a9":["record"],"c9599a38-e623-4a03-a8bb-37f0646b028f":["record"]},"attributes":{"default_search_field":"number"}},{"name":"{{static.04bedcbd3b485310c0cdb10f23e45abd}}","label":"Carlos Gomes","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28":["approval_conditions"]}},{"name":"080b4085-3932-4219-b4d8-9a3e449ca6e4.dias_solicitados","label":"1 - Get Catalog Variables➛dias_solicitados","reference":"","reference_display":"dias_solicitados","type":"string","base_type":"string","usedInstances":{"8bf691be-3f51-479e-87e7-dc4f710a8a6b":[null]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"080b4085-3932-4219-b4d8-9a3e449ca6e4.solicitante.manager","label":"1 - Get Catalog Variables➛solicitante➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"26eecb3f-8c4d-46b5-919a-ae3c50fd4f28":["approval_conditions"],"5a9c0588-5557-4635-9576-ab147a25038e":["condition"]}}]</label_cache>
+        <master>true</master>
+        <name>Aprovação de Férias</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Aprovação de Férias">3d7349103b901310c0cdb10f23e45a19</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e6cb6893bdc9710c0cdb10f23e45a04</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e6cb6893bdc9710c0cdb10f23e45a04"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4e6cb6893bdc9710c0cdb10f23e45a04"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4e6cb6893bdc9710c0cdb10f23e45a04"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4e6cb6893bdc9710c0cdb10f23e45a04^sys_idNOT IN026cb6893bdc9710c0cdb10f23e45a07"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4e6cb6893bdc9710c0cdb10f23e45a04</id>
+        <name>Aprovação de Férias</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:13</sys_created_on>
+        <sys_id>026cb6893bdc9710c0cdb10f23e45a07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 11:56:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=026cb6893bdc9710c0cdb10f23e45a07"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4e6cb6893bdc9710c0cdb10f23e45a04^sys_idNOT IN066cb6893bdc9710c0cdb10f23e45a09,426cb6893bdc9710c0cdb10f23e45a36"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</model>
+        <model_id>4e6cb6893bdc9710c0cdb10f23e45a04</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4e6cb6893bdc9710c0cdb10f23e45a04</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:13</sys_created_on>
+        <sys_id>066cb6893bdc9710c0cdb10f23e45a09</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=066cb6893bdc9710c0cdb10f23e45a09"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</model>
+        <model_id>4e6cb6893bdc9710c0cdb10f23e45a04</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4e6cb6893bdc9710c0cdb10f23e45a04</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:13</sys_created_on>
+        <sys_id>426cb6893bdc9710c0cdb10f23e45a36</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=426cb6893bdc9710c0cdb10f23e45a36"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=4e6cb6893bdc9710c0cdb10f23e45a04"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4e6cb6893bdc9710c0cdb10f23e45a04"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=4e6cb6893bdc9710c0cdb10f23e45a04^sys_idNOT INd26cb6893bdc9710c0cdb10f23e45a68"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>d26cb6893bdc9710c0cdb10f23e45a68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 11:56:14</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61T22obMRD9FaOnFlzQ2k1c+60UDIa0gTjtSyiLLI3WolppI2mdbE3+vTO760vSbSmkb9LczpmZM3d7ZsUGLFuwm9qNltY/jFaOjZlxCYIT9rapAJ1y640EtHePKxMTW9ztmV7DfQ0OXYt32Zjpb8LWFL8R8kcRfO0U5uirMwhNEMaNThGjNwq0qG16S7GrUhRUgd5rsCATKLbQwkZAy9d4/vtsYjSu6A1P4z/z0T7A3/k8j3gFi+9jVgqnRPKhOQUFX95CWVmR4Gj0QUFgi4zzMdsR0XUTV6pDdaIk/FC7nBjmhpayG5qu3BqrAjjcB0JXImBmorr7Fy5DpS/5nMvZZD6bTfh0yrm+2GippZx9yPhldjHHgsOCGCSUXqjjvCN4TODU2aB+n0oAoa6dPRm2KLuu/1I8RvMTi7/nFKchdFsl3/GbKxNxpE1n7ljEVpf23xU3ONS+EU6aGqr1TC27IZEdRkF66NE+/X+C2asJTohgN7rrKhmPYmFTWq3YWMqJTewWHkBiSp6CKQpMxCRv69J9GdJFz/5wfWipI24LKlIErfhwFuutf7g5rHNpXEupd1ovhT3+RELkTZ1ofnsm1E5gBik6BcR4alWR39eUwVoGPVbedkQBvViWBmx/ZFEGU6WPMpkdHM/3F9d3SRcTBQAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4e6cb6893bdc9710c0cdb10f23e45a04^sys_idNOT IN126cb6893bdc9710c0cdb10f23e45a5d,1e6cb6893bdc9710c0cdb10f23e45a63,509d6a963ba413d0c0cdb10f23e45aa2,526cb6893bdc9710c0cdb10f23e45a66,549d6a963ba413d0c0cdb10f23e45a9f,566cb6893bdc9710c0cdb10f23e45a60,566cb6893bdc9710c0cdb10f23e45a65,5a6cb6893bdc9710c0cdb10f23e45a5e,5e6cb6893bdc9710c0cdb10f23e45a66,d39b87053b2c9790c0cdb10f23e45a53,d49d6a963ba413d0c0cdb10f23e45aa0,dc9d6a963ba413d0c0cdb10f23e45aa2,de6cb6893bdc9710c0cdb10f23e45a61"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>126cb6893bdc9710c0cdb10f23e45a5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 11:56:14</sys_updated_on>
+        <ui_id>080b4085-3932-4219-b4d8-9a3e449ca6e4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VV227bOBD9FYHPgiFZch37bZsiQIFegHqRl6IgSGoUE6UuJSm7rpGv2YfFfkd+bIcSZSt27SRAU6Dto0cznHNm5hx/3BKZkTnhecRZwrhI4ihOomh8kcb8RcLjcZYwAEZCUrICMFPDlwaMhYxKCwXGV0w17sN2uwC9kgKCS2aZqm5oPPLJbertLSZn0tSKba59DUbEUqpMQ0nmHz+FpGYa21jQZL49+PRYnIpxUJi6aHghLQINPnQoznCwm7qL54D9BPjQG//Uh0G80plDF4UEvlooM0BYOVMGQlKwMmO20hsyt7rBgAaWvS/VZpexlKXtaBfsq5HfsGkyDgd958QIivB6YLsv1E+uRePRB6+7pPwVDnyBLYVt9G6sFa7CdKPLIGeNspfDWJfwvrayKrsSy7jqqyvVFOW7blpk98BgbY1BSFC7AThKnl++WFbr3bSuZNnOyn9UlWBqkApMi+WVBOUWWzYFx9yQMGu15I11OLcEFBTYgBasrmV5Q2tdrWT7KGIsRjcKf4xyVa0RjJE35YgJR2iEe2CjK4y/asPXTEvH7i0+03apcCs001Vde9JuYeQ2JGZjLhUzZs8dV0C/NA55NwnPmXZjcyVCy9r+hY1X4Ondhr2u+Ll7zeP9TeIqcb8WqPDqOZBXGk1n0zSZJDwVE3xNRCLjcZSPE0gnbJoei2tRKSmkZXf/3v1TBRkEV3f/4RjM00X3MIledH97Fr0HtCdqAhRG0O8gWIA1D/N+uiTjZ5OkpXgW9wAaig/TladETUfpe2p9eBC/hXxdr58lXmnQIosKb6blTIe7anWMmkQiuBUHcR9cYj+qm9LKAmirKypLWtVmJWH9fB4wPS+f6V4L/YX1d2UG+mfTMeowmZ3QfzZ3Z4lk3ARpCetQTCaCp/xEwSw+KpiML0RycbIgPS4QSTYV+YkCxo4Lsgkks1ma8MlFfFSQ8MOCY0/7Q6fwNL9+xMH1ft270/Xg4s4cozdloxqz5I34DPbAlhfuS/Cy/+SdeXzemX3kMdYcj6Mouu/OJ3z3VzXW+xaKVpfjvyPObr8HvAloJ0naEmz6XEb7KMPEoyuFajCzwFFIjV12UN0f3C7NjWYAAjRd667TLqXWWKNX7g9VgbAtyd7Rq0YL7/gYPdTIj7PtT/8Dw1MYKhQNAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=126cb6893bdc9710c0cdb10f23e45a5d"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>1e6cb6893bdc9710c0cdb10f23e45a63</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>223d8c02-f921-4a1c-b292-2fa01a8441a8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y247bNhD9FUFPLeC6kuVb9y3dhdECbQKsg+1DnAqURNlEKFEhKTsbwx/Uh35FfqxDkbRly6u1W+9i01ZvmuHlzOUMOXy3dkniXrkoHfhp4uFR4Pf9wPOGfi/ujYIUviEajcdux81RhtXIRShRRHFY/XfcJaKlkosY5OIDSBIiCoru7xqKeEFownHuXr1733ELxGEFibl7tT5QnQqJoghTGPpWAXJea0AP4JT3hRI3ZL8cW4PxROHyOi7+JHGeYACUIipwx81QniDJ+P1WwjFK3uQUBJKX8L8guYQFXTX2kyCfYduxp4alGCyMsdZtf0PjLy1Ob5BEU1goliU3Q+MFIzEW2jcJTlFJ5XVdpge8KSRhuZ5SmWlmM1pm+WvtFXe7QDM8RnHzUPhKAVhxodyhDDTWp9MFW91aYyYkrzxnlJTFiG7/kJScRKVUsNcupjiDhcIMFQXJ52HB2ZJUkwFy1p1T+OmmlK1gU0HmeRfFyr4ueB91JyC/qcR3iBNl7K+wDEyGXaiaU8EGsVAxh7CAggiQclJY31So3E3HFffimiIhdj6C4IQfSwVde8wYHWr3qinVQq8A0RIb+zYdw6VR0Ja4yNvLUY4/llhInIRE4qzGp/V6ivkSwupcg8GUzUO/awZXQzebJtXO5tgJUC3Hbi1Q52cNtMUGw7Vdxu9T7bYmN0zz25mmibUjmhlxhGlBb59pkAcAzwI7RrqGYc9OwUtwK51ixOPFhGCqApuXWaTZ8CycYxCVMOGsKIzRFeUuT61g1Jqvw720FAvGpTKkWlDFZceuWzwnQnLEnfTLH2CMcHLkpIwukJNgp0BzpPzEmhQ7feJ5TDzBMsvEqbLLudmzq91qw0fADUE/IOPUCg0Te2eeeQ9T0e953ss9976WA+0Jzqf2VIv30ilVBUXUmAM4AGRl6JyzspiVnhck65klysy9mrm3PznfOa9UFpGKDjO3M9MrVOphL0U/jNNBEPXHg8D3Yi9OIt9LewHuD9AwqIaD1SFJThy/+b2W8RrSjqnMAUd++ZMlTHHU8hap+KBEKSlz5nAEMN5tEv5fb++ZN4bHk8fWqYlNnSPZZG/jOAMfShzq7Dq4kRulc2eUpkIFF6tQw0GjQu2uu8cKlbmKOW/1kBdQtPTN6KuvWSQvSim6+03bI3UsbU3FqLeXeStEZK2K+U2imy7hPDqcgMHS4TeNoAHJUCFijGKUH3IAQH0/qRqVbf73L5b//Zd7PJtoHO9JjfI/en4/knO1t5pteY1NC3nQY16ggzwBDD2s57aK7jeSD4E9v5kcXIwgR7pJQNfWTR7Y9gJOiH/eS+o3sefpJKF9WYWi2v/p2shR1Jq0tVdEm4tLg1Nclj0nALHssYl1V0PSAtK2fLQUi6iMP2B5wJup0jg/WpWhzvD/7u9vnh5EhCmUL/DdLg5hjnHlSfPW2Hk62rCSg1OtA1SBClnlGcCwci0dQLVKd/i++VY9i+YxLRMcZuAewmHnrRrL2uupclcNGObhiuvdL07T938BF9iHv5YYAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1e6cb6893bdc9710c0cdb10f23e45a63"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 18:19:29</sys_created_on>
+        <sys_id>509d6a963ba413d0c0cdb10f23e45aa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:29</sys_updated_on>
+        <ui_id>e7d88edb-6112-42ee-8e60-dc69cd0e41a9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5WfuyppSoHuaaKqhMRAKhMvwCI3vmktOU6wnUJX5b/v+iNpBYgViZdqfer9ss85OTe53xLOyISMgEXxeTzOkjhJhlE0PBvFi3GyiIcsoQAx6RNJC8BOBVmpGMZrKmqb2G5vQa15Br0Laqgol2k8UPBUgzYpN1A0DTYzritBN3dhBjPZigumQJLJ/WOfVFTh8QYUmWxflQ7FJ+gCBLbOW4CvAZtNZWNWZnUBEsG1yaswOQ2V3uUUKzhk4cRRn8CLAckAgeRUaOiTgkpGTak2ZGJUjQkFlN1Isek6VlwaT7SgL5r/wZtHke3LAZllQYQuTINAPp1PUclbPDkzter0KlFj7TVhkNNamIv9nG+4qQwvpR8xdCHa6VLUhbz2ipDugL3nUWsEAZXlaZF7WvntqnyetyBnXDpJAkVRZlR0ETVG8UVtLJwtAQFO44JWFZfLtFLlmrthhFIMlgKDQS7KZ7xT86Uc0MziHqCqdDDD/NSl76jilsRPPAaHmz7RG30hqNY7Kqhh+lRbJJ5YoJA6FZwEqXOCHc4Ur8wPvGoNAXjTDxuwOPnIYdn5zlB7Z+62QGcpmt4Z/q3d534dgPUuff1z5j8AWmv+X+6Rvw81+P9N7mp/tnftC8H9J1/m/rNjcn+gcfT2/5fpo+GHr9U9Jzmf633DG2rgoY6ihCW/MViGIGff/I3A3i7CYUOf244DOLTbMeMgmH6HVLsaUCBaA6kn+Wo9QrF3F4rdB+LLdiQeR+53RJvyH3wnPEWfs5idb92fD9rwOnwmsmf9PTxFLpUAb/3h6Xe8X9M1sE7Wpmke/wJZlL/fiwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=509d6a963ba413d0c0cdb10f23e45aa2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>16</order>
+        <parent_ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>526cb6893bdc9710c0cdb10f23e45a66</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>1eafe301-a884-4823-9043-5e5fce613b3c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X3W7bNhTHX4XQte3Klizb2VUXw2iBtAXioLtoCoMiKZsrJWoildQN8kB7jr3YDiXqw3bm2omHJVjurMOP8+fh/6cjf7lzOHXOHJ+O3SCMfDxyvYHnuuPBZBJ6k8gdjyZun1Cn4yQ4ZjAzY0Rm5vkGi9wE4CflKhV4/bmJkBUXNGOJc/bla8dJcQaLNcucs7utoUOzCxwyAVOvcLZkGl1WKrZV6XVqnqkkecwSveBV8MJuMLUj6P0URmCRUeV2HPZds4QykBNhoVjHiXFCsZbZuo5kDNNPiWgCK55o2PKtUpJwrJlCesUQizEX6JbrFcKoFNZzzH7fFf8B4ryB2SpiUANitPKEcAqKnFZ4YUsKw++b4WiKNZ7rLCc6z+pKS06YKqtJWYRzoc/bsXLCp1RzmZRLNA5FtVqKPE4+lkV06g1aN5krEMNSUxtzWEgOB4/mK3l7WYmd8aSooq2KkASL+imaM5yR1YwzYa46yeMQ5nYcrHXGw1wbmWAKAbOaPItCqskFM5lgxVXGOE15slykmbzhRUKQH/eWAh56kZC3sF7xZdLDxJy1B7eHezOIT4vwZ5xxc/APsA0svu84aq3OBVaqOT7Uf/FHbtSXxdiUY1YvCsOZxSTjqX4LqW6YPex9x9LUn+zzM/Ub37b2PClRByhoiDJueFiRpWkndtFeiz6WA5al/pEslY6yKF0BP7pEvCQHaSuvxmfsbuLzD9g8D1xqCA7mZZOLf8f7YBK1KA1sz1YkfwQTPyPBDYIwDMLhyGt8OCERHYVRgEfEa3x3C+/PLMbZt0Xx/mzh0N/lwb4ZjmPiAC0VE/DOFTll6LdK1D6dFpJQSniJJduEgNI3s6K6NSGDJ3Wb0ppISwSXKdbQY2pJJth0IL3CGnGFFNxWD11JxO2pWis6aC1zFOdKwzQNIxvwbbQt//lyZ+1go9MHvfIiwDw9gMP9jQA3xsarhZYt7O7u3LEb+u542PUm3qDrD/qTbgifat0J9pjvTwgOmN9TUnDCNU40u79Hu6g+dpvj2D7gmHW/k7tntggruOFkuUXwvApaer399JbtbAfeVvtyny9IL4UTI1zwmBeGKAk/PTp0r6eYu2EjQk77AXdA8srQ5+e7So4xtP+4dvTq6Bfn6P7e/9ks2PBReGpLH5C9svSvW54Ojzb18NXU/xNTD/fbimwYSeXh74zolrFnf/0JmhV8TMORMcVq1+kPTTny8+TnGivrz2uFD6k+BoHg9UPlPyfg9HbHe60UDTbfm5KuW16/zl3XIykymruaJ+uYsExKHUJhvhWD9Nq5LqexeQ6Wj8zvQcAwgTr9UlAQSfB6wwJKmZBoyRS4CjH447jk4M5m5PJdr0z7Ji333eXLymqntcSdINdxoB5Q3bpHlbXdKbZFdKVjsQXou6sPFw2eoyd2qGA49IJXQJ/cotJbOqCZTFN7thO3qa9/A3FieyljGQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=526cb6893bdc9710c0cdb10f23e45a66"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>5a9c0588-5557-4635-9576-ab147a25038e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 18:19:29</sys_created_on>
+        <sys_id>549d6a963ba413d0c0cdb10f23e45a9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:29</sys_updated_on>
+        <ui_id>0a89ad7f-0af9-4c28-9528-5d5cf4ff472f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXW/aMBT9K8jPLEqAspY9TUWVKnWtRKe+dF3kxDfUkuOktkPLUP77rj8SUKkYlfpSjSful33OybmE+w3hjMzIBFicnCXTfJyMx6M4Hp1Okmw6zpIRG1OAhAyJpCVgp4K8UgzjFRWNTWw2t6BWPIfBOTVUVMs0iRQ8NaBNyg2UbYvNjOta0PVdmMFM/sgFUyDJ7P5hSGqq8HgDisw2r0rH4hM0A4Gtiw7ga8BmXduYVXlTgkRwXfIqTM5DZXA5xwoOWThJPCTwYkAyQCAFFRqGpKSSUVOpNZkZ1WBCAWU3Uqz7jkcujSda0hfN/+DNk9j2FYDM8iBCH6ZBIJ8u5qjkLZ6cm0b1elWosfaaMChoI8z5bs433NSGV9KPGJqJbroSTSmvvSKkP2DneTQaQUBteVrknlZx+1g9LzqQF1w6SQJFUeVU9BE1RvGsMRbOhoAAp3FJ65rLZVqrasXdMEIpo6XAICpE9Yx3ar6UEc0t7ghVpdEF5ucufUcVtyR+4DE43A6JXutzQbXeUkEN06fGIvHEAoXUqeAkSJ0T7HCueG2+41UrCMDbYdiA7OSQw/KzraF2ztxugc5TNL0z/L7dF34dgA0uff195j8CWmf+n+6Rvw01+H8vd7U7O7j2heD+kw9z/+lncn+g8ent/y/Tx6ODP6s7TnI+17uGN9TAryaOx2zyG4NlCAr2xd8IbH8Rjht633YcwaHbjgsOguk3SHWrASWiNZB6kq/WIxQHd6HYvyA+bEeSaew+n2hT/oP3hKfocxaz8637cqANr8NnIgfW36Ov4QWA/5BQHiGA+fQ3BKLpClivb9u2D38BlecgEZQJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=549d6a963ba413d0c0cdb10f23e45a9f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>059444b2-316a-4c2b-82c6-6313c64657da</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>566cb6893bdc9710c0cdb10f23e45a60</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>0755d7e8-1b32-4019-bae4-576196708433</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Xy27bOBSGX4XQ2nFly5c4WXUSBFMgbYE6yCyawqBIKuaUElWRSuoGeZpZFF30KfxicyjSutge1048mASTnXV4+8/h/5H0xzuPU+/I69FDfxBGPTz0g27g+4fd0SgMRpF/OBz5HUK9lpfgmEHPjBGZme8bLHITgJ+Uq1Tg2WUVIVMuaMYS7+jjp5aX4gwGa5Z5R3dLTduuLnDIBHS9wNk10+jDQsWyKj1LzTeVJI9Zoid8ETx3E5y6FvTmFFpgkFHltzz2VbOEMpATYaFYy4txQrGW2ayMZAzT94moAlOeaJjytVKScKyZQnrKEIsxF+iW6ynCyApre2a+r4p/A3FB10wVMagBMVp5QjgFRV4tPHElheY3VXN0ijUe6ywnOs/KSktOmLLVpCzCudAn9Zjt8D7VXCZ2iMahWIyWIo+Td7aIXjlBbSdzBWJYampjkoXFIfFoPJW3HxZiz3hSVNFVRUiCRfkVjRnOyPSMM2G2OsnjEPq2PKx1xsNcG5lgCgG9qnUmhVSzFvRkghVbGeM05cn1JM3kDS8WBPlx+1rARzsS8hbGK36dtDExubZh93D7DOKnRfgSZ9wk/hamgcH3LU/N1InASlXpQ/0nX3Kj3hajKceMnhSGM4NJxlP9Gpa6YS7Z+5ajqTPa5Gfaq3xbm3OvRG2hoCLKuGG9IkfTSuy8Pha9sw2Opc6OLFlHOZQugB9tEbfkIO3klfgc+k18/gGbp4FLCcHWvDS5+He8DyZRE2tgl1ux+AOY+BUJ/mAQhoOwPwwqH45IRIdhNMBDElS+u4XzM4tx9nlSnJ81HDqrPLiTYTcmttCyYALOXJFThv5YiNqk00ESSgmHWLJMCCh9dVZUtySk+6jbxloTaYlgM8UM7phSkglWN5CeYo24Qgp2q40uJOIuq9qIFprJHMW50tBNQ0sDvsa11Xu63Dk7uOjpWq88CzD3D2B/80WAK2Pj6UTLGnZ3d/6hH/b8w/5BMAq6B71uZ3QQwlPtYIQD1uuNCB6wXltJwQnXONHs/h6tovrQaXZje4s0y/tOrubsEFaww8n1EsHjRdDRG2ym115nK/DWri//6YL0XDgxwgWPeWEIS/j+0aEbPcX8ho0I2e8DbovFF4Y+OVlVsouhew+7jl4c/ewc3dn4P5sNGj4K923pLVZfWPq3JU+HO5u6/2Lq/4mp+5ttRRpGUnn4JyO6Zuyxe3jMv8//kghex9H8ByShUGK+sSkEpvgIKSyoeUKrPIL+oI6tIvGouXZ88Pw66wVM4zLndXXYBarBy9PnP2dq/wDhjVaKus2TWNJZjZ6r3PcDkiKj+UDzZBYTlkmpQyjM56KRXnlXthsbs9xZ36BhYt0BwwTqdWwpsSGswe3sWKJGD1TBggwcSCIoh+3CbRcJMy/+R1DZRpcs4xH/kjP4b5srRM0axmQyaQy7YfAnGQRhGyWEUS6OMcpjjBIgtpyz0d7U2raFeJXaTFePBleodYWonxHzH+vznP/cPrn5zzKj+fc1aRSn06rg3c6fLUxTXubWMisecifPVMdi6dz5/eLteXXqDB95lQ/6/WDwcu48+i5Pb2mXZjJNXW57vs8//Q3S00XcjBoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=566cb6893bdc9710c0cdb10f23e45a60"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Descontar Saldo de Férias">28a876813bdc9710c0cdb10f23e45a0e</action_type>
+        <action_type_parent display_value="Descontar Saldo de Férias">b8f6fa8d3b9c9710c0cdb10f23e45a9c</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>28a876813bdc9710c0cdb10f23e45a0e</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>15</order>
+        <parent_ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>566cb6893bdc9710c0cdb10f23e45a65</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>1140a604-a94d-4fa4-a2b6-bc16402d1cb1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/71UwW6bQBD9lWrPBrGADfhWJbJUqW2kuM0litCwO8QrrYHA4sS1/EH9jv5YZ83asd1USqQoxxlmdt57M4/bDVOSTVkYQ5pMUh4VUmQJD0QgZMGDMowwHgNHNmIVLJEqpYKOohXo3oabTanrx3wFrYJCo28/55BL7ERdGWi3WyqWqms0rG/e0iMWSssWKza9vRuxBloab7Bl083Zp9fi11CgptLLgcApHbNubNSZVlX3Lv7qGub7ZN1KCyAcMXwyWEmkySXoDkdsCZUEU7drNjVtT4kWQV5Ven2oWKjK0GPM1j516heNS4MgsJUlEhmBw9dDmDvVhnR5CQYISS9M37pSsaiVwG6QQWIJvTYXx7mh4Koxqq6GFmMFd9217pfV90EGdnhgvyTK9B2BwMYytdgdkXK+qB+v9yhnqtqJ4j7qWoA+RGBIuqI3Fs+G9erHmcpD5h+dUeOSJuZLaBrK5E1br9RuCoFe+veaAn93QnQy6r7yQViGPm0A/BnlL3fpG3df3+gZarbjflbqoccv9mIy4LKUGHk8iMZenGTcK5JCeJMyEnEoikkMBduOWLfuLjR03bNQtKH8obc0B9mcQPmgsW0RrWrMZwK1QqfFduSMVtJpRmGQRUWYZkl2dqhSPF9mB1rWJ05Li3KS8QK9qBxzCxm9NMHEkyIu6eYhhUnhX6OgO33Zdm994G0efAW1vQfnjtsZVefCZ0ecGvH6KO+8yN/Li1F46sSnnKeTKIjH+aLNO9Q5z3co6eRyqhr+Gi95dUftk8RPsz+/Xdk7e/dV0D7A3eUcoRWLmUJt109GyekO/uv6462eGv94rx/ifQ4ppnEqvTSLEi/mIvWADO9FYRLzIhUhx/f0/t1fax4VymYHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=566cb6893bdc9710c0cdb10f23e45a65"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>5a6cb6893bdc9710c0cdb10f23e45a5e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>8bf691be-3f51-479e-87e7-dc4f710a8a6b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VY227jNhD9FUHPtitZ8kV5KxIYWGC7ATbpvmy3xEikYqI0qZCUczH8Qf2O/lhHN9uwldjCOkCCfeRwSJ6ZOWdI6fvK5dS9cGnkRWkUjaYTzwsCzxuPgwT8OA7GSezFELo9V8KCoaeFWDAcLkHkxfiR+NNx4IUjMtfEMEF8YkBQRSgjKdMcDDpTbjIBT9/qNTeFg0OZM/vv39ojmXNBNZPuxfcfPTcDjadZpt2L1d7UqXAFxEyg622Ndw++fco2Q1LOVbbPu8ucL9WE0rSA4vVc9miZpAwxpCAM67kLkBSs0k8bi2ZAr6XYGuZcWtzRLZwfDX/Gc6de4YfpYTJh1dxmSOpkVeb0CizcWJ0nNte1azJXPGGmygdlKeTCXu7aKofrzHIlqyVV2NVqJfKF/FKlw91s0NQGLblBECwrAi2Q12GkN3P18LVBOeOyzEk9KVQCYjMCazWPc1vgWblMsAVuRBaQZVzekUyrJS8XI5bF4E7gYJAK9YCHGn4nB5AUwAeYVxjM0H5Vmr8BUgWj+AO3wcUIiAtkCKlKaFSuy1QuSSJyU05okKbay133XPNkLgUYs40cU07u8wJ3lYc6YlIlrViSaJ7Z33GLJauDW/caxYxepWC0pVyiJOUFCrMjG6wCxEoDVfqvHHegq5U39eLQm476QRQM++HQj/pxSKf9CAIWhlECYxYOjBI84RakZev13xTFU/JFSYTITbkVazYsc7qs0zYofaHIMQKyoNfrQ2G+E1Qdm8HxSjTN4HK3FG3lqdvCge1z2wZ1W/DP1hZCz/tIjQEPf399obvSqxQckbtPXyUZ3fLJKG1JlcsdvSM0rvBWhPucG2TQUh2qr9WnmxZOgNlo4bpgrxM/vYS8lkLKmaBtN+SsmNi7IYe/5g35LoWAgCipqsel4LJ87iDQt1LI6FXqxf4ez0p6bfVR2sAkh6oAxyrnubMSToDTKOEGz3ZuKzwtEJs7oaTM/n3QGGsBBGcTQDA8jwBWmzA3iWzJefPCLarZ+D8X/rDvX9zUO3ffuk1gnc70u545XB8KOOik4F2yVTNXL3DuzE/hFxTZe8sWMMel9Xmk0i954PSO2e3pjRdV9gHEP23zNeNIU6gyvDd4VvuvftnFO89qnpIFVo5n+PrXLEFy4ENS40enyiUl9bt/S6SikinXxtbOh43mK0P9SEehMB07Z07p7Wy8O17Ex+NoUvkpdZpA6tOMg4E4ZSDOJpBuYXdpWuEZH7Dnbloz4KKsBn7SZTvlZFor/ULjOlLIVxhxYlc7EZR/VlA/3/baJNDa/o5g/RD/B87fmhIGcTiE8STwfc/zPTrxppOJPx3H6RgmYbrVKCFGJthNcecUqYLbk4YaTZ39w/5TN9tufeYEUA0Dr5QsvsGHE+sUqLC8ToPqOO66n8RKCQZyr6HcIvLfZuWNsKHr6N01lQ/xsyznt/uZrkytuX6rZ0PO/5T8PmefCopNmTec+jTpTyf+pB+mdNyPKIz6EMWjSUBZEqbnfAn8+B9BrNLmlBYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5a6cb6893bdc9710c0cdb10f23e45a5e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>19</order>
+        <parent_ui_id>037971df-2985-40ab-a2b2-72832cd90871</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>5e6cb6893bdc9710c0cdb10f23e45a66</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>4695ab4a-79ba-4cd2-8c44-81b8811a4478</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X3W7bNhTHX4XQte3Kli3byVUXL1iBtAXqoLtoCoOiKJsrRWoiFdcN8jS7GPYcebEdStSH7dS1ExdLsFwlOvz6n8P/j6Q/3TgsdE6cfjhy/SDq46Hr9TzXHfXG48AbR+5oOHa7JHRajsAxhZ4pJTI139eYZyYA/4ZMJRyvPtYRsmA8TKlwTj59bjkJTmGwpqlzcrPRtO/qHAeUQ9dLnM6pRh9KFZuq9Cox36EkWUyFnrEyeGEnmNgW9GYCLTDIqHJbDv2qqQgpyIkwV7TlxFiEWMt0VUVSisP3gteBBRMapnytlCQMa6qQXlBEY8w4WjK9QBgVwjqOme+rYt9AnNczU0UUakCMViYIC0GR0wjPbEmh+U3dHE2wxlOdZkRnaVVpyQhVRTVDGuGM67NmrOjwPtFMimKIxgEvR0uexeJdUUSnmqCxk5kCMTQxtTHJwuKQeDRdyOWHUuw5E3kVbVW4JJhXX9GU4pQszhnlZqtFFgfQt+VgrVMWZNrIBFNw6FWvM8ulmrWgJ+U038oYJwkT81mSymuWLwjy486cw0cn4nIJ4xWbiw4mJtcO7B7unEN8koc/4pSZxN/CNDD4tuWolTrjWKk6faj/7M/MqC+KsS7HjJ7lhjODScoS/RqWuqY22duWpak73uXnsF/7tjHnUYnaQ0FNlHHD/YosTVuxi+ZY9K5osCx1D2SpcJRF6RL40QXiBTlIW3kVPiN3HZ/vYPM0cKkg2JuXdS5+jvfBJGpWGNjmli/+ACZ+RILr+0HgB4OhV/twTKJwGEQ+HhKv9t0Szs80xumXWX5+NnDobvNgT4bDmNhDS8kEnLk8Cyn6vRS1S6eFJJASDjGxSQgofXWeV7cipPeo26awJtISwWbyFdwxlSQTrG8gvcAaMYUU7FYHXUrEbFaNES20khmKM6Whm4aWNfjWrq3+0+XO2sFGJ/d65VmAeXwAB7svAlwbGy9mWjawu7lxR27Qd0eDtjf2eu1+rztuB/BUa4+xR/v9McE+7XeU5IwwjYWmt7doG9WHTnMY23ukWd13cjtni7CCHRbzDYKnZdDS6+2mt7jOtuBtXF/u0wXpuXBihHMWs9wQBeHHRyfc6SnqrtmIkOM+4PZYvDT02dm2kkMM3X/YdfTi6Gfn6O7O39nUX/NRcGxL77F6aelfNjwdHGzqwYup/yemHuy2FVkzksqCPyjRDWNP7cPj7u+7vySC13F09w8koZAw39gUAufvhw377z3uwIfMj7MpIZlWudyX3yGw+C9Pmv+cleODgXdaKeqtn7AyXDWouMpc1yMJMprbmolVTGgqpQ6gMF/yxvDKuSq60SnN0JwqMAsSJtLzsQZj01PLAfzCxKh84BcdCKEh46cbvQ1FRYhiAuU+NUB10K9Cp+ZHLSJSaPAk/I0R7AIyMCH4ratgpMZ8QVWnEP4qKZRtY2sT2xZeUbumdpPuR4o57CzYYwOrC7PYvq39tKfAQsd84wz47fLtRX0CDB95XfqDgee/nAGPvi+TZdgLU5kkNrcj35mf/wXvEBzC8BkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5e6cb6893bdc9710c0cdb10f23e45a66"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>5a9c0588-5557-4635-9576-ab147a25038e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:18:22</sys_created_on>
+        <sys_id>d39b87053b2c9790c0cdb10f23e45a53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-12 23:18:22</sys_updated_on>
+        <ui_id>1eaad16f-5ffb-48c7-b36d-39a926fe5cc8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X3W7bNhTHX4XTtePK33Fy1SUIGiBNgTjrLprCoCjK5kqJCkk5dYMAfZDtIthFsQG72xv4TfokOxQp27JT1048LMFylYiHH/9z+P+R9Ltrj4XentcMd/12EDVxx2/UG76/W+92g0Y38nc7Xb9GQq/iJTim0FNSIqT5HmGemYbr6x6VI0YoOsAaczHo16qSXmZU6T7TNL65gc4hUynH47duDLSQIeOhpIm39+59xUuxhOk1ld7e9UJoXX0cB5RD13MsB1Sjs0Lnom49Ts13KEgW0wQ0Fo0nboJDF0HHhxCBQUaVX/HoR02TkIKcCHNFK16MkxBrIcfTFklx+Cbhs4YhSzRM+VIpQRjWVCE9pIjGmHF0xfQQYWSFVT0z30fFPoG4Rt1MFVGoATFaWUJYCIq8uea+KymEj2fh6BD2oKdlRnQmp5UWsDvKVjOkEc64Pphvsx3epJqJxA7ROODFaMGzODm1RfSmE8ztZKZADE1NbUyysDgkHvWG4uqsEHvEkryKripcEMynX1GPYkmGR4xys9VJFgfQt+JhrSULMm1kgik49Jqt08+lmrWgJ+U038oYpylLBv1UihHLFwT5cXXA4aMacXEF4xUbJFVMTK5V2D1cPYL2w7z5LZbMJP4apoHBNxVPjdUBx0rN0of69y8zo94WoyzHjO7nhjODiWSpfglLjahL9qbieKt1V/k5bM58OzfnjDlF+oBYjtcyXGcWPhqiYxvfDLU1pM1QMza5W6rDbKntZH4sOrUBB1ltQ8is1Rxj5wCWtuxbpJB28qZc7fplrr7B0+PgaErH2iCVgfl3oACTqL51tsstX/wesHwPEb/dDoJ20Oo0Zj7skijsBFEbd0hj5rsrOFhljOWHfn6wznFSW6bDHRmbMbGGloIJOIx5FlL0cyFqlU4HSSAEnG7JIiGg9MVRXt0pIfUHXUPWmkgLBJvJx3D5TCWZxtnVpIdYI6aQgt2qonOBmMtqbkQFjUWG4kxp6KYhUoKvdJ81Hy93zg6u9fBOrzwJMLcPYGv1RYBnxsbDvhalJ6G/6wdNf7e10+g26jvNeq27E8AbbqeLG7TZ7BLcps2qEpwRpnGi6c0NWkb1vtNsxvYaaU7vO7Gcs0NYwQ4ngwWCe0Wjo7exml57nS3BO3d9+Y8XpKfCiRHOWcxyQ1jCt49OuNJT1C/ZiJA5dLbwW2mNxQtDHxwsK9nE0M37XUfPjn5yjq6t/AFO2yUfBdu29BqrF5b+ccHTwcambj2b+n9i6tZqW5GSkVQW/EKJnjP26eR3gSLBUCqUmvw1ohxB7XDMkiGWSGUYFU+TyRfTFd7P0eQPSFMtI/GguTZ88Hw/6wKm3jTnu+qwCVTt56fPf87U9gHCK60U1csnsQjHc/RcZL7fICkymnc0S8YxoVIIHUBhPuTB8MK7sN3oG27+1tsYE6jR/g+oN0eEDRFCQ8b3XT8Ntqf7lhPbRO1QgwxKFnql9lsQJsk+DFFUAn4jhkOMDE7wexl2YOVCqZCXGV2aeVjSjbIYDagCzyMCcwM5OBR2hZEgTmcuoop+UhTBD29NY2QDPLzMxP4R5nAggAsgePbKRmQeQYmAWXVpQS4Gbn5JBxmMZJ9gtChWFwjKU04LQzSF/0BXAikbG9Kq3asXqd2M5dPL7WWxV5Pb8gYtHlkoMd/p5O9vl9oOKYpq/h9ObleXb/JnqWhfP/9artXXz7+5Ek1u16rL5Mt6xdjs+F2DmelbxhKzhJA7eIc65gvH7qvz1yezQ7fzwJdMu9VqtJ+P3Qc/ZdKrsB5KkaYuty0/Z97/AzQzPdXGGwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d39b87053b2c9790c0cdb10f23e45a53"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>059444b2-316a-4c2b-82c6-6313c64657da</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 18:19:29</sys_created_on>
+        <sys_id>d49d6a963ba413d0c0cdb10f23e45aa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:29</sys_updated_on>
+        <ui_id>4bef934f-f46c-4e23-9540-fa74b012759c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXW/aMBT9K8jPLEqAspY9TUWVKnWtRKe+dF3kxDfUkuOktkPLUP77rj8SUKkYlfpSjSful33OybmE+w3hjMzIBFicnCXTfJyMx6M4Hp1Okmw6zpIRG1OAhAyJpCVgp4K8UgzjFRWNTWw2t6BWPIfBOTVUVMs0iRQ8NaBNyg2UbYvNjOta0PVdmMFM/sgFUyDJ7P5hSGqq8HgDisw2r0rH4hM0A4Gtiw7ga8BmXduYVXlTgkRwXfIqTM5DZXA5xwoOWThJPCTwYkAyQCAFFRqGpKSSUVOpNZkZ1WBCAWU3Uqz7jkcujSda0hfN/+DNk9j2FYDM8iBCH6ZBIJ8u5qjkLZ6cm0b1elWosfaaMChoI8z5bs433NSGV9KPGJqJbroSTSmvvSKkP2DneTQaQUBteVrknlZx+1g9LzqQF1w6SQJFUeVU9BE1RvGsMRbOhoAAp3FJ65rLZVqrasXdMEIpo6XAICpE9Yx3ar6UEc0t7ghVpdEF5ucufUcVtyR+4DE43A6JXutzQbXeUkEN06fGIvHEAoXUqeAkSJ0T7HCueG2+41UrCMDbYdiA7OSQw/KzraF2ztxugc5TNL0z/L7dF34dgA0uff195j8CWmf+n+6Rvw01+H8vd7U7O7j2heD+kw9z/+lncn+g8ent/y/Tx6ODP6s7TnI+17uGN9TAryaOx2zyG4NlCAr2xd8IbH8Rjht633YcwaHbjgsOguk3SHWrASWiNZB6kq/WIxQHd6HYvyA+bEeSaew+n2hT/oP3hKfocxaz8637cqANr8NnIgfW36Ov4QWA/5BQHiGA+fQ3BKLpClivb9u2D38BlecgEZQJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d49d6a963ba413d0c0cdb10f23e45aa0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>20</order>
+        <parent_ui_id>037971df-2985-40ab-a2b2-72832cd90871</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 18:19:29</sys_created_on>
+        <sys_id>dc9d6a963ba413d0c0cdb10f23e45aa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:29</sys_updated_on>
+        <ui_id>c9599a38-e623-4a03-a8bb-37f0646b028f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXW/aMBT9K8jPLEqAspY9TUWVKnWtRKe+dF3kxDfUkuOktkPLUP77rj8SUKkYlfpSjSful33OybmE+w3hjMzIBFicnCXTfJyMx6M4Hp1Okmw6zpIRG1OAhAyJpCVgp4K8UgzjFRWNTWw2t6BWPIfBOTVUVMs0iRQ8NaBNyg2UbYvNjOta0PVdmMFM/sgFUyDJ7P5hSGqq8HgDisw2r0rH4hM0A4Gtiw7ga8BmXduYVXlTgkRwXfIqTM5DZXA5xwoOWThJPCTwYkAyQCAFFRqGpKSSUVOpNZkZ1WBCAWU3Uqz7jkcujSda0hfN/+DNk9j2FYDM8iBCH6ZBIJ8u5qjkLZ6cm0b1elWosfaaMChoI8z5bs433NSGV9KPGJqJbroSTSmvvSKkP2DneTQaQUBteVrknlZx+1g9LzqQF1w6SQJFUeVU9BE1RvGsMRbOhoAAp3FJ65rLZVqrasXdMEIpo6XAICpE9Yx3ar6UEc0t7ghVpdEF5ucufUcVtyR+4DE43A6JXutzQbXeUkEN06fGIvHEAoXUqeAkSJ0T7HCueG2+41UrCMDbYdiA7OSQw/KzraF2ztxugc5TNL0z/L7dF34dgA0uff195j8CWmf+n+6Rvw01+H8vd7U7O7j2heD+kw9z/+lncn+g8ent/y/Tx6ODP6s7TnI+17uGN9TAryaOx2zyG4NlCAr2xd8IbH8Rjht633YcwaHbjgsOguk3SHWrASWiNZB6kq/WIxQHd6HYvyA+bEeSaew+n2hT/oP3hKfocxaz8637cqANr8NnIgfW36Ov4QWA/5BQHiGA+fQ3BKLpClivb9u2D38BlecgEZQJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dc9d6a963ba413d0c0cdb10f23e45aa2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>de6cb6893bdc9710c0cdb10f23e45a61</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>26eecb3f-8c4d-46b5-919a-ae3c50fd4f28</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y3W7aSBh9FeRrYMfYOIa7KChSqt1WImlvQmSNx59hqmFMPeO0LOJperHa58iL7Wd7jB0IFFb0Ik1vkOb7GZ/vcA4z5n5l8cgaWhd+3IPBoEdCmxCHEL/PiO9A6Fx4Fw5lxGpbks4BK1NgSRrh+pGKLA+sVreQPnIGrSuqqUimgd1N4UsGSgdcw3y9xuKIq4Wgy0+mByNsxkWUgrSG9w9ta0FT3F5Dag1XW6lj8QkagsDScQVwG7BeLvJ1lLBsDhLBVcE/TefIZFo3I8xgUw6HtC34pkFGgDhiKhS0rTmVEdVJurSGOs0wkAKNPkix3FTMuNTlnHP6TfG/8cFOL6+LAQdjhoPNMjD8lOF4hETe4s5MZ+mGrgQpViUlEcQ0E/qqGSsLPiw0T2TZomkoqu5EZHP5viTE2mzQ+DoyhSBgkc+ZIy/Him9nyddxBfKay4IRM6JIGBWbFdU65WGmczgrCwQUFM/pYsHlNFikySMvmhHKvDsVuOjGIvmKz1R8KruU5bi7yCrtXmN8VIQ/0ZTnQ/yF22Dzum2ppboSVKl6FOQw+JLlSMrBzAhBwUJJQd7HUr7Ql/iURzCY122j/ZAd1BarpVRuV0tfsQCVXqh8V+Pj0gMQtW7K/GmKPwJVpfg7A2sLpdF7sQyK3HO5F22t92XCqN0+rHYTqeVe6uQFtfvkFandjPXq5f4jpYPrOX38uIgdYvds4oPn+2xAKPM9r+86tYYQAc5ABeqbKty71vxlkXj65+l70oqgFT/9i6DVrvz31p1mgyMgVza4NJhb4wrz3mGMNRR+iXK6ZYvbKmgs0TvREvtPANt7S6bI+N0Wy2Vkh+ef4578cR8lx9/gm1xHXi/0BsSPOlFMwo7rO/0OZUA64Nl96Ece69vOT3AcsQ/9ikf+CyKNOYjm/apK7FqskTnNVEeg2jHVtYG1D66xVLF86bQp+rdOm/NZyyfkNXnrLV2v2EGxQePQ+ZxkqTzggGDGVaGMvU5oVJzmiCNAVo54V6LcNsQ2+P/jB+e3H359P7j9g1JrXOQ3qmaJjHiOWD27iOVZUGP4DEyrS7n8eL9aEZ+ELu7ZcQZOr+P27EEndCO/M6AOuO6AUQ/crkoEZ1xTqaGL+qJTSNfrh5fucOd/xGm+PIKszXt/JkD9iDzjyvpGaJqazqzvkSZp3Ome65+AV2bOt/J2xA5qLR7U2ooyJIjq5l8Bq4lVwp5Yw4klEwkTqz2x8qogF1cRxgoEt0kUsdW6XGcpNe12Y1n3RnSpikrFZhChMovos0hQWMHEz/Gv2xGMVO4bZdAalZTsklS9blU4S1b4zpl4awqKnf64482zsX+2s9H9bb5zvFwFm9cPPPjwt++Mjnz4D252I8eXFgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=de6cb6893bdc9710c0cdb10f23e45a61"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4e6cb6893bdc9710c0cdb10f23e45a04"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4e6cb6893bdc9710c0cdb10f23e45a04^sys_idNOT IN066cb6893bdc9710c0cdb10f23e45a49,0a6cb6893bdc9710c0cdb10f23e45a4b,566cb6893bdc9710c0cdb10f23e45a59,939b87053b2c9790c0cdb10f23e45a56,979b87053b2c9790c0cdb10f23e45a58,ce0fcf0d3b2c9790c0cdb10f23e45af3,da6cb6893bdc9710c0cdb10f23e45a5a"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">69fb32dc3b105310c0cdb10f23e45a35</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>066cb6893bdc9710c0cdb10f23e45a49</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>059444b2-316a-4c2b-82c6-6313c64657da</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBn2dDD8usWJA1gIGmKOAhQFIGwIlc2UZpURcqOa/jfu5RkO2jTR9ocexNnl8uZIQfaMVO7snb23pxbKxeaTT89Bkxqj9H3jhXKbK7NQvKZtg40x/nWzgSbsngsIMGIJ3kUpkkU8pAL+iziBAcpTCIWMA0rpE5utJBOGp01QMDWoGpfmIMS5kxqWxeSS9TOF4W0pYLtw696+FIqUWHHtoSK5jqs2HT3XUl6pkUIRTThRDUeJnEYxuNBlA+JdywSQEhooIIcFbVeHKieXTfIzzW4belx6yqpF936upsyP4CmEp5VFAYMnxxqgcSnAGUxYCvQApyptkekQhC3Wp2ApdSOxjHf/GTlVzowTlPfWCBJ5NgWj8us866Fi0twQFRq7uqqa+VLIzna1hyBBdTKXTzH2obb0ktttzjI1WG3UfVKv28dYccBh6sipLZEAkuv1FPvdBTzpdncHVheSd240hWV4aCOK3DkXV47z2fHUOGKBmUrKEtyNCsrs5bNZuKy6i8ULfr+hdKh/vX2gXvifTIW+leEXzbwA1TSq7ihMbS5pZmDlTxrXjqNI5uQ7QNmt/ZCgbUnkeRu9qX2FFvJnbis9cdv4ZUs3TmdvMZOxz542+A8y8xuN86L4STKsZcUadQbjCbYG49w1BN8UIyiEMYwzPt3yOnx7fez+bubD/cff8zVX895XfYmkNL0MH05e4PhS9l72YDXBC7+TeD8bf9h3sIw/B+4fw6ctFkbk05bc/gb5u3RB6Q98+g1l5ao3Xtsdvif+cKWHpdP5QnamOqzF3XC9t8AbrUxwxkHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">a96ee26c3b9c9310c0cdb10f23e45a35</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <parent_ui_id>059444b2-316a-4c2b-82c6-6313c64657da</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>0a6cb6893bdc9710c0cdb10f23e45a4b</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>d69f9412-81e1-4cb3-a57f-8f21ef4b429b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">efbfaeec3b9c9310c0cdb10f23e45abd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>566cb6893bdc9710c0cdb10f23e45a59</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>77d96511-bc72-4185-8fc5-7cc363ad08a2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYBn2aAky7V9CxIECJA2QBPk0gbCilzaRGlSFakkruF/71KS7aBNH0Fz7M0cLndnRjvwlrk21G3wt+7Ue720bPHpPmHaRox+b5ky7vHKLbW4tD6AFXiz8ZeSLdhMvVPTKYq8mot5nnLBhaxSrrIcJwXIiiXMwhqpUjgrddDOlh2QsAcwbbw4rRv3ANKd1GjcyRJ9cA1dS+1rA5u731eJlTaywYFxDQ31DtiwxfaHKx3ZKg4qnYtU5Nk0zzjPZpO0muZVmskcEHJqaKBCQ6Vne7onVx3yax1hU0fch0bb5XC+Grrc7EHXyMgq5QnDp4BWIvFRYDwmbA1WAsnZHJAGQV5bcwRW2gZqx2Lxk9ffaGBWFLFQIUkU2F8ejuXgXg+rcwhAVFoR2mYoFSunBfreHIkKWhPOnmN9wXUdpfZPAlRm/9qZdm0/9I6wQ4P9xyKk9UQC66g0Uh90qJuVe/y4Z3mhbefKcGmcAHM4QSDvqjZEPluGBtfUqFxDXZOjZdwG3T0mLuvx0tBhHLeUhsYNHoOIxMdkLIwvCD/v4DtodFTxntpgM9CswGtRdttO7cgmZLuE+Y0/M+D9USS5W35tI8Ve8iCu7P2JT0Sj63BKkx9w0LFL3jY8z3Kz3WZTRFHlajQTEzmaTKtiNE/nMALMRcGVnKhsNialMTmmpNkBd7vPLee57FFawp+C9lZtX5fMORSqSHnxcjIn05eS+bI9r4lj9oc4xl34yzRyzv/H8Z/jqH3Zh2jQ1g1/wzTex/j0Mw9eC+2J2m3ELvf/ePFiQ8sVM3uEHl3zJYo6YrvvBXiSGjsHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1d5bcbc13b2c9790c0cdb10f23e45a59</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:18:22</sys_created_on>
+        <sys_id>939b87053b2c9790c0cdb10f23e45a56</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>5a9c0588-5557-4635-9576-ab147a25038e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0XPjpG/sjhvpV0h0K5jKYUyirmW5ERMljxLbpuF/Pdd2U5Sto6urI97i869uvecYx2yJaZzTefsjTm1Vq40mX+9D4jUHsPfW1Ip83hpVpIttHWgmVhu7IKTOZmxEmgyi5IyZvmHnDLKeBnRKk5EmkFekoBoqAV2MqO5dNLoogcC8gCq84WlqE9WwjrTnjDgYF0L3GCdS9so2Ny+0sbWUvFWjJwbaHG6Ey2Zb38pSc+3olBFOYtYEk+TmNJ4lkblNCmjmCcgIMGBCkqhsPVsT/jkskf+rMRtGo8jJalX4/lynLLcg6blnlVEAyKenNBcIJ8KlBUBqUFzQGWbA9IK4NdaHYG11A7HEd/8ZOUPXBhnmW+sBEpkYigejsVo3wBX5+AAqXTMde3YytZGMmEHc7iooFPu7Dk2NFw3XupwxUGp9reN6mr9aXCEHAbsvxYinUUSovFKPfVRR7Vcm8cve5YXUveujEVlGKjDCRx6V3bO89kSoUSNg4oamgYdLZrWPMj+MnKpw5XCQ+jfKS71bzgE5omHaCyEF4if9/AttNKruMIxeHmgWYKVrOjfO45DmwTZBcRu7JkCa48i0d3ie+cpDpJHccXgj7/CWtm4U9z8IEYdu+B94/MsOdstndEypbNskuRJPEnjKJ+UKZ9NcsABac5gKtLQGiWZxL1OhPjSYCXa3W6x/Hj1+ebu95y9z9C3pTKHrMoimr2cynT6UipftuYtUYxfiaJ/B3+ZRErp/yj+cxSlLYYAjdr65e+YxHsfnWHnwWsmLVK78dhi/3/nCxt8XD6vR+jRtN+8qCO2+wntc8NfOQcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">155bcbc13b2c9790c0cdb10f23e45a5e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id>5a9c0588-5557-4635-9576-ab147a25038e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:18:22</sys_created_on>
+        <sys_id>979b87053b2c9790c0cdb10f23e45a58</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>f9ab37e0-06f4-4ad6-a584-5efa88680145</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c79e8fc93b2c9790c0cdb10f23e45a6b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <flow_variables_assigned>dias_a_descontar</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:33:18</sys_created_on>
+        <sys_id>ce0fcf0d3b2c9790c0cdb10f23e45af3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>bf1d2cc4-fa08-48ea-9523-c44a682e9c69</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Wy27bMBD8FUGnGLUF+RU/ciiCBAEMpA3QpLk0gbAiVw5RilRIyo7r+N+7tCTbTZC2H+CLQQ2Xs7PD5cLrUJeuKJ290+fWirkKpz8e26FQHqP1OsykXl7ruWAzZR0ohrcrO+PhNBz2Uj5IB5N+2mOT0SRmMeNpN856fRwMoX8aEo2PG43GPP4wbsgpTkGOFMkF2AQSjpZp5cDQzgJk6bdoyYUtJKzu9wh7EpIbrDUXYIjGoQmn6zdb/6tDQoqSQi9JSADBoZCPJbpV4XeEcjjHBriumWY7VBvupXXbIb44VBxJUwbSYjvMQXFw2qx2iEHgN0rugSeir4rO4cWKX5RxEPu4DKlKVhuy+0xqsyo4uwQHt86UzJVm550WDG3lD8cMSukuDrEq4KZwQqvqiINUNqe1LHP1tfIk3BEc3E1pSQQWvlCvvC4ju33Sy2+Nyiuhtp7Um1IzkLsvcM6ItHRezzosxd1bmyvovdEoMaecSQ5FIdQ8KYxeiG0ekp1Hc0kfke9qf4vU8REwX2NEVwDRFeGXW/gejPAFfyGaOt93JZ5L3DY/9ti4F/fHnX6WDjqDLBt2AOJuJ5ucjocjaqkuPYBNO7QreyHB2r1VdEfJc+kLrYyrLUoql/0RZkThzknUgo7QrWGDeSPeNSBhfztBL8gERrg8eCjjuM+DjCfbSsndORkWGaSarEuEw/zsQflwn6MJp1dlkcw98RzRojbFRlsdVkvBhAOubTvoxq3g9TWIa5KFr8s0NNR9dBdvSaqYxHO1Iqev9RLNBVg8aR2SlA3JyR+ch79bqDdaoa0WXsi/gr1P1cpnM0hvQ1Wlf6ozlcFnqiqYBnHrLNxsNo9+HtXaj7PxOBuPs/E4G4+zcTcbOTJhqVvufAGz5h+k31jRhPBDcg8ttfnp+2yPbX4DKskdlosKAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c86cf2893bdc9710c0cdb10f23e45a9c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>18</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>da6cb6893bdc9710c0cdb10f23e45a5a</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:30</sys_updated_on>
+        <ui_id>037971df-2985-40ab-a2b2-72832cd90871</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K8jPaeV8dQ1vCISExIYEaC8bim7s69bMjbPYAbqq/33XSdqijYmh8bi3+tzre8858VE3zHa+6by7tSfO6UXNjr/cRUzXAaPfG6aMfby0Cy0uauehFnizdheSHTM+j4WaZUVaSVF8iLngQlYxV0mKWQ6iYBGrYYXUKWwttde2LnsgYg9gulC4xnvUHqQ9atDYowU6b1uqS+0aA+vPr7SJpTayxZFzAy1N99iy480vJR34Kg4qLkQs0mSWJpwn8yyuZmkVJzIFhJQGGqjQUOvpjvDRZY/8WYlfNwF3vtX1YjxfjlNudqBtZWAV84jhk8daIvFRYBxGbAW1BJKz3iMtgryqzQFY6trTOBaan5z+QQuTPA+NCkmiwKG4P5ajfQOszsADUemE79qxVSytFugGcyQq6Iw/fY4NDVdNkDpc8VCZ3W1rulX9aXCE7QfsvhYhnSMS2ASlgfqoQ90s7eP1juW5rntXxqKxAsz+BJ68qzof+GwYGlzRoHIFTUOOlk1rH3R/mbispgtDh2l4p7Q0vOEpiEB8SsbC9Jzwsx7+DK0OKj7SGGxHmhU4Lcr+vdM4sgnZNmJu7U4NOHcQSe6W37tAcZA8iisHf8IV0erGn9DmBxx1bKP3jc+z5Gw2yQxRVKmazEUmJ9msyidFXMAEMBU5VzJTyXxKSskrMCXt9rjdfu04TykX9yg8PcLfkvZeY9+WzAJylcc8fzmZ2eylZL5sz1vimLwSx/AW/jKNnPP/cfznOGpXDiEatfXL3zGNdyE+w86910I7onYbsIvdf14orOlxhcweoEfbfguiDtj2J8DaI1Q9BwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4e6cb6893bdc9710c0cdb10f23e45a04"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4e6cb6893bdc9710c0cdb10f23e45a04^sys_idNOT IN4e0fcf0d3b2c9790c0cdb10f23e45ab6"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=e2c82038-3fb4-4ff5-aa01-f9685723e136</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>dias_a_descontar</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Dias a descontar</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Aprovação de Férias">4e6cb6893bdc9710c0cdb10f23e45a04</model>
+        <model_id>4e6cb6893bdc9710c0cdb10f23e45a04</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_4e6cb6893bdc9710c0cdb10f23e45a04</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-12 23:33:18</sys_created_on>
+        <sys_id>4e0fcf0d3b2c9790c0cdb10f23e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-12 23:33:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4e6cb6893bdc9710c0cdb10f23e45a04</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:13</sys_created_on>
+        <sys_id>4a6cb6893bdc9710c0cdb10f23e45a31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 11:56:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4e6cb6893bdc9710c0cdb10f23e45a04</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:14</sys_created_on>
+        <sys_id>c26cb6893bdc9710c0cdb10f23e45a3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-31 11:56:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4e6cb6893bdc9710c0cdb10f23e45a04"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4e6cb6893bdc9710c0cdb10f23e45a04"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>3d7349103b901310c0cdb10f23e45a19</sys_id>
+        <latest_snapshot>4e6cb6893bdc9710c0cdb10f23e45a04</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3d7349103b901310c0cdb10f23e45a19^sys_idNOT IN326cb6893bdc9710c0cdb10f23e45ac8"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"326cb6893bdc9710c0cdb10f23e45ac8","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>3d7349103b901310c0cdb10f23e45a19</plan_id>
+        <snapshot>9694cbd23b6813d0c0cdb10f23e45a05</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-31 11:56:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>326cb6893bdc9710c0cdb10f23e45ac8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 18:19:31</sys_updated_on>
+        <trigger display_value="">be6cb6893bdc9710c0cdb10f23e45ac6</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3d7349103b901310c0cdb10f23e45a19"/>
+</record_update>

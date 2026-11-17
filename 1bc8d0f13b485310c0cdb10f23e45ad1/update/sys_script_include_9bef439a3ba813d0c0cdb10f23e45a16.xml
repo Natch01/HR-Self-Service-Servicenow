@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1863045_hr_sel_1.SaldoFeriasAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>SaldoFeriasAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var SaldoFeriasAjax = Class.create();
+SaldoFeriasAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getSaldo: function() {
+        var maior = 0;
+        var gr = new GlideRecord('x_1863045_hr_sel_1_saldo_de_ferias');
+        gr.addQuery('colaborador', gs.getUserID());
+        gr.query();
+        while (gr.next()) {
+            var dias = parseInt(gr.getValue('dias_disponiveis'), 10) || 0;
+            if (dias > maior) maior = dias;
+        }
+        return String(maior);
+    },
+
+    type: 'SaldoFeriasAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-16 20:50:00</sys_created_on>
+        <sys_id>9bef439a3ba813d0c0cdb10f23e45a16</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SaldoFeriasAjax</sys_name>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name>sys_script_include_9bef439a3ba813d0c0cdb10f23e45a16</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-16 20:51:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="a956a0bd3b885310c0cdb10f23e45adc" label="Saldo de Férias" max_length="40" name="x_1863045_hr_sel_1_saldo_de_ferias" type="collection">
+        <element label="Colaborador" max_length="32" name="colaborador" reference="sys_user" type="reference"/>
+        <element label="Período aquisitivo" max_length="40" name="periodo_aquisitivo" type="glide_date"/>
+        <element default="30" label="Dias disponíveis" max_length="40" name="dias_disponiveis" type="integer"/>
+        <index name="index">
+            <element name="colaborador"/>
+        </index>
+    </element>
+</database>

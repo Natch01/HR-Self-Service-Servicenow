@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="RH - Visão geral">570b3f123b2053d0c0cdb10f23e45a45</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_1863045_hr_sel_1.admin" name="x_1863045_hr_sel_1.admin">67c814f13b485310c0cdb10f23e45a0d</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-17 00:52:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e69748ea3b6053d0c0cdb10f23e45a89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>570b3f123b2053d0c0cdb10f23e45a45</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Self-Service Portal" source="x_1863045_hr_sel_1">1bc8d0f13b485310c0cdb10f23e45ad1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Self-Service Portal">1bc8d0f13b485310c0cdb10f23e45ad1</sys_scope>
+        <sys_update_name>par_dashboard_permission_e69748ea3b6053d0c0cdb10f23e45a89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-17 00:52:52</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

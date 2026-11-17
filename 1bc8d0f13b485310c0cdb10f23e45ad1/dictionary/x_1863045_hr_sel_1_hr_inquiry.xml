@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="5ba474b93b0c5310c0cdb10f23e45aa1" extends="task" label="Dúvida de RH" max_length="40" name="x_1863045_hr_sel_1_hr_inquiry" type="collection">
+        <element choice="1" label="Assunto" max_length="40" name="assunto" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Benefícios" sequence="1" value="beneficios"/>
+                <element inactive_on_update="false" label="Políticas" sequence="2" value="politicas"/>
+                <element inactive_on_update="false" label="Outros" sequence="3" value="outros"/>
+                <element inactive_on_update="false" label="Folha" sequence="0" value="folha"/>
+            </choice>
+        </element>
+    </element>
+</database>
